@@ -27,6 +27,13 @@ in
   };
 
   services.displayManager = {
+    autoLogin = {
+      enable = true;
+      user = "xinux";
+    };
+  };
+
+  services.xserver.displayManager = {
     gdm = {
       enable = true;
       # autoSuspend makes the machine automatically suspend after inactivity.
@@ -36,10 +43,6 @@ in
       # * https://github.com/NixOS/nixpkgs/pull/63790
       # * https://gitlab.gnome.org/GNOME/gnome-control-center/issues/22
       autoSuspend = false;
-    };
-    autoLogin = {
-      enable = true;
-      user = "xinux";
     };
   };
 
