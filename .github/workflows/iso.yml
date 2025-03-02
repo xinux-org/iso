@@ -1,35 +1,33 @@
 name: "Build ISO"
+
 on:
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
     environment: ISO Builder
     steps:
-    - uses: actions/checkout@v2.4.0
-    - uses: cachix/install-nix-action@v20
-      with:
-        extra_nix_config: |
-          access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
-    - uses: cachix/cachix-action@v12
-      with:
-        name: xinux
-    - name: Build
-      id: build
-      run: |
-        nix build .#install-isoConfigurations.xinux --log-format raw -v
-        echo "::set-output name=release::$(ls result/iso | grep iso | sed "s/-/\n/g" | head -n2 | tail -n1)"
-        echo "::set-output name=file::$(ls result/iso | grep iso | head -n1)"
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: Xinux ${{ steps.build.outputs.release }}
-        path: result/iso/*.iso
-    - name: Upload to SourceForge
-      id: upload
-      run: |
-        mkdir ~/.ssh
-        ssh-keyscan frs.sourceforge.net >> ~/.ssh/known_hosts
-        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        scp result/iso/${{ steps.build.outputs.file }} orzklv@frs.sourceforge.net:/home/frs/project/xinux/xinux-unstable-x86_64-linux.iso
+      - uses: actions/checkout@v2.4.0
+
+      - uses: cachix/install-nix-action@v20
+        with:
+          extra_nix_config: |
+            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+
+      - uses: cachix/cachix-action@v12
+        with:
+          name: xinux
+
+      - name: Build
+        id: build
+        run: |
+          nix build .#install-isoConfigurations.xinux --log-format raw -v
+          echo "::set-output name=release::$(ls result/iso | grep iso | sed "s/-/\n/g" | head -n2 | tail -n1)"
+          echo "::set-output name=file::$(ls result/iso | grep iso | head -n1)"
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: Xinux ${{ steps.build.outputs.release }}
+          path: result/iso/*.iso
