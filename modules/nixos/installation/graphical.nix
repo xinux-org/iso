@@ -23,10 +23,10 @@ in
       sleep-inactive-battery-type='nothing'
     '';
 
-    extraGSettingsOverridePackages = [ pkgs.gnome.gnome-settings-daemon ];
+    extraGSettingsOverridePackages = [ pkgs.gnome-settings-daemon ];
   };
 
-  services.xserver.displayManager = {
+  services.displayManager = {
     gdm = {
       enable = true;
       # autoSuspend makes the machine automatically suspend after inactivity.
