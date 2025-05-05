@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
     xinux-lib = {
       url = "github:xinux-org/lib";
       inputs.nixpkgs.follows = "nixpkgs";
