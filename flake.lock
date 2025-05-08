@@ -978,11 +978,11 @@
         "xinux-module-manager": "xinux-module-manager"
       },
       "locked": {
-        "lastModified": 1746731214,
-        "narHash": "sha256-79d2ayNb2xWmSPXcTIFcPdStqLGCv1EPMl5JdH9KLa0=",
+        "lastModified": 1746732385,
+        "narHash": "sha256-XHi02pMZeMCy8BXBYofoqTU6PFzr+jv+dWjerqwyYRE=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "333f93965fd8ed1b5ad4ea76c2a232d5ed61ce3e",
+        "rev": "f14871b5e97524db3d69c1489fa5865a530fcdcd",
         "type": "github"
       },
       "original": {
