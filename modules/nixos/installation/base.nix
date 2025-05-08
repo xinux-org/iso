@@ -24,6 +24,7 @@
     nano
     rsync
     vim
+    helix
   ];
 
   i18n.supportedLocales = [ "all" ];
