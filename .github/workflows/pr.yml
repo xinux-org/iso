@@ -1,0 +1,39 @@
+name: Test CI
+
+on: [pull_request]
+
+jobs:
+  test-flake:
+    name: "Test flake options"
+    runs-on: self-hosted
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Check up flake configuration
+        run: nix flake check --all-systems --show-trace
+
+  build-iso:
+    name: "Build Image"
+    runs-on: self-hosted
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Build NixOS configuration
+        run: nix build .#install-isoConfigurations.xinux --log-format raw -v
+
+  update-merge:
+    name: "Merge Update PRs"
+    needs: [test-flake, build-iso]
+    runs-on: ubuntu-latest
+    if: ${{ github.event.pull_request.user.login == 'xinuxmgrbot' && github.event_name == 'pull_request'}}
+
+    steps:
+      - name: Enable auto-merge for Update PRs
+        run: gh pr merge --auto --merge "$PR_URL"
+        env:
+          PR_URL: ${{github.event.pull_request.html_url}}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
