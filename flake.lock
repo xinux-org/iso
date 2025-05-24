@@ -543,13 +543,13 @@
       "locked": {
         "lastModified": 1747953325,
         "narHash": "sha256-y2ZtlIlNTuVJUZCqzZAhIw5rrKP4DOSklev6c8PyCkQ=",
-        "owner": "nixos",
+        "owner": "xinux-org",
         "repo": "nixpkgs",
         "rev": "55d1f923c480dadce40f5231feb472e81b0bab48",
         "type": "github"
       },
       "original": {
-        "owner": "nixos",
+        "owner": "xinux-org",
         "ref": "nixos-25.05",
         "repo": "nixpkgs",
         "type": "github"
@@ -744,11 +744,11 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1747864070,
-        "narHash": "sha256-nXo6ajj6B4RDkITzfp9Mp0q6LQSMSISC3ByS352JwOw=",
+        "lastModified": 1748129621,
+        "narHash": "sha256-66AabCLn0vdXHvDRF+3JX5MRH+fVSqLhl8mdFoH9scM=",
         "owner": "xinux-org",
         "repo": "xeonitte",
-        "rev": "f61afc1f6d13f90f7501a911d74d9b637871d07f",
+        "rev": "5c311c56bf62953d19da46a421bf4f1b874158a4",
         "type": "github"
       },
       "original": {
