@@ -1,27 +1,5 @@
 {
   "nodes": {
-    "e-imzo": {
-      "inputs": {
-        "flake-utils": "flake-utils_4",
-        "nixpkgs": [
-          "xinux-modules",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1754748137,
-        "narHash": "sha256-jBaGsS6PyzNcKYV/bCDt6lU2GiYgFdE3mD5wpgPgrUM=",
-        "owner": "xinux-org",
-        "repo": "e-imzo",
-        "rev": "a67313d71116480f002c5805bdd0ece5fe31a210",
-        "type": "github"
-      },
-      "original": {
-        "owner": "xinux-org",
-        "repo": "e-imzo",
-        "type": "github"
-      }
-    },
     "flake-compat": {
       "flake": false,
       "locked": {
@@ -225,7 +203,7 @@
     },
     "flake-utils-plus_4": {
       "inputs": {
-        "flake-utils": "flake-utils_5"
+        "flake-utils": "flake-utils_4"
       },
       "locked": {
         "lastModified": 1715533576,
@@ -244,7 +222,7 @@
     },
     "flake-utils-plus_5": {
       "inputs": {
-        "flake-utils": "flake-utils_6"
+        "flake-utils": "flake-utils_5"
       },
       "locked": {
         "lastModified": 1715533576,
@@ -263,7 +241,7 @@
     },
     "flake-utils-plus_6": {
       "inputs": {
-        "flake-utils": "flake-utils_7"
+        "flake-utils": "flake-utils_6"
       },
       "locked": {
         "lastModified": 1715533576,
@@ -282,7 +260,7 @@
     },
     "flake-utils-plus_7": {
       "inputs": {
-        "flake-utils": "flake-utils_8"
+        "flake-utils": "flake-utils_7"
       },
       "locked": {
         "lastModified": 1715533576,
@@ -337,14 +315,14 @@
     },
     "flake-utils_4": {
       "inputs": {
-        "systems": "systems_4"
+        "systems": "systems_5"
       },
       "locked": {
-        "lastModified": 1731533236,
-        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "lastModified": 1694529238,
+        "narHash": "sha256-zsNZZGTGnMOf9YpHKJqMSsa0dXbfmxeoJ7xHlrt+xmY=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "rev": "ff7b65b44d01cf9ba6a71320833626af21126384",
         "type": "github"
       },
       "original": {
@@ -392,24 +370,6 @@
     "flake-utils_7": {
       "inputs": {
         "systems": "systems_8"
-      },
-      "locked": {
-        "lastModified": 1694529238,
-        "narHash": "sha256-zsNZZGTGnMOf9YpHKJqMSsa0dXbfmxeoJ7xHlrt+xmY=",
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "rev": "ff7b65b44d01cf9ba6a71320833626af21126384",
-        "type": "github"
-      },
-      "original": {
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "type": "github"
-      }
-    },
-    "flake-utils_8": {
-      "inputs": {
-        "systems": "systems_9"
       },
       "locked": {
         "lastModified": 1694529238,
@@ -479,11 +439,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1742571537,
-        "narHash": "sha256-FOSfXgwRX/3AXnHz7gC9xkI3Ww2Qc+OyBdgiL7cqlUc=",
+        "lastModified": 1747863483,
+        "narHash": "sha256-39Kuslu+62HtWxW+FpnLyjHZMlFkalHivP5flbu+HXc=",
         "owner": "xinux-org",
         "repo": "software-center",
-        "rev": "99d257385921d0496071c53dec44b4c807c6bb0d",
+        "rev": "e179060ca71f29ceeff148a470123d34a69a89b1",
         "type": "github"
       },
       "original": {
@@ -545,11 +505,11 @@
         "xinux-lib": "xinux-lib_4"
       },
       "locked": {
-        "lastModified": 1739860022,
-        "narHash": "sha256-QImjlngsOULLS7VjAbrAAA8QRrI++UNhtbQmhDjTp0A=",
+        "lastModified": 1757578954,
+        "narHash": "sha256-ABLaHo+21EQdwm4mO+oQ7+bX0p7J9456dHe7LrXI8no=",
         "owner": "xinux-org",
         "repo": "conf-editor",
-        "rev": "32400a7b1d25461203f1f5b5fd495c6b11a9e6a0",
+        "rev": "1115c5c79c99863a30a77735d2baeebce6fb9543",
         "type": "github"
       },
       "original": {
@@ -581,16 +541,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1756886854,
-        "narHash": "sha256-6tooT142NLcFjt24Gi4B0G1pgWLvfw7y93sYEfSHlLI=",
+        "lastModified": 1757487488,
+        "narHash": "sha256-zwE/e7CuPJUWKdvvTCB7iunV4E/+G0lKfv4kk/5Izdg=",
         "owner": "xinux-org",
         "repo": "nixpkgs",
-        "rev": "0e6684e6c5755325f801bda1751a8a4038145d7d",
+        "rev": "ab0f3607a6c7486ea22229b92ed2d355f1482ee0",
         "type": "github"
       },
       "original": {
         "owner": "xinux-org",
-        "ref": "nixos-25.05",
+        "ref": "nixos-unstable",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -606,21 +566,6 @@
       }
     },
     "systems": {
-      "locked": {
-        "lastModified": 1681028828,
-        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
-        "owner": "nix-systems",
-        "repo": "default",
-        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nix-systems",
-        "repo": "default",
-        "type": "github"
-      }
-    },
-    "systems_10": {
       "locked": {
         "lastModified": 1681028828,
         "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
@@ -757,7 +702,7 @@
     },
     "utils": {
       "inputs": {
-        "systems": "systems_5"
+        "systems": "systems_4"
       },
       "locked": {
         "lastModified": 1731533236,
@@ -775,7 +720,7 @@
     },
     "utils_2": {
       "inputs": {
-        "systems": "systems_10"
+        "systems": "systems_9"
       },
       "locked": {
         "lastModified": 1731533236,
@@ -822,11 +767,11 @@
         "xinux-lib": "xinux-lib_6"
       },
       "locked": {
-        "lastModified": 1744118310,
-        "narHash": "sha256-dMnpW25R/BgBu99El86shU2AYaGkUTqZFxZ6Gy0Yoz4=",
+        "lastModified": 1747864176,
+        "narHash": "sha256-OcO2WhTu9oG3wI3W/34wz3Nv0AqZl0fJK0YD3KyudsU=",
         "owner": "xinux-org",
         "repo": "xin",
-        "rev": "1afebf18a7155389e034c5da142b6a06d507ac00",
+        "rev": "7129ec39a19d9c8bd45b83594d1ca2c876192486",
         "type": "github"
       },
       "original": {
@@ -914,11 +859,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1739591118,
-        "narHash": "sha256-CJKYuAOm8DPleCqGT4bldj0KS/ZwCxpUUCv7I5xLTWc=",
+        "lastModified": 1747858696,
+        "narHash": "sha256-++YS2zJNb416JMt0/A5HWCO0ZI869+Ablq/hJjnT7xk=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "ca060fe53976b369a4177cc03e6d14a5960a1250",
+        "rev": "b6e56c5d5a98eeeaea94559a833786533fce94e3",
         "type": "github"
       },
       "original": {
@@ -986,11 +931,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1739591118,
-        "narHash": "sha256-CJKYuAOm8DPleCqGT4bldj0KS/ZwCxpUUCv7I5xLTWc=",
+        "lastModified": 1747858696,
+        "narHash": "sha256-++YS2zJNb416JMt0/A5HWCO0ZI869+Ablq/hJjnT7xk=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "ca060fe53976b369a4177cc03e6d14a5960a1250",
+        "rev": "b6e56c5d5a98eeeaea94559a833786533fce94e3",
         "type": "github"
       },
       "original": {
@@ -1008,11 +953,11 @@
         "utils": "utils_2"
       },
       "locked": {
-        "lastModified": 1739855642,
-        "narHash": "sha256-M2gS3hXDegEQ1VWN2PeHNFY3yOnMLFngIDjIU/yJjeE=",
+        "lastModified": 1757597519,
+        "narHash": "sha256-T/ek9AqgjhdIHDUDDmJJ5OIVF6LqOdhdtEpeN37Ck2U=",
         "owner": "xinux-org",
         "repo": "module-manager",
-        "rev": "a7e828e79e082e859e9393be699c9a92cf24b975",
+        "rev": "65fe2c6178bcc4bcfcfb4a1890dfc15d2b83614a",
         "type": "github"
       },
       "original": {
@@ -1023,7 +968,6 @@
     },
     "xinux-modules": {
       "inputs": {
-        "e-imzo": "e-imzo",
         "nix-software-center": "nix-software-center",
         "nixos-conf-editor": "nixos-conf-editor",
         "nixpkgs": [
@@ -1034,11 +978,11 @@
         "xinux-module-manager": "xinux-module-manager"
       },
       "locked": {
-        "lastModified": 1757328717,
-        "narHash": "sha256-cDJnOr/T9HMhHWsYDl8hcEVy8SBto+yeIlfuKTjaJDM=",
+        "lastModified": 1757598995,
+        "narHash": "sha256-yxco5i61Vpcj2giPbxXqhbLW7fc+7n4GMb//Yu9TSio=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "d8f5d7697d52e0e75e92fe2e839008952a68ffa3",
+        "rev": "ad9378c246dee9f08ff7c45e8fc903651ace01e3",
         "type": "github"
       },
       "original": {
