@@ -541,11 +541,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1757487488,
-        "narHash": "sha256-zwE/e7CuPJUWKdvvTCB7iunV4E/+G0lKfv4kk/5Izdg=",
+        "lastModified": 1757745802,
+        "narHash": "sha256-hLEO2TPj55KcUFUU1vgtHE9UEIOjRcH/4QbmfHNF820=",
         "owner": "xinux-org",
         "repo": "nixpkgs",
-        "rev": "ab0f3607a6c7486ea22229b92ed2d355f1482ee0",
+        "rev": "c23193b943c6c689d70ee98ce3128239ed9e32d1",
         "type": "github"
       },
       "original": {
@@ -744,11 +744,11 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1748129621,
-        "narHash": "sha256-66AabCLn0vdXHvDRF+3JX5MRH+fVSqLhl8mdFoH9scM=",
+        "lastModified": 1757924269,
+        "narHash": "sha256-WTxzu/JB1jCoVgpHziZ+jL8lvfC5da/tFfrCvl8Vwo0=",
         "owner": "xinux-org",
         "repo": "xeonitte",
-        "rev": "5c311c56bf62953d19da46a421bf4f1b874158a4",
+        "rev": "c6d9400a67d96175415efc99c3375c238e69b462",
         "type": "github"
       },
       "original": {
@@ -813,11 +813,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1739591118,
-        "narHash": "sha256-CJKYuAOm8DPleCqGT4bldj0KS/ZwCxpUUCv7I5xLTWc=",
+        "lastModified": 1757920370,
+        "narHash": "sha256-1nOL0AzPB7bjTaGpXeHAnh8eDLcjIOhbqCDRQOPPlW8=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "ca060fe53976b369a4177cc03e6d14a5960a1250",
+        "rev": "aa5224d48ebc0262e007ef3e34b9a4da7906dce5",
         "type": "github"
       },
       "original": {
@@ -835,11 +835,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1747858696,
-        "narHash": "sha256-++YS2zJNb416JMt0/A5HWCO0ZI869+Ablq/hJjnT7xk=",
+        "lastModified": 1757920370,
+        "narHash": "sha256-1nOL0AzPB7bjTaGpXeHAnh8eDLcjIOhbqCDRQOPPlW8=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "b6e56c5d5a98eeeaea94559a833786533fce94e3",
+        "rev": "aa5224d48ebc0262e007ef3e34b9a4da7906dce5",
         "type": "github"
       },
       "original": {
