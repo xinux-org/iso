@@ -448,11 +448,11 @@
         "xinux-lib": "xinux-lib_5"
       },
       "locked": {
-        "lastModified": 1739598819,
-        "narHash": "sha256-TkSDRm27GY8ui7+gd/AWKqfhK1jIvBINsC3qe04x3YA=",
+        "lastModified": 1757948979,
+        "narHash": "sha256-OhtXKLd4BBVnEvhwVq6J4mlSGqx5XVPvWrGhT472b0I=",
         "owner": "xinux-org",
         "repo": "libxinux",
-        "rev": "8a77e6217af91d7cbfb37ba617fbfe2531ac63d5",
+        "rev": "43fdd3058de6f1094a5df222248415f880e50741",
         "type": "github"
       },
       "original": {
@@ -492,11 +492,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1757944032,
-        "narHash": "sha256-SVTUTP2S4LXcrWzAiVFEIN0k7wrrIjACRxImr7wcRdI=",
+        "lastModified": 1757947484,
+        "narHash": "sha256-oVu48zW6xgjY/FrsppUgrbKYt0Mf1mEHcmXqSVOUYGU=",
         "owner": "xinux-org",
         "repo": "software-center",
-        "rev": "bd15e739f87004a919fde6870481b970d8e7be01",
+        "rev": "bfd7c7a125529dc88f48a31e98ae980cbeb05191",
         "type": "github"
       },
       "original": {
@@ -558,11 +558,11 @@
         "xinux-lib": "xinux-lib_4"
       },
       "locked": {
-        "lastModified": 1757578954,
-        "narHash": "sha256-ABLaHo+21EQdwm4mO+oQ7+bX0p7J9456dHe7LrXI8no=",
+        "lastModified": 1757948184,
+        "narHash": "sha256-cMOHW8DOOOF/teLSNRT6QclgQ0y1bZwUVCrrZ8rhBsU=",
         "owner": "xinux-org",
         "repo": "conf-editor",
-        "rev": "1115c5c79c99863a30a77735d2baeebce6fb9543",
+        "rev": "b6489ca061fe542a135c689a84cb09e2982b762c",
         "type": "github"
       },
       "original": {
@@ -802,11 +802,11 @@
         "xinux-lib": "xinux-lib_6"
       },
       "locked": {
-        "lastModified": 1747864176,
-        "narHash": "sha256-OcO2WhTu9oG3wI3W/34wz3Nv0AqZl0fJK0YD3KyudsU=",
+        "lastModified": 1757949285,
+        "narHash": "sha256-HAhpBqqHtLYryh439/IplJkkUBYYg4KqI6VIlPaUVPc=",
         "owner": "xinux-org",
         "repo": "xin",
-        "rev": "7129ec39a19d9c8bd45b83594d1ca2c876192486",
+        "rev": "68566045fddd29e74a72f82e029b981feb25bc95",
         "type": "github"
       },
       "original": {
@@ -894,11 +894,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1747858696,
-        "narHash": "sha256-++YS2zJNb416JMt0/A5HWCO0ZI869+Ablq/hJjnT7xk=",
+        "lastModified": 1757920370,
+        "narHash": "sha256-1nOL0AzPB7bjTaGpXeHAnh8eDLcjIOhbqCDRQOPPlW8=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "b6e56c5d5a98eeeaea94559a833786533fce94e3",
+        "rev": "aa5224d48ebc0262e007ef3e34b9a4da7906dce5",
         "type": "github"
       },
       "original": {
@@ -919,11 +919,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1739591118,
-        "narHash": "sha256-CJKYuAOm8DPleCqGT4bldj0KS/ZwCxpUUCv7I5xLTWc=",
+        "lastModified": 1757920370,
+        "narHash": "sha256-1nOL0AzPB7bjTaGpXeHAnh8eDLcjIOhbqCDRQOPPlW8=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "ca060fe53976b369a4177cc03e6d14a5960a1250",
+        "rev": "aa5224d48ebc0262e007ef3e34b9a4da7906dce5",
         "type": "github"
       },
       "original": {
@@ -943,11 +943,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1739591118,
-        "narHash": "sha256-CJKYuAOm8DPleCqGT4bldj0KS/ZwCxpUUCv7I5xLTWc=",
+        "lastModified": 1757920370,
+        "narHash": "sha256-1nOL0AzPB7bjTaGpXeHAnh8eDLcjIOhbqCDRQOPPlW8=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "ca060fe53976b369a4177cc03e6d14a5960a1250",
+        "rev": "aa5224d48ebc0262e007ef3e34b9a4da7906dce5",
         "type": "github"
       },
       "original": {
@@ -1037,11 +1037,11 @@
         "xinux-module-manager": "xinux-module-manager"
       },
       "locked": {
-        "lastModified": 1757944389,
-        "narHash": "sha256-MnPfaMkAMK10bYRFmjZ5DwG9cBl79lDjBCUg0JTtKWo=",
+        "lastModified": 1757949378,
+        "narHash": "sha256-E7+xCi4HS7RorFbnlzxK8umZzu1MRJoQLK04wXORyss=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "3c2c367f67bb3498aa3e8c8effcb7abb150102f2",
+        "rev": "b2501990015b400a8b6afa37a631ba0b6bab9651",
         "type": "github"
       },
       "original": {
