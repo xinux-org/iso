@@ -469,11 +469,11 @@
         "xinux-lib": "xinux-lib"
       },
       "locked": {
-        "lastModified": 1747858988,
-        "narHash": "sha256-Mk9r18hmxlxWDyWSnSKMECApxDbkv9FPLC6RpnEahno=",
+        "lastModified": 1758095805,
+        "narHash": "sha256-uUb8Hud5Er2l4v/7cnq4WrTiVNCfK6IrNECRc0LbsNI=",
         "owner": "xinux-org",
         "repo": "nix-data",
-        "rev": "ba33536514a6edbbe07c4ff1a4b62886f03d55f5",
+        "rev": "3ccea1bbbab709dca721d3cd7ff616fa2ec1ea4d",
         "type": "github"
       },
       "original": {
@@ -779,11 +779,11 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1757938411,
-        "narHash": "sha256-O7hb4wa1JcvZqxz7fke8GzDfnNxz2fTXjgkmLSU8/5U=",
+        "lastModified": 1758099910,
+        "narHash": "sha256-4MIsYFHRyS6gHP2HUVsl5KBA9/9dw/jfImliWuXkluk=",
         "owner": "xinux-org",
         "repo": "xeonitte",
-        "rev": "ee78e36b00b7a0a2c6d9ffb60b99828ed6d42ea0",
+        "rev": "3acf68b4d06cd30c78a29b8ea77658d5381624bd",
         "type": "github"
       },
       "original": {
