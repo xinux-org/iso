@@ -1186,11 +1186,11 @@
         "xinux-module-manager": "xinux-module-manager"
       },
       "locked": {
-        "lastModified": 1758621711,
-        "narHash": "sha256-CNLdsw8bNOLvvLVNM7BEt3NAaYnAoPNPTBByWrXHCc8=",
+        "lastModified": 1758708743,
+        "narHash": "sha256-MBGpRiGB1cNku9bbC9oKRn/yhjRImRYZH7HvNbR+N4U=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "67e7d0fe038e484f4efa2513b63add75db8a0bf9",
+        "rev": "e839d9c6c5c888e900f878c440934ff62a188339",
         "type": "github"
       },
       "original": {
