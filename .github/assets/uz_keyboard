@@ -1,0 +1,126 @@
+// Keyboard layouts for Uzbekistan.
+
+// The Cyrillic variant (the default) is standard compliant.
+// The standard was accepted by the official body of Uzbekistan.
+// http://www.uznet.net/index.php?option=com_content&task=view&id=288&Itemid=58
+// February 2007, Mashrab Kuvatov <kmashrab@uni-bremen.de>
+
+default partial alphanumeric_keys
+xkb_symbols "cyrillic" {
+
+    name[Group1]= "Uzbek";
+
+    key <AE01>	{[		1,	    exclam, onesuperior,   exclamdown ]};
+    key <AE02>	{[		2,	  quotedbl, twosuperior,   onehalf  ]};
+    key <AE03>	{[		3,	numerosign, threesuperior, U2153      ]};
+    key <AE04>	{[		4,	 semicolon,  dollar,    onequarter ]};
+    key <AE05>	{[		5,	   percent,    U2030,     section   ]};
+    key <AE06>	{[		6,	     colon, asciicircum, dead_circumflex]};
+    key <AE07>	{[		7,	  question,   ampersand,  questiondown ]};
+    key <AE08>	{[		8,	  asterisk,   infinity,     asterisk    ]};
+    key <AE09>	{[		9,	 parenleft, leftarrow,    U27E8       ]};
+    key <AE10>	{[		0,	parenright, rightarrow,   U27E9       ]};
+    key <BKSL>	{[	backslash,	       bar ]};
+    key <AB10>	{[	   period,	     comma, slash, dead_acute ]};
+    key <LSGT>	{[	    slash,	       bar ]};
+
+    key.type[group1]="ALPHABETIC";
+
+    key <AE11>	{[ Cyrillic_ghe_bar, Cyrillic_GHE_bar, minus, underscore ]};
+    key <AE12>	{[Cyrillic_ha_descender, Cyrillic_HA_descender, equal, plus ]};
+    key <TLDE>	{[      Cyrillic_io,      Cyrillic_IO, grave, dead_grave ]};
+
+    key <AD01>	{[  Cyrillic_shorti,  Cyrillic_SHORTI, void_symbol, dead_breve ]};
+    key <AD02>	{[     Cyrillic_tse,     Cyrillic_TSE ]};
+    key <AD03>	{[       Cyrillic_u,       Cyrillic_U, EuroSign, cent ]};
+    key <AD04>	{[      Cyrillic_ka,      Cyrillic_KA, U00ae, dead_abovering ]};
+    key <AD05>	{[      Cyrillic_ie,      Cyrillic_IE, U2122, U00a9 ]};
+    key <AD06>	{[      Cyrillic_en,      Cyrillic_EN, U00a5 ]};
+    key <AD07>	{[     Cyrillic_ghe,     Cyrillic_GHE, U1F1FA, U1F1FF ]};
+    key <AD08>	{[     Cyrillic_sha,     Cyrillic_SHA, U0131, U0130 ]};
+    key <AD09>	{[Byelorussian_shortu, Byelorussian_SHORTU, U0449, U0429 ]};
+    key <AD10>	{[      Cyrillic_ze,      Cyrillic_ZE, U2032, U2033 ]};
+    key <AD11>	{[      Cyrillic_ha,      Cyrillic_HA, bracketleft, braceleft ]};
+    key <AD12>	{[Cyrillic_hardsign, Cyrillic_HARDSIGN, bracketright, braceright ]};
+
+    key <AC01>	{[      Cyrillic_ef,      Cyrillic_EF, U2248, U2318 ]};
+    key <AC02>	{[Cyrillic_ka_descender, Cyrillic_KA_descender, U044B, U042B ]};
+    key <AC03>	{[      Cyrillic_ve,      Cyrillic_VE, U00b0, U2300 ]};
+    key <AC04>	{[       Cyrillic_a,       Cyrillic_A, U00a3 ]};
+    key <AC05>	{[      Cyrillic_pe,      Cyrillic_PE ]};
+    key <AC06>	{[      Cyrillic_er,      Cyrillic_ER, U20bd ]};
+    key <AC07>	{[       Cyrillic_o,       Cyrillic_O ]};
+    key <AC08>	{[      Cyrillic_el,      Cyrillic_EL, U201c, U2018 ]};
+    key <AC09>	{[      Cyrillic_de,      Cyrillic_DE, U201d, U2019 ]};
+    key <AC10>	{[     Cyrillic_zhe,     Cyrillic_ZHE, semicolon,  dead_diaeresis ]};
+    key <AC11>	{[       Cyrillic_e,       Cyrillic_E, apostrophe, quotedbl ]};
+
+    key <AB01>	{[      Cyrillic_ya,      Cyrillic_YA, dead_cedilla ]};
+    key <AB02>	{[     Cyrillic_che,     Cyrillic_CHE, U00d7, U00b7 ]};
+    key <AB03>	{[      Cyrillic_es,      Cyrillic_ES ]};
+    key <AB04>	{[      Cyrillic_em,      Cyrillic_EM, downarrow, dead_caron ]};
+    key <AB05>	{[       Cyrillic_i,       Cyrillic_I, UF8FF ]};
+    key <AB06>	{[      Cyrillic_te,      Cyrillic_TE, minus, dead_tilde ]};
+    key <AB07>	{[Cyrillic_softsign, Cyrillic_SOFTSIGN, U2212, U2022 ]};
+    key <AB08>	{[      Cyrillic_be,      Cyrillic_BE, U00ab, U201e ]};
+    key <AB09>	{[      Cyrillic_yu,      Cyrillic_YU, U00bb, U201c ]};
+};
+
+
+partial alphanumeric_keys
+xkb_symbols "latin" {
+    include "us"
+    name[Group1]= "Uzbek (Latin)";
+
+    key <TLDE> { [ U02BC, asciitilde, grave, dead_grave ] };  // MODIFIER LETTER APOSTROPHE, TILDE, GRAVE ACCENT, GRAVE ACCENT
+    key <AE01> { [ 1, exclam,      onesuperior,   exclamdown   ] };  // DIGIT ONE, EXCLAMATION MARK, SUPERSCRIPT ONE, INVERTED EXCLAMATION MARK
+    key <AE02> { [ 2, at,          twosuperior,   onehalf      ] };  // DIGIT TWO, COMMERCIAL AT, SUPERSCRIPT TWO, VULGAR FRACTION ONE HALF
+    key <AE03> { [ 3, numbersign,  threesuperior, U2153         ] };  // DIGIT THREE, NUMBER SIGN, SUPERSCRIPT THREE, VULGAR FRACTION ONE THIRD
+    key <AE04> { [ 4, dollar,      dollar,        onequarter   ] };  // DIGIT FOUR, DOLLAR SIGN, DOLLAR SIGN, VULGAR FRACTION ONE QUARTER
+    key <AE05> { [ 5, percent,     U2030,         section ] };  // DIGIT FIVE, PERCENT SIGN, PER MILLE SIGN, SECTION SIGN
+    key <AE06> { [ 6, asciicircum, uparrow,       dead_circumflex] };  // DIGIT SIX, CIRCUMFLEX ACCENT, UPWARDS ARROW, MODIFIER LETTER CIRCUMFLEX ACCENT
+    key <AE07> { [ 7, ampersand,   ampersand,     questiondown ] };  // DIGIT SEVEN, AMPERSAND, AMPERSAND, INVERTED QUESTION MARK
+    key <AE08> { [ 8, asterisk,    infinity,      asterisk     ] };  // DIGIT EIGHT, ASTERISK, INFINITY, ASTERISK
+    key <AE09> { [ 9, parenleft,   leftarrow,     U27E8       ] };  // DIGIT NINE, LEFT PARENTHESIS, LEFTWARDS ARROW, LEFT-POINTING ANGLE BRACKET
+    key <AE10> { [ 0, parenright,  rightarrow,    U27E9       ] };  // DIGIT ZERO, RIGHT PARENTHESIS, RIGHTWARDS ARROW, RIGHT-POINTING ANGLE BRACKET
+    key <AE11> { [ minus, underscore, emdash, endash ] };  // HYPHEN-MINUS, LOW LINE, EM DASH, EN DASH
+    key <AE12> { [ equal, plus, notequal, plusminus ] };  // EQUALS SIGN, PLUS SIGN, NOT EQUAL TO, PLUS-MINUS SIGN
+
+    key <AD01> { [ q, Q, q, dead_breve ] };  // LATIN SMALL LETTER Q, LATIN CAPITAL LETTER Q, LATIN SMALL LETTER Q, BREVE
+    key <AD03> { [ e, E, EuroSign, cent ] };  // LATIN SMALL LETTER E, LATIN CAPITAL LETTER E, EURO SIGN, CENT SIGN
+    key <AD04> { [ r, R, U00ae, dead_abovering ] };  // LATIN SMALL LETTER R, LATIN CAPITAL LETTER R, REGISTERED SIGN, RING ABOVE
+    key <AD05> { [ t, T, U2122, U00a9 ] };  // LATIN SMALL LETTER T, LATIN CAPITAL LETTER T, TRADE MARK SIGN, COPYRIGHT SIGN
+    key <AD06> { [ y, Y, U00a5 ] };  // LATIN SMALL LETTER Y, LATIN CAPITAL LETTER Y, YEN SIGN, <none>
+    key <AD07> { [ u, U, U1F1FA, U1F1FF ] };  // LATIN SMALL LETTER U, LATIN CAPITAL LETTER U, REGIONAL INDICATOR SYMBOL LETTER U, REGIONAL INDICATOR SYMBOL LETTER Z
+    key <AD08> { [ i, I, U0131, U0130 ] };  // LATIN SMALL LETTER I, LATIN CAPITAL LETTER I, LATIN SMALL LETTER DOTLESS I, LATIN CAPITAL LETTER I WITH DOT ABOVE
+    key <AD09> { [ o, O, U014f, U014e ] };  // LATIN SMALL LETTER O, LATIN CAPITAL LETTER O, LATIN SMALL LETTER O WITH BREVE, LATIN CAPITAL LETTER O WITH BREVE
+    key <AD10> { [ p, P, U2032, U2033 ] };  // LATIN SMALL LETTER P, LATIN CAPITAL LETTER P, PRIME, DOUBLE PRIME
+    key <BKSL> { [ backslash, bar, U2011 ] };  // BACKSLASH, VERTICAL LINE, NON-BREAKING HYPHEN
+    
+    key <AC01> { [ a, A, U2248, U2318 ] };  // LATIN SMALL LETTER A, LATIN CAPITAL LETTER A, ALMOST EQUAL TO, PLACE OF INTEREST SIGN
+    key <AC02> { [ s, S, U015f, U015e ] };  // LATIN SMALL LETTER S, LATIN CAPITAL LETTER S, LATIN SMALL LETTER S WITH CEDILLA *, LATIN CAPITAL LETTER S WITH CEDILLA *
+    key <AC03> { [ d, D, U00b0, U2300 ] };  // LATIN SMALL LETTER D, LATIN CAPITAL LETTER D, <none>, DEGREE SIGN, DIAMETER SIGN
+    key <AC04> { [ f, F, U00a3 ] };  // LATIN SMALL LETTER F, LATIN CAPITAL LETTER F, POUND SIGN, <none>
+    key <AC05> { [ g, G, U011f, U011e ] };  // LATIN SMALL LETTER G, LATIN CAPITAL LETTER G, LATIN SMALL LETTER G WITH BREVE, LATIN CAPITAL LETTER G WITH BREVE
+    key <AC06> { [ h, H, U20bd ] };  // LATIN SMALL LETTER H, LATIN CAPITAL LETTER H, RUBLE SIGN, <none>
+    key <AC08> { [ k, K, U201c, U2018 ] };  // LATIN SMALL LETTER K, LATIN CAPITAL LETTER K, LEFT DOUBLE QUOTATION MARK, LEFT SINGLE QUOTATION MARK
+    key <AC09> { [ l, L, U201d, U2019 ] };  // LATIN SMALL LETTER L, LATIN CAPITAL LETTER L, RIGHT DOUBLE QUOTATION MARK, RIGHT SINGLE QUOTATION MARK
+    key <AC10> { [ semicolon, colon, semicolon, dead_diaeresis ] };  // SEMICOLON, COLON, SEMICOLON, DIAERESIS
+    key <AC11> { [ U02BB, quotedbl, apostrophe, quotedbl ] };  // MODIFIER LETTER TURNED COMMA, QUOTATION MARK, APOSTROPHE, QUOTATION MARK
+    
+    key <AB01> { [ z, Z, z, dead_cedilla ] };  // LATIN SMALL LETTER Z, LATIN CAPITAL LETTER Z, LATIN SMALL LETTER Z, CEDILLA
+    key <AB02> { [ x, X, U00d7, U00b7 ] };  // LATIN SMALL LETTER X, LATIN CAPITAL LETTER X, MULTIPLICATION SIGN, MIDDLE DOT
+    key <AB03> { [ c, C, U00e7, U00c7 ] };  // LATIN SMALL LETTER C, LATIN CAPITAL LETTER C, LATIN SMALL LETTER C WITH CEDILLA, LATIN CAPITAL LETTER C WITH CEDILLA
+    key <AB04> { [ v, V, downarrow, dead_caron ] };  // LATIN SMALL LETTER V, LATIN CAPITAL LETTER V, DOWNWARDS ARROW, CARON
+    key <AB05> { [ b, B, UF8FF ] };  // LATIN SMALL LETTER B, LATIN CAPITAL LETTER B, APPLE LOGO, <none>
+    key <AB06> { [ n, N, n, dead_tilde ] };  // LATIN SMALL LETTER N, LATIN CAPITAL LETTER N, LATIN SMALL LETTER N, SMALL TILDE
+    key <AB07> { [ m, M, U2212, U2022 ] };  // LATIN SMALL LETTER M, LATIN CAPITAL LETTER M, MINUS SIGN, BULLET
+    key <AB08> { [ comma, less, U00ab, U201e ] };  // COMMA, LESS-THAN SIGN, LEFT-POINTING DOUBLE ANGLE QUOTATION MARK, DOUBLE LOW-9 QUOTATION MARK
+    key <AB09> { [ period, greater, U00bb, U201c ] };  // PERIOD, GREATER-THAN SIGN, RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK, LEFT DOUBLE QUOTATION MARK
+    key <AB10> { [ slash, question, slash, dead_acute ] };  // SLASH, QUESTION MARK, SLASH, ACUTE ACCENT
+
+    key <SPCE> { [ space, space, nobreakspace ] };  // SPACE, SPACE, NO-BREAK SPACE
+
+    include "level3(ralt_switch)"
+    
+};
