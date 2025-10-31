@@ -1,8 +1,16 @@
-{ pkgs, lib, config, inputs, system, ... }:
-let
-  xeonitte-autostart = pkgs.makeAutostartItem { name = "org.xinux.Xeonitte"; package = inputs.xeonitte.packages.${system}.xeonitte; };
-in
 {
+  pkgs,
+  lib,
+  config,
+  inputs,
+  system,
+  ...
+}: let
+  xeonitte-autostart = pkgs.makeAutostartItem {
+    name = "org.xinux.Xeonitte";
+    package = inputs.xeonitte.packages.${system}.xeonitte;
+  };
+in {
   xeonitte.enable = true;
 
   services.desktopManager.gnome = {
@@ -23,7 +31,7 @@ in
       sleep-inactive-battery-type='nothing'
     '';
 
-    extraGSettingsOverridePackages = [ pkgs.gnome-settings-daemon ];
+    extraGSettingsOverridePackages = [pkgs.gnome-settings-daemon];
   };
 
   services.displayManager = {
@@ -33,7 +41,7 @@ in
     };
   };
 
-  services.xserver.displayManager = {
+  services.displayManager = {
     gdm = {
       enable = true;
       # autoSuspend makes the machine automatically suspend after inactivity.
