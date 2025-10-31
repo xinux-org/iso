@@ -2,7 +2,6 @@
 {
   imports = [
     ./base.nix
-    ./keyboard.nix
     ./graphical.nix
   ];
 }
