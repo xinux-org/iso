@@ -73,11 +73,11 @@
     "flake-compat_3": {
       "flake": false,
       "locked": {
-        "lastModified": 1747046372,
-        "narHash": "sha256-CIVLLkVgvHYbgI2UpXvIIBJ12HWgX+fjA8Xf8PUmqCY=",
+        "lastModified": 1761588595,
+        "narHash": "sha256-XKUZz9zewJNUj46b4AJdiRZJAvSZ0Dqj2BNfXvFlJC4=",
         "owner": "edolstra",
         "repo": "flake-compat",
-        "rev": "9100a0f413b0c601e0533d1d94ffd501ce2e7885",
+        "rev": "f387cd2afec9419c8ee37694406ca490c3f34ee5",
         "type": "github"
       },
       "original": {
@@ -135,11 +135,11 @@
     "flake-compat_7": {
       "flake": false,
       "locked": {
-        "lastModified": 1733328505,
-        "narHash": "sha256-NeCCThCEP3eCl2l/+27kNNK7QrwZB1IJCrXfrbv5oqU=",
+        "lastModified": 1747046372,
+        "narHash": "sha256-CIVLLkVgvHYbgI2UpXvIIBJ12HWgX+fjA8Xf8PUmqCY=",
         "owner": "edolstra",
         "repo": "flake-compat",
-        "rev": "ff81ac966bb2cae68946d5ed5fc4994f96d0ffec",
+        "rev": "9100a0f413b0c601e0533d1d94ffd501ce2e7885",
         "type": "github"
       },
       "original": {
@@ -151,11 +151,11 @@
     "flake-compat_8": {
       "flake": false,
       "locked": {
-        "lastModified": 1747046372,
-        "narHash": "sha256-CIVLLkVgvHYbgI2UpXvIIBJ12HWgX+fjA8Xf8PUmqCY=",
+        "lastModified": 1761588595,
+        "narHash": "sha256-XKUZz9zewJNUj46b4AJdiRZJAvSZ0Dqj2BNfXvFlJC4=",
         "owner": "edolstra",
         "repo": "flake-compat",
-        "rev": "9100a0f413b0c601e0533d1d94ffd501ce2e7885",
+        "rev": "f387cd2afec9419c8ee37694406ca490c3f34ee5",
         "type": "github"
       },
       "original": {
@@ -167,11 +167,11 @@
     "flake-compat_9": {
       "flake": false,
       "locked": {
-        "lastModified": 1747046372,
-        "narHash": "sha256-CIVLLkVgvHYbgI2UpXvIIBJ12HWgX+fjA8Xf8PUmqCY=",
+        "lastModified": 1761588595,
+        "narHash": "sha256-XKUZz9zewJNUj46b4AJdiRZJAvSZ0Dqj2BNfXvFlJC4=",
         "owner": "edolstra",
         "repo": "flake-compat",
-        "rev": "9100a0f413b0c601e0533d1d94ffd501ce2e7885",
+        "rev": "f387cd2afec9419c8ee37694406ca490c3f34ee5",
         "type": "github"
       },
       "original": {
@@ -541,11 +541,11 @@
         "xinux-lib": "xinux-lib_6"
       },
       "locked": {
-        "lastModified": 1757948979,
-        "narHash": "sha256-OhtXKLd4BBVnEvhwVq6J4mlSGqx5XVPvWrGhT472b0I=",
+        "lastModified": 1762429957,
+        "narHash": "sha256-bj6ICyTcwvm4OHsvX+SQDBsPi3dQ72Z5mV1fPSoWrBI=",
         "owner": "xinux-org",
         "repo": "libxinux",
-        "rev": "43fdd3058de6f1094a5df222248415f880e50741",
+        "rev": "4bec8ba23f742ca5b52ea886fc151f2ac7b99d66",
         "type": "github"
       },
       "original": {
@@ -586,11 +586,11 @@
         "xinux-lib": "xinux-lib_4"
       },
       "locked": {
-        "lastModified": 1761125652,
-        "narHash": "sha256-I4JdWqp140s3m48yM1luDZ21xDzP6JD1YRJTrgteZE8=",
+        "lastModified": 1762429561,
+        "narHash": "sha256-9bphNrUrAz+lZH27baP31/3XttsBAhYcwbgiGd9k/Jc=",
         "owner": "xinux-org",
         "repo": "software-center",
-        "rev": "471b2d5d3af2c710319451873e4df0fb37b9f97c",
+        "rev": "fb0f013eebabd6ba915d52776a41393425f42970",
         "type": "github"
       },
       "original": {
@@ -926,11 +926,11 @@
         "xinux-lib": "xinux-lib_7"
       },
       "locked": {
-        "lastModified": 1761994042,
-        "narHash": "sha256-FbryaFKuopFtgdYKPGPIdTZ/90EWsOdO9Df53+OTN7U=",
+        "lastModified": 1762430089,
+        "narHash": "sha256-6cfQ2UlpPI7JgNhLRy2oO4NYjGuOafMKujyH+nsInKs=",
         "owner": "xinux-org",
         "repo": "xin",
-        "rev": "ccd1bbf572715c20eb26ce4d12c65e44d2062172",
+        "rev": "a369bae4da96b3323419608bdf6f80f228b001b4",
         "type": "github"
       },
       "original": {
@@ -994,11 +994,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1758177889,
-        "narHash": "sha256-1OJnZZsHxZo5eNgPJkKQOS45SYMLDHt4EB8HRSXRYpM=",
+        "lastModified": 1762430061,
+        "narHash": "sha256-gHKEIs/PE+CPuTo6TPBeN14vpDn8V0+VALWFk+rd6KA=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "3b050e9f048af47e34165b54e5e13b333810f071",
+        "rev": "c4fdea80e169468bf070e2d5b53a4833d394ba08",
         "type": "github"
       },
       "original": {
@@ -1067,11 +1067,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1757920370,
-        "narHash": "sha256-1nOL0AzPB7bjTaGpXeHAnh8eDLcjIOhbqCDRQOPPlW8=",
+        "lastModified": 1758177889,
+        "narHash": "sha256-1OJnZZsHxZo5eNgPJkKQOS45SYMLDHt4EB8HRSXRYpM=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "aa5224d48ebc0262e007ef3e34b9a4da7906dce5",
+        "rev": "3b050e9f048af47e34165b54e5e13b333810f071",
         "type": "github"
       },
       "original": {
@@ -1091,11 +1091,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1758177889,
-        "narHash": "sha256-1OJnZZsHxZo5eNgPJkKQOS45SYMLDHt4EB8HRSXRYpM=",
+        "lastModified": 1762430061,
+        "narHash": "sha256-gHKEIs/PE+CPuTo6TPBeN14vpDn8V0+VALWFk+rd6KA=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "3b050e9f048af47e34165b54e5e13b333810f071",
+        "rev": "c4fdea80e169468bf070e2d5b53a4833d394ba08",
         "type": "github"
       },
       "original": {
@@ -1114,11 +1114,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1758177889,
-        "narHash": "sha256-1OJnZZsHxZo5eNgPJkKQOS45SYMLDHt4EB8HRSXRYpM=",
+        "lastModified": 1762430061,
+        "narHash": "sha256-gHKEIs/PE+CPuTo6TPBeN14vpDn8V0+VALWFk+rd6KA=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "3b050e9f048af47e34165b54e5e13b333810f071",
+        "rev": "c4fdea80e169468bf070e2d5b53a4833d394ba08",
         "type": "github"
       },
       "original": {
@@ -1186,11 +1186,11 @@
         "xinux-module-manager": "xinux-module-manager"
       },
       "locked": {
-        "lastModified": 1762427927,
-        "narHash": "sha256-Dd27yrq2pN1xEnKtEkiyvEOn3ataEAeuJoLXPL7ByYY=",
+        "lastModified": 1762430161,
+        "narHash": "sha256-PhmL9l3n2bEPl/v4oEwvvhnoa5xcnPqXY6JdWfbERaA=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "5af0ad64e7ca3634879352719d8a31e06abad8ed",
+        "rev": "31def811d9c58a2799a6c8d14f9ba682d0f9ace5",
         "type": "github"
       },
       "original": {
