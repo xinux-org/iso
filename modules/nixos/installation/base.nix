@@ -19,7 +19,8 @@
   environment.systemPackages = with pkgs; [
     git
     glibcLocales
-    glxinfo
+    # glxinfo
+    mesa-demos
     gparted
     nano
     rsync

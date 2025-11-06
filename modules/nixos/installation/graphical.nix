@@ -13,7 +13,7 @@
 in {
   xeonitte.enable = true;
 
-  services.xserver.desktopManager.gnome = {
+  services.desktopManager.gnome = {
     # Add Firefox and other tools useful for installation to the launcher
     favoriteAppsOverride = ''
       [org.gnome.shell]
@@ -41,7 +41,7 @@ in {
     };
   };
 
-  services.xserver.displayManager = {
+  services.displayManager = {
     gdm = {
       enable = true;
       # autoSuspend makes the machine automatically suspend after inactivity.
