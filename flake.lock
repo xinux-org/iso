@@ -903,11 +903,11 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1762433514,
-        "narHash": "sha256-BUDyIFAMLgFzc5emtq1Yt4tlPh2+89c1MvLOm7DlafI=",
+        "lastModified": 1762519468,
+        "narHash": "sha256-LQV+XihN+cRmz7djd+6GBVEIOb5vh2rjhI10tOOzQoM=",
         "owner": "xinux-org",
         "repo": "xeonitte",
-        "rev": "6b7340cda46427eb1e9d6ad4bf8ed065f0e8a76a",
+        "rev": "72ad1d45481aad5efff6129f102820a3573e6d02",
         "type": "github"
       },
       "original": {
