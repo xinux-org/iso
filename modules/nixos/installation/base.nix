@@ -17,6 +17,7 @@
   boot.kernelPackages = lib.mkForce config.boot.zfs.package.latestCompatibleLinuxPackages;
 
   environment.systemPackages = with pkgs; [
+    firefox
     git
     glibcLocales
     # glxinfo
@@ -28,6 +29,7 @@
     helix
   ];
 
+  i18n.defaultLocale = "uz_UZ.UTF-8";
   i18n.supportedLocales = [ "all" ];
 
   networking.hostName = "xinux";
