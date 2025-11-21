@@ -581,11 +581,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1763564413,
-        "narHash": "sha256-48P42/P//91Hy6vDm+/bIOIAn6SeJbRbFf9qqmM+zcU=",
+        "lastModified": 1763733419,
+        "narHash": "sha256-PUBQtjkLeP2XOr8RbEUOetNG/5DL2SwFYd39uJdJQwo=",
         "owner": "xinux-org",
         "repo": "xinux-plymouth-theme",
-        "rev": "ddb30e80366f8face7f5b3b78e25c5a544a11226",
+        "rev": "85acf3112d69051e9320c311621f17994b9dbc0e",
         "type": "github"
       },
       "original": {
@@ -1242,11 +1242,11 @@
         "xinux-module-manager": "xinux-module-manager"
       },
       "locked": {
-        "lastModified": 1763706710,
-        "narHash": "sha256-SG6zDXA2WOOk6FUoKHAl+tAMji8k1j3ISqLi3UdlhEk=",
+        "lastModified": 1763734322,
+        "narHash": "sha256-fnt/pe6h3cQoxhDzzqEJKfOIIiZfUh5TllUG3w3L2+M=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "9543710df16f7b8e72df802c1e880f7cf482d449",
+        "rev": "471fb88d6a24b9205f1addb98077e23f82c4447b",
         "type": "github"
       },
       "original": {
