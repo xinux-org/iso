@@ -1242,11 +1242,11 @@
         "xinux-module-manager": "xinux-module-manager"
       },
       "locked": {
-        "lastModified": 1764241898,
-        "narHash": "sha256-Y+xy67OMC5iEX2dtr7xOcpkogBHb1MxKBun2G/ojxPQ=",
+        "lastModified": 1764250456,
+        "narHash": "sha256-0L7CPB3xMfAXWF2+qIUS6c5MIrbLcsXQEt/cFL4NBRE=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "3e71c6272bc62ba07ad343baa93972b73cf862b2",
+        "rev": "9ec094662a3749665a1277909ee3785e03933e39",
         "type": "github"
       },
       "original": {
