@@ -626,11 +626,11 @@
         "xinux-lib": "xinux-lib_4"
       },
       "locked": {
-        "lastModified": 1764254764,
-        "narHash": "sha256-N+Bw59kyMDCfVtEkvdtI14d+t3sXf1CDx1QvEUQmfmk=",
+        "lastModified": 1764336420,
+        "narHash": "sha256-IOn80Op4OyOBZAJC0ff4bQzLIgop9Fb3sgjZi+ktgU0=",
         "owner": "xinux-org",
         "repo": "software-center",
-        "rev": "0368711b75ab83c0feba9905b428b1fae1ddd064",
+        "rev": "29237fbc99902dfcd1e80930ff79d9660568dfae",
         "type": "github"
       },
       "original": {
@@ -692,11 +692,11 @@
         "xinux-lib": "xinux-lib_5"
       },
       "locked": {
-        "lastModified": 1764254458,
-        "narHash": "sha256-ajY1TB+Vm9V8uiUDOQKxjswLqSmuxutu/YIRA5yT+Gg=",
+        "lastModified": 1764336336,
+        "narHash": "sha256-zlr+1GwE5w50Ri/VKOebUapWVnjxEuwn0vMayXT6/UE=",
         "owner": "xinux-org",
         "repo": "conf-editor",
-        "rev": "f91195f85ae17492d6000d86f4ac5abcc7d3baed",
+        "rev": "413e0996667ae292ca82077d96bb3d8071f28a11",
         "type": "github"
       },
       "original": {
@@ -958,11 +958,11 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1764330593,
-        "narHash": "sha256-9vnHI4PZ5ozCXKCyJd8m7/ehd3TYvlccNyf5Figi3rQ=",
+        "lastModified": 1764336730,
+        "narHash": "sha256-T4SPjp5JGJKgvx5HyAGLF0YerlOV/sr6fYJkC4pE40Q=",
         "owner": "xinux-org",
         "repo": "xeonitte",
-        "rev": "af29b0beb01dd42c028063c6a36a842b592d4318",
+        "rev": "47ac850ab22847e0db0cb6dcd00401642092370d",
         "type": "github"
       },
       "original": {
@@ -1073,11 +1073,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1762430061,
-        "narHash": "sha256-gHKEIs/PE+CPuTo6TPBeN14vpDn8V0+VALWFk+rd6KA=",
+        "lastModified": 1764323867,
+        "narHash": "sha256-sc/e5XZo4OKgYgtw0xPnlOo8kMvqpC0Cey/5+Bepft8=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "c4fdea80e169468bf070e2d5b53a4833d394ba08",
+        "rev": "e3fbe264263d9a356124bd1aa76a7de5aa81b441",
         "type": "github"
       },
       "original": {
@@ -1097,11 +1097,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1762430061,
-        "narHash": "sha256-gHKEIs/PE+CPuTo6TPBeN14vpDn8V0+VALWFk+rd6KA=",
+        "lastModified": 1764323867,
+        "narHash": "sha256-sc/e5XZo4OKgYgtw0xPnlOo8kMvqpC0Cey/5+Bepft8=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "c4fdea80e169468bf070e2d5b53a4833d394ba08",
+        "rev": "e3fbe264263d9a356124bd1aa76a7de5aa81b441",
         "type": "github"
       },
       "original": {
@@ -1215,11 +1215,11 @@
         "xinux-lib": "xinux-lib_9"
       },
       "locked": {
-        "lastModified": 1764328222,
+        "lastModified": 1764336107,
         "narHash": "sha256-X6X1jeVTrhGatllrsFuEA5vISz/jGlBTfp6dzUllUkM=",
         "owner": "xinux-org",
         "repo": "module-manager",
-        "rev": "76eac50c74ac3c4e3f0d2071d9f24ba20ae56295",
+        "rev": "b30abec5eebd29abc6cd007e5b9027d2d64e44ca",
         "type": "github"
       },
       "original": {
@@ -1242,11 +1242,11 @@
         "xinux-module-manager": "xinux-module-manager"
       },
       "locked": {
-        "lastModified": 1764332543,
-        "narHash": "sha256-8weblsBDkERwHD3kp2OFwkX/WVGJjYq645RZ8B50i4M=",
+        "lastModified": 1764336508,
+        "narHash": "sha256-JBFajQkFqdp5zlSFiyIMihF6nRlU02bw9I9UMegSjeE=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "09535480609c88e795fb0b7150e07c55f6e58a86",
+        "rev": "911549a08399c81f79089c34b30698b2d92fa9a5",
         "type": "github"
       },
       "original": {
