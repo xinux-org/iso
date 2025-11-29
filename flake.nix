@@ -1,20 +1,20 @@
 {
   inputs = {
-    nixpkgs.url = "github:xinux-org/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:xinux-org/nixpkgs/nixos-25.11";
     xinux-lib = {
-      url = "github:xinux-org/lib";
+      url = "github:xinux-org/lib/release-25.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     xinux-modules = {
-      url = "github:xinux-org/modules";
+      url = "github:xinux-org/modules/release-25.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     xeonitte = {
-      url = "github:xinux-org/xeonitte";
+      url = "github:xinux-org/xeonitte/release-25.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-data = {
-      url = "github:xinux-org/nix-data";
+      url = "github:xinux-org/nix-data/release-25.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nixos-generators = {
