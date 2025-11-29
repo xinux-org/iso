@@ -28,13 +28,13 @@ jobs:
 
       - name: Upload Artifacts to CDN
         run: |
-          DIR="/srv/xinux/latest"
+          DIR="/srv/xinux/release"
           if [ -d "$DIR" ]; then
             find "$DIR" -maxdepth 1 -type f -name "*.iso" -exec rm -f {} +
           else
             mkdir -p "$DIR"
           fi
-          cp -r result/iso/*.iso /srv/xinux/latest/xinux-25.11-$(date +'%d%m%Y')-x86_64-linux.iso
+          cp -r result/iso/*.iso /srv/xinux/release/xinux-25.11-$(date +'%d%m%Y')-x86_64-linux.iso
 
       - name: Create GitHub Release
         if: startsWith(github.ref, 'refs/tags/')
