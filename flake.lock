@@ -602,11 +602,11 @@
         "xinux-lib": "xinux-lib"
       },
       "locked": {
-        "lastModified": 1764338233,
-        "narHash": "sha256-d1ncHxNAkx3O71aBDm7HzPlxh1Yp+yjHhGmBd3Kl+ZU=",
+        "lastModified": 1764399405,
+        "narHash": "sha256-V3fiBuHxhLJco+uv4DfUKSy18++EpD+ymgC2pG5TGeU=",
         "owner": "xinux-org",
         "repo": "nix-data",
-        "rev": "9cd9db92573ba849063d66f89ee5cf16eabda5f5",
+        "rev": "bcf69e19b9c7d5b112b03674132781b698d6b252",
         "type": "github"
       },
       "original": {
