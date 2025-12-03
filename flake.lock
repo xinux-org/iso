@@ -405,6 +405,24 @@
         "type": "github"
       }
     },
+    "flake-utils_12": {
+      "inputs": {
+        "systems": "systems_13"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
     "flake-utils_2": {
       "inputs": {
         "systems": "systems_2"
@@ -798,6 +816,21 @@
       }
     },
     "systems_12": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "systems_13": {
       "locked": {
         "lastModified": 1681028828,
         "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
@@ -1239,19 +1272,42 @@
         ],
         "xin": "xin",
         "xinux-lib": "xinux-lib_8",
-        "xinux-module-manager": "xinux-module-manager"
+        "xinux-module-manager": "xinux-module-manager",
+        "xinux-tour": "xinux-tour"
       },
       "locked": {
-        "lastModified": 1764756875,
-        "narHash": "sha256-d0tzkKLwgVCb06T2ZDPkF9s9azkfjoakKN+MzsNZiQw=",
+        "lastModified": 1764773053,
+        "narHash": "sha256-BfBynoMGLWVEiSkAGG6nn1WVr1HHHslFYoBLvVkMY0c=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "28c209aa55b46e4c962ab90b00cec72fcfc9d354",
+        "rev": "0a71b4008bd22daa2b65a91f44c4293de09d4049",
         "type": "github"
       },
       "original": {
         "owner": "xinux-org",
         "repo": "modules",
+        "type": "github"
+      }
+    },
+    "xinux-tour": {
+      "inputs": {
+        "flake-utils": "flake-utils_12",
+        "nixpkgs": [
+          "xinux-modules",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1764772891,
+        "narHash": "sha256-3BDE4UghbOKkC/RD44PkyJnz/tnjqPzSZqZnGASXftI=",
+        "owner": "xinux-org",
+        "repo": "xinux-tour",
+        "rev": "8e19cf6eb823b3a166ad6401a7af469a010863fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "xinux-org",
+        "repo": "xinux-tour",
         "type": "github"
       }
     }
