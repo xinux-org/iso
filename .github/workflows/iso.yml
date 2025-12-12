@@ -28,6 +28,7 @@ jobs:
           # Attaining infos from file
           FILE=$(ls result/iso | grep iso | head -n1)
           FULL_SEGMENT=$(echo "$FILE" | sed "s/-/\n/g" | head -n2 | tail -n1)
+          SHORT_VERSION=$(echo "$FULL_SEGMENT" | cut -d. -f1-2)
 
           # Passing values
           echo "::set-output name=release::$FULL_SEGMENT"
