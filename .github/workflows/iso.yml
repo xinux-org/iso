@@ -18,6 +18,8 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: release-25.11
 
       - name: Build
         id: build
@@ -38,14 +40,14 @@ jobs:
       - name: Upload Artifacts to CDN
         run: |
           DIR="/srv/xinux/release"
+          SRC_ISO=$(ls result/iso/*.iso | head -n1)
+          VERSION="${{ steps.build.outputs.short_version }}"
+
           if [ -d "$DIR" ]; then
-            find "$DIR" -maxdepth 1 -type f -name "*.iso" -exec rm -f {} +
+            find "$DIR" -maxdepth 1 -type f -name "xinux-${VERSION}-*.iso" -exec rm -f {} +
           else
             mkdir -p "$DIR"
           fi
-
-          SRC_ISO=$(ls result/iso/*.iso | head -n1)
-          VERSION="${{ steps.build.outputs.short_version }}"
 
           cp "$SRC_ISO" "$DIR/xinux-${VERSION}-$(date +'%d.%m.%Y')-x86_64-linux.iso"
 
