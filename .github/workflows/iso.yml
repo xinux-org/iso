@@ -3,7 +3,7 @@ name: "Build ISO"
 on:
   push:
     branches:
-      - main
+      - release-25.11
     tags:
       - "*"
   workflow_dispatch:
