@@ -1276,11 +1276,11 @@
         "xinux-tour": "xinux-tour"
       },
       "locked": {
-        "lastModified": 1765181989,
-        "narHash": "sha256-MICwnQ04FK3HPDMs+54hWfLmnnuKEM3c4iwDW68c9Fc=",
+        "lastModified": 1765790528,
+        "narHash": "sha256-+Z1cDJSllUf2t61bdyd+1vFUHmonLlHJ4L34BUxYGQU=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "c863855feeb5f4668c63ff5cb778a0c464b960f3",
+        "rev": "d0fccc44cbc8df0cc57bf9fa860dcd1908f13a99",
         "type": "github"
       },
       "original": {
