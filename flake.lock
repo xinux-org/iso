@@ -406,6 +406,24 @@
         "type": "github"
       }
     },
+    "flake-utils_12": {
+      "inputs": {
+        "systems": "systems_13"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
     "flake-utils_2": {
       "inputs": {
         "systems": "systems_2"
@@ -629,11 +647,11 @@
         "xinux-lib": "xinux-lib_4"
       },
       "locked": {
-        "lastModified": 1764402178,
-        "narHash": "sha256-FBWP6yzVPb8V7yx4Y34syp1S1/y5mbKF0qbYZ6LDktY=",
+        "lastModified": 1765178423,
+        "narHash": "sha256-GEMrKlsf8O4EVr0X3XTSdIsF/SgOMfMLP1tg3iDy2oE=",
         "owner": "xinux-org",
         "repo": "software-center",
-        "rev": "91d84634237c8354e6e294e09735c6598a4158b8",
+        "rev": "d3bc6ef0cb0cfd141a72bc70afecef7ff5d923b7",
         "type": "github"
       },
       "original": {
@@ -696,11 +714,11 @@
         "xinux-lib": "xinux-lib_5"
       },
       "locked": {
-        "lastModified": 1764403336,
-        "narHash": "sha256-ekaeIVBB9ZlV9vkC0QCBv4i0FY+lsPUQnYkXt1Sc7m8=",
+        "lastModified": 1764753594,
+        "narHash": "sha256-Hi04mrX0ioURmtBqxBUXIlOZRy1LVhTmFOQQHbcacYA=",
         "owner": "xinux-org",
         "repo": "conf-editor",
-        "rev": "4b8ad87478e39f77bf6c05ba31a5fd5759cdaf9c",
+        "rev": "caa06c9e6e4b2e8f4bc68cff82aa8ab4dca04032",
         "type": "github"
       },
       "original": {
@@ -733,11 +751,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1764522689,
-        "narHash": "sha256-SqUuBFjhl/kpDiVaKLQBoD8TLD+/cTUzzgVFoaHrkqY=",
+        "lastModified": 1765311797,
+        "narHash": "sha256-mSD5Ob7a+T2RNjvPvOA1dkJHGVrNVl8ZOrAwBjKBDQo=",
         "owner": "xinux-org",
         "repo": "nixpkgs",
-        "rev": "8bb5646e0bed5dbd3ab08c7a7cc15b75ab4e1d0f",
+        "rev": "09eb77e94fa25202af8f3e81ddc7353d9970ac1b",
         "type": "github"
       },
       "original": {
@@ -803,6 +821,21 @@
       }
     },
     "systems_12": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "systems_13": {
       "locked": {
         "lastModified": 1681028828,
         "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
@@ -1256,20 +1289,43 @@
         ],
         "xin": "xin",
         "xinux-lib": "xinux-lib_8",
-        "xinux-module-manager": "xinux-module-manager"
+        "xinux-module-manager": "xinux-module-manager",
+        "xinux-tour": "xinux-tour"
       },
       "locked": {
-        "lastModified": 1764404522,
-        "narHash": "sha256-hfF2SG+R0rClCuHjAyZ+lwZvgH0M/InmxlP2BNsGi5U=",
+        "lastModified": 1765791554,
+        "narHash": "sha256-Wu0/1EDMMxOPDtLZloGMyf4NX3bAkgAfpMYRGy0EHtQ=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "1da1f5fc4b40b423271071d9d8a19cf7caafde05",
+        "rev": "d98b7f3ba2f1d635c1a1ad21f42a1b69195415c2",
         "type": "github"
       },
       "original": {
         "owner": "xinux-org",
         "ref": "release-25.11",
         "repo": "modules",
+        "type": "github"
+      }
+    },
+    "xinux-tour": {
+      "inputs": {
+        "flake-utils": "flake-utils_12",
+        "nixpkgs": [
+          "xinux-modules",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1764772891,
+        "narHash": "sha256-3BDE4UghbOKkC/RD44PkyJnz/tnjqPzSZqZnGASXftI=",
+        "owner": "xinux-org",
+        "repo": "xinux-tour",
+        "rev": "8e19cf6eb823b3a166ad6401a7af469a010863fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "xinux-org",
+        "repo": "xinux-tour",
         "type": "github"
       }
     }
