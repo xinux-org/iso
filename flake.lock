@@ -2,11 +2,11 @@
   "nodes": {
     "crane": {
       "locked": {
-        "lastModified": 1765145449,
-        "narHash": "sha256-aBVHGWWRzSpfL++LubA0CwOOQ64WNLegrYHwsVuVN7A=",
+        "lastModified": 1765739568,
+        "narHash": "sha256-gQYx35Of4UDKUjAYvmxjUEh/DdszYeTtT6MDin4loGE=",
         "owner": "ipetkov",
         "repo": "crane",
-        "rev": "69f538cdce5955fcd47abfed4395dc6d5194c1c5",
+        "rev": "67d2baff0f9f677af35db61b32b5df6863bcc075",
         "type": "github"
       },
       "original": {
@@ -40,11 +40,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1766035391,
-        "narHash": "sha256-xJzmLhCXdNK/zIyDOS5Zj2DJzbEVNJ+Ga1cMZajxxY0=",
+        "lastModified": 1766059959,
+        "narHash": "sha256-og8CZWPJI7G9Pge5M/OolNrezACbMlHcn0HXwcGHIzM=",
         "owner": "xinux-org",
         "repo": "e-imzo-manager",
-        "rev": "136b562e0a39ed9803ef36b513115df53a569213",
+        "rev": "ae1f9409ef54702b35156025d1fca024b4142124",
         "type": "github"
       },
       "original": {
@@ -1215,11 +1215,11 @@
         "xinux-tour": "xinux-tour"
       },
       "locked": {
-        "lastModified": 1766038812,
-        "narHash": "sha256-Dfp6obAG4kcD1i28YrzhuQJpL/egZMaT1X00AeyM8i8=",
+        "lastModified": 1766060792,
+        "narHash": "sha256-xnZwW+QRlFd9iIfbxmMoE79fYAp1XMzaqdflqYtVPDY=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "f4b656555c5f9af2ef342f7fcdaed3a925baa364",
+        "rev": "cc13cdaa61bafc086a7e062c13859a7b8be1e54f",
         "type": "github"
       },
       "original": {
