@@ -17,7 +17,7 @@ in {
     # Add Firefox and other tools useful for installation to the launcher
     favoriteAppsOverride = ''
       [org.gnome.shell]
-      favorite-apps=[ 'org.gnome.Epiphany.desktop', 'org.gnome.Console.desktop', 'org.gnome.Nautilus.desktop', 'org.xinux.NixSoftwareCenter.desktop', 'gparted.desktop', 'org.xinux.Xeonitte.desktop' ]
+      favorite-apps=[ 'firefox.desktop', 'org.gnome.Console.desktop', 'org.gnome.Nautilus.desktop', 'org.xinux.NixSoftwareCenter.desktop', 'gparted.desktop', 'org.xinux.Xeonitte.desktop' ]
     '';
 
     # Override GNOME defaults to disable GNOME tour and disable suspend
