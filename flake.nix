@@ -10,7 +10,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     xeonitte = {
-      url = "github:xinux-org/xeonitte";
+      url = "github:xinux-org/xeonitte/fix-flake-update";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-data = {

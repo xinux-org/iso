@@ -33,7 +33,7 @@
   i18n.supportedLocales = [ "all" ];
 
   networking.hostName = "xinux";
-  networking.wireless.enable = false;
+  # networking.wireless.enable = false;
 
   users.users = {
     xinux = {
