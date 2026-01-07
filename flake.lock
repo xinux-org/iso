@@ -954,16 +954,15 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1767704733,
-        "narHash": "sha256-jAUOkJRG+9fKe7HTBs/MkBq226mn5BueR1EopqqRcvA=",
+        "lastModified": 1767775231,
+        "narHash": "sha256-YDqrYX1yivs5m8oLG8JoRIl1KHiQ8jVaSgQztxTxXDo=",
         "owner": "xinux-org",
         "repo": "xeonitte",
-        "rev": "b2ed08d6d7f284c2737b57174bd9f6e411f14dad",
+        "rev": "86c1ce45bd5869cda50ae8f5f2dbd80edf18a02e",
         "type": "github"
       },
       "original": {
         "owner": "xinux-org",
-        "ref": "fix-flake-update",
         "repo": "xeonitte",
         "type": "github"
       }
