@@ -10,7 +10,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     xeonitte = {
-      url = "github:xinux-org/xeonitte/";
+      url = "github:xinux-org/xeonitte/testing_for_luks";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-data = {
@@ -30,7 +30,6 @@
 
       systems.modules.nixos = with inputs; [
         nix-data.nixosModules.nix-data
-        xeonitte.nixosModules.xeonitte
         xinux-modules.nixosModules.gnome
         xinux-modules.nixosModules.kernel
         xinux-modules.nixosModules.networking

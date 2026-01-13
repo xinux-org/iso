@@ -1,16 +1,12 @@
 {
   pkgs,
-  lib,
-  config,
   inputs,
-  system,
   ...
-}: let
-  xeonitte-autostart = pkgs.makeAutostartItem {
-    name = "org.xinux.Xeonitte";
-    package = inputs.xeonitte.packages.${system}.xeonitte;
-  };
-in {
+}: {
+  imports = [
+    # Xeonitte modules
+    inputs.xeonitte.nixosModules.default
+  ];
   xeonitte.enable = true;
 
   services.desktopManager.gnome = {

@@ -1,7 +1,5 @@
 {
-  lib,
   mkShell,
-  stdenv,
   nixd,
   alejandra,
   statix,
