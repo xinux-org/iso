@@ -1215,11 +1215,11 @@
         "xinux-tour": "xinux-tour"
       },
       "locked": {
-        "lastModified": 1768227468,
-        "narHash": "sha256-qHpmBbnroaov4iBJRco37ZUxHBu+Nfb3xk/e+PHugN0=",
+        "lastModified": 1768384245,
+        "narHash": "sha256-6CudnQZo6FrBbvBlphxLXctmun17sJeJ/GKJW2efmEk=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "8c51256a4989a1a60d73903efd49cfd6ce66f9f8",
+        "rev": "3773f052b4d29e5ae6b4dc958f35d79d6b6314cc",
         "type": "github"
       },
       "original": {
