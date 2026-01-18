@@ -761,6 +761,7 @@
         "nix-data": "nix-data",
         "nixos-generators": "nixos-generators",
         "nixpkgs": "nixpkgs",
+        "uzbek-keyboard": "uzbek-keyboard",
         "xeonitte": "xeonitte",
         "xinux-lib": "xinux-lib_3",
         "xinux-modules": "xinux-modules"
@@ -943,6 +944,21 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "uzbek-keyboard": {
+      "locked": {
+        "lastModified": 1768720927,
+        "narHash": "sha256-6hzfLitiX/TW+oo+XTKt1EjOZXmddBERt+Vy8zEST/w=",
+        "owner": "itsbilolbek",
+        "repo": "uzbek-linux-keyboard",
+        "rev": "ab84eadb9c7149f074dc92c34781176714cd206f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "itsbilolbek",
+        "repo": "uzbek-linux-keyboard",
         "type": "github"
       }
     },

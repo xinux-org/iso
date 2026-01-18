@@ -31,6 +31,7 @@
 
   i18n.defaultLocale = "uz_UZ.UTF-8";
   i18n.supportedLocales = [ "all" ];
+  services.xserver.xkb.uz-enhanced.enable = true;
 
   networking.hostName = "xinux";
   # networking.wireless.enable = false;
