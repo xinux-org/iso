@@ -21,6 +21,9 @@
       url = "github:nix-community/nixos-generators";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    uzbek-keyboard = {
+      url = "github:itsbilolbek/uzbek-linux-keyboard";
+    };
   };
 
   outputs = inputs:
@@ -29,6 +32,7 @@
       channels-config.allowUnfree = true;
 
       systems.modules.nixos = with inputs; [
+        uzbek-keyboard.nixosModules.module
         nix-data.nixosModules.nix-data
         xeonitte.nixosModules.xeonitte
         xinux-modules.nixosModules.gnome
