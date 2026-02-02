@@ -1,10 +1,7 @@
 {
   inputs = {
     nixpkgs.url = "github:xinux-org/nixpkgs/nixos-unstable";
-    xinux-lib = {
-      url = "github:xinux-org/lib";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+
     xinux-modules = {
       url = "github:xinux-org/modules";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -28,23 +25,54 @@
   };
 
   outputs = inputs:
-    inputs.xinux-lib.mkFlake rec {
-      inherit inputs;
-      channels-config.allowUnfree = true;
+    let systems = [ "x86_64-linux" "aarch64-linux" ];
+    in {
+      nixosConfigurations = inputs.nixpkgs.lib.genAttrs systems (system:
+        inputs.nixpkgs.lib.nixosSystem {
+          specialArgs = { inherit inputs; };
 
-      systems.modules.nixos = with inputs; [
-        nix-data.nixosModules.nix-data
-        xeonitte.nixosModules.xeonitte
-        xinux-modules.nixosModules.gnome
-        xinux-modules.nixosModules.kernel
-        xinux-modules.nixosModules.networking
-        xinux-modules.nixosModules.pipewire
-        xinux-modules.nixosModules.printing
-        xinux-modules.nixosModules.xinux
-        xinux-modules.nixosModules.metadata
-      ];
+          pkgs = import inputs.nixpkgs {
+            inherit system;
+            config = {
+              allowUnfree = true;
+              allowBroken = true;
+            };
+          };
 
-      src = ./.;
-      alias.shells.default = "iso";
+          modules = [
+            { nixpkgs.hostPlatform = system; }
+
+            "${inputs.nixpkgs}/nixos/modules/installer/cd-dvd/installation-cd-minimal.nix"
+
+            inputs.nix-data.nixosModules.nix-data
+            inputs.xeonitte.nixosModules.xeonitte
+            inputs.xinux-modules.nixosModules.gnome
+            inputs.xinux-modules.nixosModules.kernel
+            inputs.xinux-modules.nixosModules.networking
+            inputs.xinux-modules.nixosModules.pipewire
+            inputs.xinux-modules.nixosModules.printing
+            inputs.xinux-modules.nixosModules.xinux
+
+            inputs.xinux-modules.nixosModules.metadata
+
+            ({ lib, ... }: {
+              options.nix = {
+                generateNixPathFromInputs = lib.mkOption {
+                  type = lib.types.bool;
+                  default = false;
+                };
+                generateRegistryFromInputs = lib.mkOption {
+                  type = lib.types.bool;
+                  default = false;
+                };
+                linkInputs = lib.mkOption {
+                  type = lib.types.bool;
+                  default = false;
+                };
+              };
+            })
+
+          ];
+        });
     };
 }
