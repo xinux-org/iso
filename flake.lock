@@ -1314,11 +1314,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1769975922,
-        "narHash": "sha256-QMbiLft1zxnrGaTFtZs3IgRCGkvJ9DfvuFSM4/WXK6M=",
+        "lastModified": 1770183327,
+        "narHash": "sha256-EitL9fLFiDW4TGfwm14n7ZdW3Axqj1lea8TOYlp3V8U=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "bc2ced5e73f72a19b88bb66e350f178a4320c056",
+        "rev": "09c4e04dd0746df602521b26c4c961d0a51d4f73",
         "type": "github"
       },
       "original": {
@@ -1413,11 +1413,11 @@
         "treefmt-nix": "treefmt-nix_2"
       },
       "locked": {
-        "lastModified": 1769975922,
-        "narHash": "sha256-QMbiLft1zxnrGaTFtZs3IgRCGkvJ9DfvuFSM4/WXK6M=",
+        "lastModified": 1770183327,
+        "narHash": "sha256-EitL9fLFiDW4TGfwm14n7ZdW3Axqj1lea8TOYlp3V8U=",
         "owner": "xinux-org",
         "repo": "lib",
-        "rev": "bc2ced5e73f72a19b88bb66e350f178a4320c056",
+        "rev": "09c4e04dd0746df602521b26c4c961d0a51d4f73",
         "type": "github"
       },
       "original": {
@@ -1488,11 +1488,11 @@
         "xinux-tour": "xinux-tour"
       },
       "locked": {
-        "lastModified": 1770125884,
-        "narHash": "sha256-2zRwgRKEG1cC2N50FXUjvthDq3TIqu8idmVpror/M8s=",
+        "lastModified": 1770183630,
+        "narHash": "sha256-2CRh+tXq6hudTc8BExP8hZWxG9B3TQPBOrl+Bid4HNw=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "22c282688ffba2954462ea594e8b25ca9db24cb6",
+        "rev": "d99e4f872361a18b9d1c9556a472d2c85a93ab5b",
         "type": "github"
       },
       "original": {
