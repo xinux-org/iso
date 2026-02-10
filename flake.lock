@@ -1988,11 +1988,11 @@
         "xinux-tour": "xinux-tour"
       },
       "locked": {
-        "lastModified": 1770678280,
-        "narHash": "sha256-1YalrXRtDJ5h/05VIevBf8O90tYtlWBcHJT5RgxmJLI=",
+        "lastModified": 1770727389,
+        "narHash": "sha256-yBgwtjf7XPt01bLQ5sk80yiqgptXnbtr09vRKaiQmMU=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "1170ab02a6b5591791e73f4b2dcdde9e529d21f9",
+        "rev": "e02eb38e3abc25089557a4653afd45e44c9e9e37",
         "type": "github"
       },
       "original": {
