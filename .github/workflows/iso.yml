@@ -23,7 +23,7 @@ jobs:
         id: build
         run: |
           # Build
-          nix build .#install-isoConfigurations.xinux --log-format raw -v
+          nix build .#nixosConfigurations.xinux.config.system.build.images.iso --show-trace
 
           # Attaining infos from file
           FILE=$(ls result/iso | grep iso | head -n1)

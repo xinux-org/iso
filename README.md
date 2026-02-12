@@ -9,5 +9,5 @@ Xinux is a NixOS based Linux distribution focused on beginner friendliness and e
 ## How to build
 
 1. Clone this repository and navigate to the project directory
-2. `nix build .#install-isoConfigurations.xinux`
+2. `nix build .#nixosConfigurations.xinux.config.system.build.images.iso`
 3. The resulting ISO file will be linked in `result/iso/xinux-<version>.iso`
