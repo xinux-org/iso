@@ -1420,6 +1420,22 @@
         "type": "github"
       }
     },
+    "uz-xkb_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1769262454,
+        "narHash": "sha256-lHUuWiwt4CjBWm9y56fRGtdGVDzNz2370bUBYSl+Y8g=",
+        "owner": "itsbilolbek",
+        "repo": "uzbek-linux-keyboard",
+        "rev": "7acf9b4f605ccc9a9148f73f997f49f351407f3b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "itsbilolbek",
+        "repo": "uzbek-linux-keyboard",
+        "type": "github"
+      }
+    },
     "xeonitte": {
       "inputs": {
         "nixpkgs": [
@@ -1673,7 +1689,7 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "uz-xkb": "uz-xkb",
+        "uz-xkb": "uz-xkb_2",
         "xin": "xin",
         "xinux-lib": "xinux-lib_6",
         "xinux-module-manager": "xinux-module-manager",
