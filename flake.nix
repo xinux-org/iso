@@ -10,7 +10,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     xeonitte = {
-      url = "github:xinux-org/xeonitte/testing_for_luks";
+      url = "github:xinux-org/xeonitte/main_with_luks";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-data = {
