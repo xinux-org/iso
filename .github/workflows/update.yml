@@ -11,13 +11,7 @@ jobs:
 
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v4
-
-      - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@main
-
-      - name: Cache Nix store
-        uses: DeterminateSystems/flakehub-cache-action@main
+        uses: actions/checkout@v6
 
       - name: Update flake.lock
         uses: DeterminateSystems/update-flake-lock@main
