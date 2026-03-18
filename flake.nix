@@ -44,6 +44,6 @@
       src = ./.;
       alias.shells.default = "iso";
 
-      # hydraJobs = self.install-isoConfigurations.xinux.config.system.build.images.iso;
+      hydraJobs = self.install-isoConfigurations.xinux.config.system.build.images.iso;
     };
 }
