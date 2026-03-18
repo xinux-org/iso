@@ -64,7 +64,7 @@ in
   services.xe-guest-utilities.enable = pkgs.stdenv.hostPlatform.isx86;
   # The VirtualBox guest additions rely on an out-of-tree kernel module
   # which lags behind kernel releases, potentially causing broken builds.
-  virtualisation.virtualbox.guest.enable = false;
+  virtualisation.virtualbox.guest.enable = lib.mkForce false;
 
   # Enable plymouth
   boot.plymouth.enable = true;
