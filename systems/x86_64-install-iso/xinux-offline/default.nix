@@ -1,6 +1,14 @@
-{ inputs, system, pkgs, config, lib, xinux, ... }:
+{
+  inputs,
+  system,
+  pkgs,
+  config,
+  lib,
+  xinux,
+  ...
+}:
 
-{ 
+{
   # Enable debug mode for development purposes
   xinux.debug.enable = true;
 

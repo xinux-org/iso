@@ -5,7 +5,8 @@
   inputs,
   system,
   ...
-}: {
+}:
+{
   imports = [
     ./base.nix
     ./graphical.nix

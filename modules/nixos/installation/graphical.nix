@@ -5,12 +5,14 @@
   inputs,
   system,
   ...
-}: let
+}:
+let
   xeonitte-autostart = pkgs.makeAutostartItem {
     name = "org.xinux.Xeonitte";
     package = inputs.xeonitte.packages.${system}.xeonitte;
   };
-in {
+in
+{
   xeonitte.enable = true;
 
   services.desktopManager.gnome = {
@@ -31,7 +33,7 @@ in {
       sleep-inactive-battery-type='nothing'
     '';
 
-    extraGSettingsOverridePackages = [pkgs.gnome-settings-daemon];
+    extraGSettingsOverridePackages = [ pkgs.gnome-settings-daemon ];
   };
 
   services.displayManager = {
