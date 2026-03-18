@@ -1,6 +1,8 @@
 { inputs, system, pkgs, config, lib, xinux, ... }:
 
-{
+{ 
+  networking.hostName = "offline-target";
+
   # Enable debug mode for development purposes
   xinux.debug.enable = true;
 

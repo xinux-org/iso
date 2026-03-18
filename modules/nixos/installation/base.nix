@@ -1,4 +1,11 @@
-{ pkgs, config, lib, inputs, system, ... }:
+{
+  pkgs,
+  config,
+  lib,
+  inputs,
+  system,
+  ...
+}:
 {
   # Whitelist wheel users to do anything
   # This is useful for things like pkexec
@@ -14,7 +21,7 @@
     });
   '';
 
-  boot.kernelPackages = lib.mkForce config.boot.zfs.package.latestCompatibleLinuxPackages;
+  boot.kernelPackages = lib.mkForce pkgs.linuxPackages_latest;
 
   environment.systemPackages = with pkgs; [
     firefox
@@ -32,13 +39,17 @@
   i18n.defaultLocale = "uz_UZ.UTF-8";
   i18n.supportedLocales = [ "all" ];
 
-  networking.hostName = "xinux";
+  networking.hostName = lib.mkDefault "xinux";
   # networking.wireless.enable = false;
 
   users.users = {
     xinux = {
       isNormalUser = true;
-      extraGroups = [ "wheel" "networkmanager" "video" ];
+      extraGroups = [
+        "wheel"
+        "networkmanager"
+        "video"
+      ];
       # Allow the graphical user to login without password
       initialHashedPassword = "";
     };
@@ -49,5 +60,5 @@
       group = "nixos";
     };
   };
-  users.groups.nixos = {};
+  users.groups.nixos = { };
 }
