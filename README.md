@@ -15,13 +15,13 @@ Xinux is a NixOS based Linux distribution focused on beginner friendliness and e
 ### Other builds
 ```bash
 # Virtualbox
-nix build .#nixosConfigurations.xinux-virtualbox.config.system.build.images.iso
+nix build .#virtualboxConfigurations.xinux-virtualbox.config.system.build.images.iso
 
 # Vm
-nix build .#nixosConfigurations.xinux-vm.config.system.build.images.iso
+nix build .#vmConfigurations.xinux-vm.config.system.build.images.iso
 
 # Offline install coming soon...
-nix build .#nixosConfigurations.xinux-offline.config.system.build.images.iso
+nix build .#install-isoCnfigurations.xinux-offline.config.system.build.images.iso
 ```
 
 ## Development
