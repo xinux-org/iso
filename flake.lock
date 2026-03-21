@@ -1159,11 +1159,11 @@
         "xinux-lib": "xinux-lib"
       },
       "locked": {
-        "lastModified": 1773014448,
-        "narHash": "sha256-k84QBM02cTaKJYp1qVcmNbjbLveQC0GwLbSB+6G0RfA=",
+        "lastModified": 1774064107,
+        "narHash": "sha256-ijNyZ+66JJU0/vCTgywEmhZqoKeFDzXXV6hJPONhFz4=",
         "owner": "xinux-org",
         "repo": "nix-data",
-        "rev": "05a4055f7f6dd69a7add6d08f1f065cf59ce60ad",
+        "rev": "5a3a94c7350a1cbd973c268a7f23b116247ba950",
         "type": "github"
       },
       "original": {
