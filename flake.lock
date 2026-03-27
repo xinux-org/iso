@@ -2001,11 +2001,11 @@
         "xinux-tour": "xinux-tour"
       },
       "locked": {
-        "lastModified": 1773827006,
-        "narHash": "sha256-DMi7B/pkiRMZKPceR/KovWs/3FIOgqcaAKzm35+NEJE=",
+        "lastModified": 1774608121,
+        "narHash": "sha256-R0Wt+5c6w3TMlwaSM5hRDtzAG61LFAqZEcmvo/xS+XE=",
         "owner": "xinux-org",
         "repo": "modules",
-        "rev": "2b2f624cbe6c2f800bd3a1f0f754122333264fa0",
+        "rev": "29241b9e3e48864b63d69e59f4365eac5fb90a85",
         "type": "github"
       },
       "original": {
