@@ -1,0 +1,20 @@
+name: "test build ISO"
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "*"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: testing
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: test build
+        id: build
+        run: |
+          nix build .#install-isoConfigurations.xinux-iso.config.system.build.images.iso --show-trace
