@@ -1161,15 +1161,17 @@
       "locked": {
         "lastModified": 1774064107,
         "narHash": "sha256-ijNyZ+66JJU0/vCTgywEmhZqoKeFDzXXV6hJPONhFz4=",
-        "owner": "xinux-org",
-        "repo": "nix-data",
+        "ref": "main",
         "rev": "5a3a94c7350a1cbd973c268a7f23b116247ba950",
-        "type": "github"
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/nix-data"
       },
       "original": {
-        "owner": "xinux-org",
-        "repo": "nix-data",
-        "type": "github"
+        "ref": "main",
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/nix-data"
       }
     },
     "nix-software-center": {
@@ -1185,15 +1187,17 @@
       "locked": {
         "lastModified": 1773014120,
         "narHash": "sha256-7EeW50+Avym+H6Ha/vSgEXT1IlXpMCq+4iesVB0p1Ss=",
-        "owner": "xinux-org",
-        "repo": "software-center",
+        "ref": "main",
         "rev": "e9a2c3584b82fbcb636098bbb6c40305f9325af6",
-        "type": "github"
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/software-center"
       },
       "original": {
-        "owner": "xinux-org",
-        "repo": "software-center",
-        "type": "github"
+        "ref": "main",
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/software-center"
       }
     },
     "nixos-appstream-data": {
@@ -1226,18 +1230,19 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1774604890,
-        "narHash": "sha256-FEuvGWSdsFeGlrJ2fLziJqtmfb9gJknUOOXjy45Td58=",
-        "owner": "xinux-org",
-        "repo": "nixpkgs",
-        "rev": "07f80999d815732724695a39bd22664b03dc8d30",
-        "type": "github"
+        "lastModified": 1774868798,
+        "narHash": "sha256-t5dttnVsfRSm7+0WLjLn4JFDwErF3TCE+R5YIVqpBLE=",
+        "ref": "nixos-unstable",
+        "rev": "5464c97106ce348581b4d93bfea95ea71e2dd5ea",
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/nixpkgs"
       },
       "original": {
-        "owner": "xinux-org",
         "ref": "nixos-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/nixpkgs"
       }
     },
     "nixpkgs-lib": {
@@ -1720,15 +1725,17 @@
       "locked": {
         "lastModified": 1773015399,
         "narHash": "sha256-CkDMVNryOKIkiY0b81MMjk+0lU7U1NZe9el6meV2eM0=",
-        "owner": "xinux-org",
-        "repo": "xeonitte",
+        "ref": "main",
         "rev": "948ac10356b19585f9de392b21a4694117f97d76",
-        "type": "github"
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/xeonitte"
       },
       "original": {
-        "owner": "xinux-org",
-        "repo": "xeonitte",
-        "type": "github"
+        "ref": "main",
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/xeonitte"
       }
     },
     "xin": {
@@ -1743,15 +1750,17 @@
       "locked": {
         "lastModified": 1773014165,
         "narHash": "sha256-KjOF4wZv2JTGoVZXsCuVTZjoyn18+6Lk/IIM49CoUpE=",
-        "owner": "xinux-org",
-        "repo": "xin",
+        "ref": "main",
         "rev": "1a1ee9ce95db9969b4d26bfebbd856d327c25396",
-        "type": "github"
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/xin"
       },
       "original": {
-        "owner": "xinux-org",
-        "repo": "xin",
-        "type": "github"
+        "ref": "main",
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/xin"
       }
     },
     "xinux-lib": {
@@ -1817,15 +1826,17 @@
       "locked": {
         "lastModified": 1773736097,
         "narHash": "sha256-vrnTlpJqQZg/hlct3dyvp2cBwj4cIsTrv3ylqjQNByM=",
-        "owner": "xinux-org",
-        "repo": "lib",
+        "ref": "main",
         "rev": "d0ebe6137d95d53c4e060517108a7902b0920535",
-        "type": "github"
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/lib"
       },
       "original": {
-        "owner": "xinux-org",
-        "repo": "lib",
-        "type": "github"
+        "ref": "main",
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/lib"
       }
     },
     "xinux-lib_4": {
@@ -2001,17 +2012,19 @@
         "xinux-tour": "xinux-tour"
       },
       "locked": {
-        "lastModified": 1774608121,
-        "narHash": "sha256-R0Wt+5c6w3TMlwaSM5hRDtzAG61LFAqZEcmvo/xS+XE=",
-        "owner": "xinux-org",
-        "repo": "modules",
-        "rev": "29241b9e3e48864b63d69e59f4365eac5fb90a85",
-        "type": "github"
+        "lastModified": 1774876739,
+        "narHash": "sha256-kml9Y8cZAVmH4vxD6P20dfjzqD4WCCSlqxV6MbDTSVc=",
+        "ref": "main",
+        "rev": "5343bce7436f60c2fa14508a6ad790153f896be5",
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
       "original": {
-        "owner": "xinux-org",
-        "repo": "modules",
-        "type": "github"
+        "ref": "main",
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       }
     },
     "xinux-tour": {

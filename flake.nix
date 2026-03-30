@@ -1,20 +1,22 @@
 {
   inputs = {
-    nixpkgs.url = "github:xinux-org/nixpkgs/nixos-unstable";
+    # nixpkgs.url = "github:xinux-org/nixpkgs/nixos-unstable";
+    nixpkgs.url = "git+https://git.oss.uzinfocom.uz/xinux/nixpkgs?ref=nixos-unstable&shallow=1";
+
     xinux-lib = {
-      url = "github:xinux-org/lib";
+      url = "git+https://git.oss.uzinfocom.uz/xinux/lib?ref=main&shallow=1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     xinux-modules = {
-      url = "github:xinux-org/modules";
+      url = "git+https://git.oss.uzinfocom.uz/xinux/modules?ref=main&shallow=1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     xeonitte = {
-      url = "github:xinux-org/xeonitte/";
+      url = "git+https://git.oss.uzinfocom.uz/xinux/xeonitte?ref=main&shallow=1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-data = {
-      url = "github:xinux-org/nix-data";
+      url = "git+https://git.oss.uzinfocom.uz/xinux/nix-data?ref=main&shallow=1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     uz-xkb = {
@@ -33,6 +35,7 @@
         nix-data.nixosModules.nix-data
         xeonitte.nixosModules.xeonitte
         xinux-modules.nixosModules.gnome
+        xinux-modules.nixosModules.branding
         xinux-modules.nixosModules.kernel
         xinux-modules.nixosModules.networking
         xinux-modules.nixosModules.pipewire
