@@ -1498,10 +1498,10 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1774879154,
-        "narHash": "sha256-aoHR1e8EVdRhZVdqF1dU/x6sTpWW8bAWszXbRIQjl7E=",
+        "lastModified": 1775242034,
+        "narHash": "sha256-GOVNVaVMNbLLODGWtY3XpIuii6ucD9LCqM2Sg2x8I9Y=",
         "ref": "main",
-        "rev": "8e8dbdf6549e33cd6a7277eb16ca587cc071761e",
+        "rev": "066b212dd867d273f0fc66ad3ac8e70cfe6d270a",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/xeonitte"
