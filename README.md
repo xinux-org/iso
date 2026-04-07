@@ -14,6 +14,9 @@ Xinux is a NixOS based Linux distribution focused on beginner friendliness and e
 
 ### Other builds
 ```bash
+# aarch64-linux. Not yet sure if it works...
+nix build .#install-isoCnfigurations.xinux-arm-iso.config.system.build.images.iso
+
 # Virtualbox
 nix build .#virtualboxConfigurations.xinux-virtualbox.config.system.build.images.virtualbox 
 
@@ -22,6 +25,7 @@ nix build .#vmConfigurations.xinux-vm.config.system.build.images.vm
 
 # Offline install coming soon...
 nix build .#install-isoCnfigurations.xinux-offline.config.system.build.images.iso
+
 ```
 
 ## Development
