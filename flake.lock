@@ -1762,10 +1762,10 @@
         "xinux-tour": "xinux-tour"
       },
       "locked": {
-        "lastModified": 1776543979,
-        "narHash": "sha256-FFdMQvzC1wJZKlHh3Ev9kFSQyKWpUgCBPXSLBIRssqo=",
+        "lastModified": 1776667713,
+        "narHash": "sha256-V/CJKeTLoN/Qw90cAPZ5T1Pjo/5o+8Doyq1RiOEgDDY=",
         "ref": "main",
-        "rev": "210403d7211a2da7336d8ab1599c8e698bd3e903",
+        "rev": "0df816f0e583c90496b89492a2734b2719ea4866",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
