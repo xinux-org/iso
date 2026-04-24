@@ -61,4 +61,6 @@
     };
   };
   users.groups.nixos = { };
+
+  system.stateVersion = "26.05";
 }
