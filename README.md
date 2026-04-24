@@ -12,6 +12,8 @@ Xinux is a NixOS based Linux distribution focused on beginner friendliness and e
 2. `nixos-rebuild build-image --image-variant iso-installer --flake .#xinux --show-trace`
 3. The resulting ISO file will be linked in `result/iso/xinux-<version>.iso`
 
+## Documentation
+This repo uses [nixos-generators project](https://github.com/nix-community/nixos-generators)
 ### Other builds
 ```bash
 # aarch64-linux. Not yet sure if it works...
