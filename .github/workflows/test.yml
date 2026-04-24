@@ -17,4 +17,4 @@ jobs:
       - name: test build
         id: build
         run: |
-          nix build .#install-isoConfigurations.xinux.config.system.build.images.iso --show-trace
+          nixos-rebuild build-image --image-variant iso-installer --flake .#xinux --show-trace
