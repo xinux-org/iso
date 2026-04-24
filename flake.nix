@@ -54,9 +54,7 @@
       hydraJobs = {
         # xinux = self.install-isoConfigurations.xinux.config.system.build.images.iso;
         # xinux-arm-iso = self.install-isoConfigurations.xinux-arm-iso.config.system.build.images.iso;
-        inherit (self.nixosConfigurations.xinux.config.system.build.images.iso-installer)
-          iso-installer
-          ;
+        xinux = self.nixosConfigurations.xinux.config.system.build.images.iso-installer;
       };
     };
 }
