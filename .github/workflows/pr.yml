@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Build NixOS configuration
-        run: nixos-rebuild build-image --image-variant iso-installer --flake .#xinux --show-trace
+        run: nix build .#nixosConfigurations.xinux.config.system.build.images.iso-installer --show-trace
 
   update-merge:
     name: "Merge Update PRs"
