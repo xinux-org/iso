@@ -48,9 +48,9 @@
       alias.shells.default = "iso";
 
       hydraJobs = {
-        # xinux-iso = self.install-isoConfigurations.xinux-iso.config.system.build.images.iso;
+        # xinux = self.install-isoConfigurations.xinux.config.system.build.images.iso;
         # xinux-arm-iso = self.install-isoConfigurations.xinux-arm-iso.config.system.build.images.iso;
-        inherit (self.install-isoConfigurations.xinux-iso.config.system.build.images) iso;
+        inherit (self.install-isoConfigurations.xinux.config.system.build.images) iso;
       };
     };
 }
