@@ -21,7 +21,13 @@
     });
   '';
 
-  boot.kernelPackages = lib.mkForce pkgs.linuxPackages_latest;
+  security.sudo-rs.enable = true;
+  security.sudo.enable = false;
+
+  #> configure: error:
+  #     >   *** Cannot build against kernel version 7.0.0.
+  #     >  *** The maximum supported kernel version is 6.19.
+  boot.kernelPackages = lib.mkForce pkgs.linuxPackages_6_19;
 
   environment.systemPackages = with pkgs; [
     firefox
