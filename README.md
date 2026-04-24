@@ -9,22 +9,25 @@ Xinux is a NixOS based Linux distribution focused on beginner friendliness and e
 ## How to build iso
 
 1. Clone this repository and navigate to the project directory
-2. `nix build .#install-isoConfigurations.xinux.config.system.build.images.iso`
+2. `nixos-rebuild build-image --image-variant iso-installer --flake .#xinux --show-trace`
 3. The resulting ISO file will be linked in `result/iso/xinux-<version>.iso`
 
 ### Other builds
 ```bash
 # aarch64-linux. Not yet sure if it works...
-nix build .#install-isoCnfigurations.xinux-arm-iso.config.system.build.images.iso
+nixos-rebuild build-image --image-variant sd-card --system aarch64-linux --flake .#xinux --show-trace
 
 # Virtualbox
-nix build .#virtualboxConfigurations.xinux-virtualbox.config.system.build.images.virtualbox 
+nixos-rebuild build-image --image-variant virtualbox --flake .#xinux --show-trace
 
 # Vm
-nix build .#vmConfigurations.xinux-vm.config.system.build.images.vm
+nixos-rebuild build-vm --flake .#xinux --show-trace
+
+# VMWARE
+nixos-rebuild build-image --image-variant vmware --flake .#xinux --show-trace
 
 # Offline install coming soon...
-nix build .#install-isoCnfigurations.xinux-offline.config.system.build.images.iso
+# nix build .#install-isoCnfigurations.xinux-offline.config.system.build.images.iso
 
 ```
 

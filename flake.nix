@@ -46,8 +46,10 @@
 
       src = ./.;
       alias.shells.default = "iso";
-      packages.x86_64-linux.xinux =
-        self.nixosConfigurations.xinux.config.system.build.images.iso-installer;
+      packages = {
+        x86_64-linux.xinux = self.nixosConfigurations.xinux.config.system.build.images.iso-installer;
+        # x86_64-linux.xinux = self.nixosConfigurations.xinux.config.system.build.images.iso-installer;
+      };
 
       hydraJobs = {
         # xinux = self.install-isoConfigurations.xinux.config.system.build.images.iso;
