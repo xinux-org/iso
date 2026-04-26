@@ -11,8 +11,11 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v6
 
-      - name: Check up flake configuration
-        run: nix flake check --all-systems --show-trace
+      - name: Check up iso-biosboot
+        run: nix build .#checks.x86_64-linux.iso-biosboot --show-trace
+
+      - name: Check up iso-efiboot
+        run: nix build .#checks.x86_64-linux.iso-efiboot --show-trace
 
   build-iso:
     name: "Build Image"
@@ -23,13 +26,16 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Build NixOS configuration
-        run: nix build .#nixosConfigurations.xinux.config.system.build.images.iso-installer --show-trace
+        run: nix build
+          .#nixosConfigurations.xinux.config.system.build.images.iso-installer
+          --show-trace
 
   update-merge:
     name: "Merge Update PRs"
     needs: [test-flake, build-iso]
     runs-on: ubuntu-latest
-    if: ${{ github.event.pull_request.user.login == 'xinuxmgrbot' && github.event_name == 'pull_request'}}
+    if: ${{ github.event.pull_request.user.login == 'xinuxmgrbot' &&
+      github.event_name == 'pull_request'}}
 
     steps:
       - name: Enable auto-merge for Update PRs

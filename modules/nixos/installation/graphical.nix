@@ -1,17 +1,8 @@
 {
   pkgs,
   lib,
-  config,
-  inputs,
-  system,
   ...
 }:
-let
-  xeonitte-autostart = pkgs.makeAutostartItem {
-    name = "org.xinux.Xeonitte";
-    package = inputs.xeonitte.packages.${system}.xeonitte;
-  };
-in
 {
   xeonitte.enable = true;
 

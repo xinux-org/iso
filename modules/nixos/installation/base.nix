@@ -7,13 +7,8 @@
   ...
 }:
 {
-  # # the internal disk label
-  # isoImage.volumeID = "xinux-${config.isoImage.edition}-${config.system.nixos.release}";
-
-  # # the .iso filename
-  # image.baseName = lib.mkForce "xinux${
-  #   lib.optionalString (config.isoImage.edition != "") "-${config.isoImage.edition}"
-  # }-${config.system.nixos.label}-${pkgs.stdenv.hostPlatform.system}";
+  # Allow unfree packages
+  nixpkgs.config.allowUnfree = true;
 
   # Whitelist wheel users to do anything
   # This is useful for things like pkexec
@@ -53,7 +48,7 @@
   i18n.defaultLocale = "uz_UZ.UTF-8";
   i18n.supportedLocales = [ "all" ];
 
-  networking.hostName = lib.mkDefault "xinux";
+  networking.hostName = "xinux";
   # networking.wireless.enable = false;
 
   users.users = {

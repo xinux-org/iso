@@ -10,8 +10,8 @@ pkgs.testers.runNixOSTest {
   nodes.machine =
     { ... }:
     {
-      imports = with inputs.self; [
-        nixosModules.installation
+      imports = with inputs; [
+        self.nixosModules.installation
         nix-data.nixosModules.nix-data
         xeonitte.nixosModules.xeonitte
         xinux-modules.nixosModules.biosboot
