@@ -27,7 +27,7 @@
 
   outputs =
     { self, ... }@inputs:
-    inputs.xinux-lib.mkFlake rec {
+    inputs.xinux-lib.mkFlake {
       inherit inputs;
       channels-config.allowUnfree = true;
 
@@ -47,7 +47,7 @@
       src = ./.;
       alias.shells.default = "iso";
       packages = {
-        # after writing iso disk, volumeID should be also xinux instead of nixos. See below
+        # after writing iso disk, volumeID should be also xinux instead of nixos. See
         # https://github.com/xinux-org/nixpkgs/blob/1167ddc8c033d28b9d07afccba2708af1f73cfc1/nixos/modules/installer/cd-dvd/iso-image.nix#L588
         x86_64-linux.xinux =
           inputs.self.nixosConfigurations.xinux.config.system.build.images.iso-installer.overrideAttrs
