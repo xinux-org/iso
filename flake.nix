@@ -47,14 +47,16 @@
       src = ./.;
       alias.shells.default = "iso";
       packages = {
-        x86_64-linux.xinux = self.nixosConfigurations.xinux.config.system.build.images.iso-installer;
-        # x86_64-linux.xinux = self.nixosConfigurations.xinux.config.system.build.images.iso-installer;
+        x86_64-linux.xinux =
+          inputs.self.nixosConfigurations.xinux.config.system.build.images.iso-installer.overrideAttrs
+            (oldAttrs: {
+              postInstall = (oldAttrs.postInstall or "") + ''
+                # Rename the resulting .iso file
+                mv $out/iso/*.iso $out/iso/xinux-${inputs.self.nixosConfigurations.xinux.config.system.nixos.release}-${inputs.nixpkgs.legacyPackages.x86_64-linux.stdenv.hostPlatform.uname.processor}.iso
+              '';
+            });
       };
 
-      hydraJobs = {
-        # xinux = self.install-isoConfigurations.xinux.config.system.build.images.iso;
-        # xinux-arm-iso = self.install-isoConfigurations.xinux-arm-iso.config.system.build.images.iso;
-        xinux = self.nixosConfigurations.xinux.config.system.build.images.iso-installer;
-      };
+      hydraJobs = inputs.self.packages.x86_64-linux;
     };
 }

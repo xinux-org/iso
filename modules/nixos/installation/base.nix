@@ -7,6 +7,14 @@
   ...
 }:
 {
+  # # the internal disk label
+  # isoImage.volumeID = "xinux-${config.isoImage.edition}-${config.system.nixos.release}";
+
+  # # the .iso filename
+  # image.baseName = lib.mkForce "xinux${
+  #   lib.optionalString (config.isoImage.edition != "") "-${config.isoImage.edition}"
+  # }-${config.system.nixos.label}-${pkgs.stdenv.hostPlatform.system}";
+
   # Whitelist wheel users to do anything
   # This is useful for things like pkexec
   #
