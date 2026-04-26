@@ -7,6 +7,10 @@
   ...
 }:
 {
+  image.modules = {
+    isoImage.volumeID = "xinux-${config.isoImage.edition}-${config.system.nixos.release}-${pkgs.stdenv.hostPlatform.uname.processor}";
+    image.baseName = "xinux-${config.isoImage.edition}-${config.system.nixos.release}-${pkgs.stdenv.hostPlatform.uname.processor}";
+  };
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 

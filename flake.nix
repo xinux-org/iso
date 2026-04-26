@@ -49,14 +49,7 @@
       packages = {
         # after writing iso disk, volumeID should be also xinux instead of nixos. See
         # https://github.com/xinux-org/nixpkgs/blob/1167ddc8c033d28b9d07afccba2708af1f73cfc1/nixos/modules/installer/cd-dvd/iso-image.nix#L588
-        x86_64-linux.xinux =
-          inputs.self.nixosConfigurations.xinux.config.system.build.images.iso-installer.overrideAttrs
-            (oldAttrs: {
-              postInstall = (oldAttrs.postInstall or "") + ''
-                # Rename the resulting .iso file
-                mv $out/iso/*.iso $out/iso/xinux-${inputs.self.nixosConfigurations.xinux.config.system.nixos.release}-${inputs.nixpkgs.legacyPackages.x86_64-linux.stdenv.hostPlatform.uname.processor}.iso
-              '';
-            });
+        x86_64-linux.xinux = inputs.self.nixosConfigurations.xinux.config.system.build.images.iso-installer;
       };
 
       hydraJobs = inputs.self.packages.x86_64-linux;
