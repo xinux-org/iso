@@ -12,7 +12,7 @@
     isoImage.volumeID = lib.mkForce "xinux-${config.system.nixos.release}-${pkgs.stdenv.hostPlatform.uname.processor}";
     image.baseName = lib.mkForce "xinux-${config.system.nixos.label}-${pkgs.stdenv.hostPlatform.uname.processor}-linux";
     # future work: https://github.com/xinux-org/nixpkgs/blob/1167ddc8c033d28b9d07afccba2708af1f73cfc1/nixos/modules/image/file-options.nix#L25-L29
-    image.fileName = lib.mkForce "xinux-${config.system.nixos.label}-${pkgs.stdenv.hostPlatform.uname.processor}.${config.image.extension}";
+    image.fileName = lib.mkForce "${config.image.baseName}.${config.image.extension}";
   };
 
   # Allow unfree packages
