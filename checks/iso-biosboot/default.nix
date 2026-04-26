@@ -14,6 +14,7 @@ pkgs.testers.runNixOSTest {
         nixosModules.installation
         nix-data.nixosModules.nix-data
         xeonitte.nixosModules.xeonitte
+        xinux-modules.nixosModules.biosboot
         xinux-modules.nixosModules.gnome
         xinux-modules.nixosModules.branding
         xinux-modules.nixosModules.kernel
@@ -23,14 +24,6 @@ pkgs.testers.runNixOSTest {
         xinux-modules.nixosModules.xinux
         xinux-modules.nixosModules.metadata
       ];
-
-      # virtually test nixosConfiguration.
-      # I think we do not need this
-      # fileSystems."/" = {
-      #   # note this should be dynamic based on your disk
-      #   device = "/dev/sdb3";
-      #   fsType = "ext4";
-      # };
     };
 
   node = {
