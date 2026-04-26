@@ -46,13 +46,10 @@
 
       src = ./.;
       alias.shells.default = "iso";
-      # packages.x86_64-linux = {
-      #   default = self.packages.x86_64-linux.iso;
-      #   iso = inputs.self.nixosConfigurations.xinux.config.system.build.images.iso-installer;
-      # };
+      alias.packages.default = "iso";
 
       hydraJobs = {
-        iso = inputs.self.nixosConfigurations.xinux.config.system.build.images.iso-installer;
+        iso = self.nixosConfigurations.xinux.config.system.build.images.iso-installer;
       };
     };
 }
