@@ -1058,10 +1058,10 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1776962708,
-        "narHash": "sha256-fNaXk7OKmgHN1Vf3LZNc43WWSksbghQjMORjcpIhISI=",
+        "lastModified": 1777096953,
+        "narHash": "sha256-8/podi8tNi3UVryFyNEX54SgjQODP0Y24Ek1+kSNE48=",
         "ref": "nixos-unstable",
-        "rev": "fbedf07e6269699ad398660f3918cebab1517ac3",
+        "rev": "459e5fe503bda1346eaaf989d8568aed58488f78",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/nixpkgs"
@@ -1498,10 +1498,10 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1775572952,
-        "narHash": "sha256-tc1udSuu5A2Vu2Rm0nxgShVAbn9eg2DbFTW6Glc+AD8=",
+        "lastModified": 1777066076,
+        "narHash": "sha256-IZKfKhmm/tfth74cWiVHhnxiTGVOM9sT5DqLxfNdrOA=",
         "ref": "main",
-        "rev": "06755ac388e7d0515223ef693b6d36f07ae59fc2",
+        "rev": "e6cda977dc667a3e2457fc7af23162e446a49eb1",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/xeonitte"
@@ -1762,10 +1762,10 @@
         "xinux-tour": "xinux-tour"
       },
       "locked": {
-        "lastModified": 1777034513,
-        "narHash": "sha256-TfwH/+Bdz82WTU2S1Mi+qiXu8ZUoDA+wS0iU8yNyWl0=",
+        "lastModified": 1777104071,
+        "narHash": "sha256-vOsBlN20GgCPxMl15KXwblTQVkncRf1hTgi0e71jd8c=",
         "ref": "main",
-        "rev": "222b179ca90f4838a1420a4acddb6a5678a25faa",
+        "rev": "140535f724531476cf77928293f1878271667a47",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
