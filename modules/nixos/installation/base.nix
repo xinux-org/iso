@@ -3,15 +3,16 @@
   config,
   lib,
   inputs,
-  system,
   ...
 }:
 {
-  image.modules = {
-    isoImage.isoBaseName = lib.mkForce "xinux";
-    isoImage.volumeID = lib.mkForce "xinux-${config.isoImage.edition}-${config.system.nixos.release}-${pkgs.stdenv.hostPlatform.uname.processor}";
-    image.baseName = lib.mkForce "xinux-${config.isoImage.edition}-${config.system.nixos.release}-${pkgs.stdenv.hostPlatform.uname.processor}";
+  image.modules.iso-installer = {
+    # xinux-$EDITION-$RELEASE-$ARCH
+    isoImage.volumeID = lib.mkForce "xinux-${config.system.nixos.release}-${pkgs.stdenv.hostPlatform.uname.processor}";
+    image.baseName = lib.mkForce "xinux-${config.system.nixos.label}-${pkgs.stdenv.hostPlatform.uname.processor}";
+    image.fileName = lib.mkForce "xinux-${config.system.nixos.label}-${pkgs.stdenv.hostPlatform.uname.processor}.iso";
   };
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
