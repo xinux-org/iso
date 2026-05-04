@@ -6,14 +6,14 @@
   ...
 }:
 {
-  image.modules.iso-installer = {
-    # xinux-$EDITION-$RELEASE-$ARCH
-    # see more: # https://github.com/xinux-org/nixpkgs/blob/1167ddc8c033d28b9d07afccba2708af1f73cfc1/nixos/modules/installer/cd-dvd/iso-image.nix
-    isoImage.volumeID = lib.mkForce "xinux-${config.system.nixos.release}-${pkgs.stdenv.hostPlatform.uname.processor}";
-    image.baseName = lib.mkForce "xinux-${config.system.nixos.label}-${pkgs.stdenv.hostPlatform.uname.processor}-linux";
-    # future work: https://github.com/xinux-org/nixpkgs/blob/1167ddc8c033d28b9d07afccba2708af1f73cfc1/nixos/modules/image/file-options.nix#L25-L29
-    image.fileName = lib.mkForce "${config.image.baseName}.${config.image.extension}";
-  };
+  # image.modules.iso-installer = {
+  #   # xinux-$EDITION-$RELEASE-$ARCH
+  #   # see more: # https://github.com/xinux-org/nixpkgs/blob/1167ddc8c033d28b9d07afccba2708af1f73cfc1/nixos/modules/installer/cd-dvd/iso-image.nix
+  #   isoImage.volumeID = lib.mkForce "xinux-${config.system.nixos.release}-${pkgs.stdenv.hostPlatform.uname.processor}";
+  #   image.baseName = lib.mkForce "xinux-${config.system.nixos.label}-${pkgs.stdenv.hostPlatform.uname.processor}-linux";
+  #   # future work: https://github.com/xinux-org/nixpkgs/blob/1167ddc8c033d28b9d07afccba2708af1f73cfc1/nixos/modules/image/file-options.nix#L25-L29
+  #   image.fileName = lib.mkForce "${config.image.baseName}.${config.image.extension}";
+  # };
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
