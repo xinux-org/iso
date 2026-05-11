@@ -1,21 +1,26 @@
 {
   inputs = {
-    nixpkgs.url = "github:xinux-org/nixpkgs/nixos-25.11";
+    nixpkgs.url = "git+https://git.oss.uzinfocom.uz/xinux/nixpkgs?ref=nixos-25.11&shallow=1";
+
     xinux-lib = {
-      url = "github:xinux-org/lib/release-25.11";
+      url = "git+https://git.oss.uzinfocom.uz/xinux/lib?ref=release-25.11&shallow=1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     xinux-modules = {
-      url = "github:xinux-org/modules/release-25.11";
+      url = "git+https://git.oss.uzinfocom.uz/xinux/modules?ref=release-25.11&shallow=1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     xeonitte = {
-      url = "github:xinux-org/xeonitte/release-25.11";
+      url = "git+https://git.oss.uzinfocom.uz/xinux/xeonitte?ref=release-25.11&shallow=1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-data = {
-      url = "github:xinux-org/nix-data/release-25.11";
+      url = "git+https://git.oss.uzinfocom.uz/xinux/nix-data?ref=release-25.11&shallow=1";
       inputs.nixpkgs.follows = "nixpkgs";
+    };
+    uz-xkb = {
+      url = "github:itsbilolbek/uzbek-linux-keyboard";
+      flake = false;
     };
     nixos-generators = {
       url = "github:nix-community/nixos-generators";
@@ -23,7 +28,8 @@
     };
   };
 
-  outputs = inputs:
+  outputs =
+    inputs:
     inputs.xinux-lib.mkFlake rec {
       inherit inputs;
       channels-config.allowUnfree = true;
