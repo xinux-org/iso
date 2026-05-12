@@ -56,7 +56,7 @@
   i18n.defaultLocale = "uz_UZ.UTF-8";
   i18n.supportedLocales = [ "all" ];
 
-  networking.hostName = "xinux";
+  networking.hostName = lib.mkDefault "xinux";
   # networking.wireless.enable = false;
 
   users.users = {
