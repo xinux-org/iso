@@ -1,16 +1,17 @@
 {
   pkgs,
   lib,
+  config,
   ...
 }:
 {
-  xeonitte.enable = true;
+  xeonitte.enable = lib.mkIf config.xinux.iso.live.enable true;
 
   services.desktopManager.gnome = {
     # Add Firefox and other tools useful for installation to the launcher
     favoriteAppsOverride = ''
       [org.gnome.shell]
-      favorite-apps=[ 'firefox.desktop', 'org.gnome.Console.desktop', 'org.gnome.Nautilus.desktop', 'org.xinux.NixSoftwareCenter.desktop', 'gparted.desktop', 'org.xinux.Xeonitte.desktop' ]
+      favorite-apps=[ 'firefox.desktop', 'org.gnome.Console.desktop', 'org.gnome.Nautilus.desktop', 'org.xinux.NixSoftwareCenter.desktop'${lib.optionalString config.xinux.iso.live.enable ", 'gparted.desktop', 'org.xinux.Xeonitte.desktop'"} ]
     '';
 
     # Override GNOME defaults to disable GNOME tour and disable suspend
@@ -28,7 +29,7 @@
   };
 
   services.displayManager = {
-    autoLogin = {
+    autoLogin = lib.mkIf config.xinux.iso.live.enable {
       enable = true;
       user = "xinux";
     };
@@ -47,12 +48,12 @@
     };
   };
 
-  # VM guest additions to improve host-guest interaction
-  services.spice-vdagentd.enable = true;
-  services.qemuGuest.enable = true;
-  virtualisation.vmware.guest.enable = pkgs.stdenv.hostPlatform.isx86;
-  virtualisation.hypervGuest.enable = true;
-  services.xe-guest-utilities.enable = pkgs.stdenv.hostPlatform.isx86;
+  # VM guest additions to improve host-guest interaction (live-installer only)
+  services.spice-vdagentd.enable = lib.mkIf config.xinux.iso.live.enable true;
+  services.qemuGuest.enable = lib.mkIf config.xinux.iso.live.enable true;
+  virtualisation.vmware.guest.enable = lib.mkIf config.xinux.iso.live.enable pkgs.stdenv.hostPlatform.isx86;
+  virtualisation.hypervGuest.enable = lib.mkIf config.xinux.iso.live.enable true;
+  services.xe-guest-utilities.enable = lib.mkIf config.xinux.iso.live.enable pkgs.stdenv.hostPlatform.isx86;
   # The VirtualBox guest additions rely on an out-of-tree kernel module
   # which lags behind kernel releases, potentially causing broken builds.
   virtualisation.virtualbox.guest.enable = lib.mkForce false;

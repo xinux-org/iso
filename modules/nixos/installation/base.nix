@@ -24,7 +24,7 @@
   # WARNING: this is dangerous for systems
   # outside the installation-cd and shouldn't
   # be used anywhere else.
-  security.polkit.extraConfig = ''
+  security.polkit.extraConfig = lib.mkIf config.xinux.iso.live.enable ''
     polkit.addRule(function(action, subject) {
       if (subject.isInGroup("wheel")) {
         return polkit.Result.YES;
@@ -40,18 +40,21 @@
   #     >  *** The maximum supported kernel version is 6.19.
   boot.kernelPackages = lib.mkForce pkgs.linuxPackages;
 
-  environment.systemPackages = with pkgs; [
-    firefox
-    git
-    glibcLocales
-    # glxinfo
-    mesa-demos
-    gparted
-    nano
-    rsync
-    vim
-    helix
-  ];
+  environment.systemPackages =
+    (with pkgs; [
+      firefox
+      git
+      glibcLocales
+      # glxinfo
+      helix
+      mesa-demos
+      nano
+      rsync
+      vim
+    ])
+    ++ lib.optionals config.xinux.iso.live.enable (with pkgs; [
+      gparted
+    ]);
 
   i18n.defaultLocale = "uz_UZ.UTF-8";
   i18n.supportedLocales = [ "all" ];
@@ -67,8 +70,8 @@
         "networkmanager"
         "video"
       ];
-      # Allow the graphical user to login without password
-      initialHashedPassword = "";
+      # Allow the graphical user to login without password (live-installer only)
+      initialHashedPassword = lib.mkIf config.xinux.iso.live.enable "";
     };
     # Prevent default nixos user form appearing in the login screen
     nixos = {
