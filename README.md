@@ -21,7 +21,8 @@ This repo uses [nixos-generators](https://github.com/nix-community/nixos-generat
 # aarch64-linux
 nixos-rebuild build-image --image-variant iso-installer --flake .#xinux-arm --show-trace
 
-# aarch64-linux SD card image (no installer)
+# aarch64-linux SD card image
+# No installer, the default user/password is `xinux` (change after the first boot)
 nixos-rebuild build-image --image-variant sd-card --flake .#xinux-pi --show-trace
 
 # Virtualbox
@@ -77,7 +78,8 @@ nix build .#nixosConfigurations.xinux.config.system.build.images.iso-installer -
 # aarch64-linux
 nix build .#nixosConfigurations.xinux-arm.config.system.build.images.iso-installer --show-trace
 
-# aarch64-linux SD card image (no installer)
+# aarch64-linux SD card image
+# No installer, the default user/password is `xinux` (change after the first boot)
 nix build .#nixosConfigurations.xinux-pi.config.system.build.images.sd-card --show-trace
 
 # VirtualBox
