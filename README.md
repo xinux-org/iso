@@ -18,8 +18,11 @@ This repo uses [nixos-generators](https://github.com/nix-community/nixos-generat
 ### Other builds (on NixOS hosts)
 
 ```bash
-# aarch64-linux SD card image
-nixos-rebuild build-image --image-variant sd-card --flake .#xinux-arm --show-trace
+# aarch64-linux
+nixos-rebuild build-image --image-variant iso-installer --flake .#xinux-arm --show-trace
+
+# aarch64-linux SD card image (no installer)
+nixos-rebuild build-image --image-variant sd-card --flake .#xinux-pi --show-trace
 
 # Virtualbox
 nixos-rebuild build-image --image-variant virtualbox --flake .#xinux --show-trace
@@ -71,8 +74,11 @@ sudo systemctl restart nix-daemon
 # ISO installer (x86_64)
 nix build .#nixosConfigurations.xinux.config.system.build.images.iso-installer --show-trace
 
-# SD card image (aarch64)
-nix build .#nixosConfigurations.xinux-arm.config.system.build.images.sd-card --show-trace
+# aarch64-linux
+nix build .#nixosConfigurations.xinux-arm.config.system.build.images.iso-installer --show-trace
+
+# aarch64-linux SD card image (no installer)
+nix build .#nixosConfigurations.xinux-pi.config.system.build.images.sd-card --show-trace
 
 # VirtualBox
 nix build .#nixosConfigurations.xinux.config.system.build.images.virtualbox --show-trace
@@ -80,6 +86,29 @@ nix build .#nixosConfigurations.xinux.config.system.build.images.virtualbox --sh
 # VMware
 nix build .#nixosConfigurations.xinux.config.system.build.images.vmware --show-trace
 ```
+
+## Hardware requirements
+
+> **Note**
+> Only 64-bit processors are supported.
+
+### Xinux ISO (x86_64 and AArch64)
+
+|         | Minimum | Recommended
+| ------- | ------- | ---
+| RAM     | 8 GB    | 16 GB
+| Storage | 128 GB  | 256 GB
+
+### Xinux Pi
+
+The kernel-reserved CMA pool (256 MiB, placed inside the low 1 GiB DMA zone) and the GNOME desktop rule out sub-2 GB boards.
+Supported Raspberry Pi models:
+
+| Model | RAM
+| ----- | ---
+| Pi 4  | 2 GB+
+| Pi 5  | 4 GB+
+| CM4   | 2 GB+
 
 ## Development
 
