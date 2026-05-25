@@ -8,7 +8,6 @@
 }:
 {
   imports = [
-    ../iso-options.nix
     ./base.nix
     ./graphical.nix
   ];

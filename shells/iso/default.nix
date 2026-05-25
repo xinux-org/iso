@@ -3,7 +3,7 @@
   mkShell,
   stdenv,
   nixd,
-  alejandra,
+  nixfmt,
   statix,
   deadnix,
 }:
