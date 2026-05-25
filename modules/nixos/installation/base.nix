@@ -52,14 +52,17 @@
       rsync
       vim
     ])
-    ++ lib.optionals config.xinux.iso.live.enable (with pkgs; [
-      gparted
-    ]);
+    ++ lib.optionals config.xinux.iso.live.enable (
+      with pkgs;
+      [
+        gparted
+      ]
+    );
 
   i18n.defaultLocale = "uz_UZ.UTF-8";
   i18n.supportedLocales = [ "all" ];
 
-  networking.hostName = lib.mkDefault "xinux";
+  networking.hostName = lib.mkForce "xinux";
   # networking.wireless.enable = false;
 
   users.users = {
