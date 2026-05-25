@@ -14,15 +14,7 @@ pkgs.testers.runNixOSTest {
         self.nixosModules.installation
         nix-data.nixosModules.nix-data
         xeonitte.nixosModules.xeonitte
-        xinux-modules.nixosModules.biosboot
-        xinux-modules.nixosModules.gnome
-        xinux-modules.nixosModules.branding
-        xinux-modules.nixosModules.kernel
-        xinux-modules.nixosModules.networking
-        xinux-modules.nixosModules.pipewire
-        xinux-modules.nixosModules.printing
-        xinux-modules.nixosModules.xinux
-        xinux-modules.nixosModules.metadata
+        xinux-modules.nixosModules.meta
       ];
     };
 
