@@ -12,6 +12,8 @@ pkgs.testers.runNixOSTest {
     {
       imports = with inputs; [
         self.nixosModules.installation
+        self.nixosModules.debug
+        self.nixosModules.iso-options
         nix-data.nixosModules.nix-data
         xeonitte.nixosModules.xeonitte
         xinux-modules.nixosModules.meta
