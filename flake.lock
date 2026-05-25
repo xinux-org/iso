@@ -2126,15 +2126,16 @@
       "locked": {
         "lastModified": 1769262454,
         "narHash": "sha256-lHUuWiwt4CjBWm9y56fRGtdGVDzNz2370bUBYSl+Y8g=",
-        "owner": "itsbilolbek",
-        "repo": "uzbek-linux-keyboard",
+        "ref": "refs/heads/main",
         "rev": "7acf9b4f605ccc9a9148f73f997f49f351407f3b",
-        "type": "github"
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/mirrors/uzbek-linux-keyboard"
       },
       "original": {
-        "owner": "itsbilolbek",
-        "repo": "uzbek-linux-keyboard",
-        "type": "github"
+        "shallow": true,
+        "type": "git",
+        "url": "https://git.oss.uzinfocom.uz/mirrors/uzbek-linux-keyboard"
       }
     },
     "uz-xkb_2": {
@@ -2161,10 +2162,10 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1778304784,
-        "narHash": "sha256-GPNZ8/O7J0tyvYWW17cTPreRXRU6Pm33BmYTGBSaY/w=",
+        "lastModified": 1779725978,
+        "narHash": "sha256-ocLtk54dfEz0kdLN6NK8ncXlhZyD6LE+/xjXPTowIL0=",
         "ref": "main",
-        "rev": "b76ba7a54f5675d3fa54abc6dcc9411694289e9c",
+        "rev": "3c5cd2b911bbe840ab976498a4847a878e779dff",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/xeonitte"
@@ -2491,10 +2492,10 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1779712730,
-        "narHash": "sha256-hNUtSMJE9iGXl1Zd8hkulUUgFyh7XJRfmgYT538x6L8=",
+        "lastModified": 1779725405,
+        "narHash": "sha256-aKT5pxPzMARrLO67d/NO2VQ/vyl8UpMbFZbr1MelLVQ=",
         "ref": "main",
-        "rev": "d130b6e5290a56e8d293cd372b7aea422d82b6f2",
+        "rev": "6818fb30294edb2eb471d75b9abd2246dae17b85",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
