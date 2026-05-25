@@ -11,7 +11,7 @@
 mkShell {
   nativeBuildInputs = [
     nixd
-    alejandra
+    nixfmt
     statix
     deadnix
   ];

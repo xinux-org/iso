@@ -1,0 +1,30 @@
+name: Update Request CI
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update-request:
+    runs-on: native
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v6
+
+      - name: Update flake.lock
+        run: |
+          git config --global user.name "Uzinfocom Asssistant"
+          git config --global user.email "support@oss.uzinfocom.uz"
+          nix flake update --commit-lock-file --accept-flake-config
+
+      - name: Push changes
+        run: |
+          git config --global user.name "Uzinfocom Asssistant"
+          git config --global user.email "support@oss.uzinfocom.uz"
+          git remote rm origin
+          git remote add origin "https://support:$TOKEN@git.oss.uzinfocom.uz/xinux/iso.git"
+          git push --set-upstream origin main
+        env:
+          TOKEN: ${{ secrets.PAT }}
