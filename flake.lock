@@ -2315,10 +2315,10 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1779725978,
-        "narHash": "sha256-ocLtk54dfEz0kdLN6NK8ncXlhZyD6LE+/xjXPTowIL0=",
+        "lastModified": 1780038153,
+        "narHash": "sha256-7r/v67mGMlGncR089yYtvHIUfRxP8K4nmMw1cO4YOhg=",
         "ref": "main",
-        "rev": "3c5cd2b911bbe840ab976498a4847a878e779dff",
+        "rev": "fa24afd5353806e815b150e4652504bb635bbff2",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/xeonitte"
@@ -2616,10 +2616,10 @@
         "xinux-lib": "xinux-lib_8"
       },
       "locked": {
-        "lastModified": 1779914932,
-        "narHash": "sha256-zD3Eug5A68M3WXIGyISGbI7x+gmDEgnSy+TtvJfu0vM=",
+        "lastModified": 1780025071,
+        "narHash": "sha256-JMKeu2S37/1i+1pJy7i4AFmLOid+a8w5K4/ayQevJxY=",
         "ref": "main",
-        "rev": "b6ecedbf76eea1d2794809dea8eb49cc61f65b2a",
+        "rev": "cd0be93625d475b6585b18c73c2f28d740a4631e",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/module-manager"
@@ -2652,10 +2652,10 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1779998513,
-        "narHash": "sha256-niIdk3nj4qAYU4u32G0zbh7XXAUnMdHkD6xDJgLdK+o=",
+        "lastModified": 1780025239,
+        "narHash": "sha256-V685AKpwAiRQSqe2fmdQjWTwJ35gXddY8E1v0NEpaVo=",
         "ref": "main",
-        "rev": "55ab67c472394434594ffe7d8ccb0f3225869f3a",
+        "rev": "203605d5cad646ff0bf8d89d074c2f1de9536771",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
@@ -2724,10 +2724,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1779992586,
-        "narHash": "sha256-g3M+YJBhR3Q8Zuvp6qD31+bk+8N8C4JsC3yODskY2Rw=",
+        "lastModified": 1780014444,
+        "narHash": "sha256-5yo/XghzILKH7ofCAmgmiKykLDRtktvLEc2UDZBThDU=",
         "ref": "main",
-        "rev": "d1ae0e46bae1c653dd1a7afe40b976bb92d45fc7",
+        "rev": "ccf7e31fdfc460797e862ec0dd5ab73aa909ae5f",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/wallpaper"
