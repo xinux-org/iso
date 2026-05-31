@@ -1278,10 +1278,10 @@
         "xinux-tour": "xinux-tour"
       },
       "locked": {
-        "lastModified": 1780056219,
-        "narHash": "sha256-W3w+opyr4TJCVYvlTBJaP/ob7ICOd+vxgbqBB/UZmRM=",
+        "lastModified": 1780124669,
+        "narHash": "sha256-Aqc/dopLnmPB7sX5Vm9kOzH8O34+iYfpWbq1AygzQgw=",
         "ref": "release-25.11",
-        "rev": "c63dd685c2b6af7a28e88be78b4c4df696ca5b12",
+        "rev": "4001a54754eb0bf70160ee9670eb2c7c5310568f",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
@@ -1302,16 +1302,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1780054532,
-        "narHash": "sha256-qsU43YTpDDuKwUZU8QtbcAYbdcPVWYJJC5vSpBCsgI4=",
-        "ref": "main",
-        "rev": "f023b9e9c987adbcedc9747a93c9a78a66c18b81",
+        "lastModified": 1780124462,
+        "narHash": "sha256-H0Rte2/nvi41pBIunBHVrvNm4QMLRZYDBX8CUgzwb/w=",
+        "ref": "release-25.11",
+        "rev": "3087c5fb7923f8363ff044b61af717ad3f5581e4",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/xinux-tour"
       },
       "original": {
-        "ref": "main",
+        "ref": "release-25.11",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/xinux-tour"
