@@ -44,4 +44,57 @@
 
   # Enable boot-EEPROM update tools
   environment.systemPackages = [ pkgs.raspberrypi-eeprom ];
+
+  # No UEFI, Pi uses rpi-eeprom-update
+  services.fwupd.enable = lib.mkForce false;
+
+  # Disable ZFS
+  boot.supportedFilesystems.zfs = lib.mkForce false;
+  boot.initrd.supportedFilesystems.zfs = lib.mkForce false;
+
+  # Shall we add Russian?
+  i18n.supportedLocales = [
+    "en_US.UTF-8/UTF-8"
+    "uz_UZ.UTF-8/UTF-8"
+  ];
+  i18n.extraLocales = [ ];
+
+  # We don't need office suite
+  modules.xinux.libreofficePack.enable = false;
+
+  # We want only these fonts
+  fonts.packages = lib.mkForce (with pkgs; [
+    nerd-fonts.jetbrains-mono
+    noto-fonts-cjk-sans
+    noto-fonts-color-emoji
+    dejavu_fonts
+    liberation_ttf
+    freefont_ttf
+    cantarell-fonts
+    font-awesome
+    hack-font
+  ]);
+
+  # GNOME apps that we don't want
+  environment.gnome.excludePackages = [
+    #pkgs.decibels             # new music player
+    pkgs.evolution
+    pkgs.evolutionWithPlugins
+    pkgs.gnome-contacts
+    pkgs.gnome-maps
+    pkgs.gnome-music          # old music player
+    pkgs.gnome-weather
+    pkgs.simple-scan          # "Document Scanner"
+    pkgs.snapshot             # "Camera"
+  ];
+
+  nixpkgs.overlays = [
+    (final: prev: {
+      # espeak-ng is enough
+      mbrola = prev.emptyDirectory;
+      mbrola-voices = prev.emptyDirectory;
+      orca = prev.emptyDirectory;
+      speechd = prev.speechd.override { withFlite = false; };
+    })
+  ];
 }
