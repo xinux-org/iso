@@ -65,6 +65,6 @@
     enable = true;
     systemconfig = null;
     flake = null;
-    flakearg = null;
+    hostname = null;
   };
 }
