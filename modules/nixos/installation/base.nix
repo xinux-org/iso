@@ -75,10 +75,6 @@ in
     (with pkgs; [
       firefox
       git
-      glibcLocales
-      # glxinfo
-      helix
-      mesa-demos
       nano
       rsync
       vim
@@ -86,12 +82,21 @@ in
     ++ lib.optionals config.xinux.iso.live.enable (
       with pkgs;
       [
+        glibcLocales
         gparted
+      ]
+    )
+    ++ lib.optionals config.xinux.debug.enable (
+      with pkgs;
+      [
+        # glxinfo
+        helix
+        mesa-demos
       ]
     );
 
   i18n.defaultLocale = "uz_UZ.UTF-8";
-  i18n.supportedLocales = [ "all" ];
+  i18n.supportedLocales = lib.mkDefault [ "all" ];
 
   networking.hostName = lib.mkForce "xinux";
   # networking.wireless.enable = false;
