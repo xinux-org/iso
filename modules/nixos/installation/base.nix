@@ -14,9 +14,7 @@ in
     image.baseName = lib.mkForce xinuxBaseName;
     isoImage.volumeID = lib.mkForce (
       lib.toUpper (
-        builtins.replaceStrings
-          [ "-" "." ]
-          [ "_" "_" ]
+        builtins.replaceStrings [ "-" "." ] [ "_" "_" ]
           "${config.networking.hostName}_${config.system.nixos.release}_${pkgs.stdenv.hostPlatform.uname.processor}"
       )
     );
@@ -25,14 +23,31 @@ in
   image.modules.sd-card = {
     image.baseName = lib.mkForce xinuxBaseName;
     sdImage.rootVolumeLabel = lib.mkForce (
-      lib.toUpper (
-        builtins.replaceStrings [ "-" ] [ "_" ] config.networking.hostName
-      )
+      lib.toUpper (builtins.replaceStrings [ "-" ] [ "_" ] config.networking.hostName)
     );
   };
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+
+  # Reasonable Defaults
+  nix = {
+    settings = {
+      experimental-features = [
+        "nix-command"
+        "flakes"
+        "pipe-operators"
+      ];
+      substituters = [
+        "https://cache.xinux.uz/?priority=100"
+        "https://cache.nixos.org/"
+      ];
+      trusted-public-keys = [
+        "cache.xinux.uz:BXCrtqejFjWzWEB9YuGB7X2MV4ttBur1N8BkwQRdH+0=" # xinux
+        "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY=" # nixos
+      ];
+    };
+  };
 
   # Whitelist wheel users to do anything
   # This is useful for things like pkexec
