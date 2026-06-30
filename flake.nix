@@ -12,7 +12,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     xeonitte = {
-      url = "git+https://git.oss.uzinfocom.uz/xinux/xeonitte?ref=main&shallow=1";
+      url = "git+https://git.oss.uzinfocom.uz/xinux/xeonitte?ref=rc-26-05&shallow=1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-data = {
