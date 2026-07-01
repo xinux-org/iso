@@ -15,6 +15,7 @@
   # Don't install some Xinux modules by default
   modules.xinux.xinuxModuleManager.enable = false;
   modules.xinux.relago.enable = false;
+  modules.xinux.libreofficePack.enable = false;
 
   # Boot-and-use system (no live installer)
   xinux.iso.live.enable = false;
@@ -59,9 +60,6 @@
     "uz_UZ.UTF-8/UTF-8"
   ];
   i18n.extraLocales = [ ];
-
-  # We don't need office suite
-  modules.xinux.libreofficePack.enable = false;
 
   # We want only these fonts
   fonts.packages = lib.mkForce (with pkgs; [
