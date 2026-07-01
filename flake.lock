@@ -1844,10 +1844,10 @@
         "xinux-lib": "xinux-lib"
       },
       "locked": {
-        "lastModified": 1780518212,
-        "narHash": "sha256-wcViy1+c5gbu7Yd66UU5GBPGGqhzBYVZwPIArrS47IE=",
+        "lastModified": 1782902172,
+        "narHash": "sha256-f1NLxUs7UvO4YVDOETvtEoPycOR+CEK+QmzUx7wrVUA=",
         "ref": "main",
-        "rev": "c36de9b47a8d32e89d8192deda5bf8df7d0f42df",
+        "rev": "3da0a13ee9580c844f26a91e2c3fe0ecc8da00f7",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/nix-data"
@@ -2959,10 +2959,10 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1782884800,
-        "narHash": "sha256-ji2GjfK7ovtYXzGeKTk2bhurBBu36xF8zRCDeBCKlyo=",
+        "lastModified": 1782895690,
+        "narHash": "sha256-2H88VUsiTQ9QLcu5QjV1mJl1gu2wvKqd9yXvtBxOHbI=",
         "ref": "rc-26-05",
-        "rev": "ab69ba4dfbe8277301f1a9de0ec35a99ffc6bf42",
+        "rev": "23ca613fbb98dbd8b99f384eba20c08a4964cb85",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/xeonitte"
