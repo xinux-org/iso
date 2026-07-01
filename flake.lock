@@ -2959,10 +2959,10 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1782895690,
-        "narHash": "sha256-2H88VUsiTQ9QLcu5QjV1mJl1gu2wvKqd9yXvtBxOHbI=",
+        "lastModified": 1782912249,
+        "narHash": "sha256-LyD0/Inh7mnn9l2lyEE6QFdSh3SwQ/8TrKQUXX1zifU=",
         "ref": "rc-26-05",
-        "rev": "23ca613fbb98dbd8b99f384eba20c08a4964cb85",
+        "rev": "3ea45c48f489ee729c043d783ab8bb6fd3752ab0",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/xeonitte"
@@ -3320,10 +3320,10 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1782893768,
-        "narHash": "sha256-X/n/d+u9RCK3OFvBRGlXVfxt1/1TXJDrDsYDBSg6of0=",
+        "lastModified": 1782910047,
+        "narHash": "sha256-xPSTNUknrz0XgDVyBoYhlCwPwkIsd7nf+Gt2cte2cCI=",
         "ref": "rc-26.05",
-        "rev": "3f229a6c97834deaab84933b24f2c713d5a72dc2",
+        "rev": "8d845c078502e44172ea51af68bbdcb8b40d0b43",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
@@ -3383,10 +3383,10 @@
         "nixpkgs": "nixpkgs_14"
       },
       "locked": {
-        "lastModified": 1780065281,
-        "narHash": "sha256-JYImCg2/ZVpw9B3isULoM8lo/udC53mlgUIe0UnT5O0=",
+        "lastModified": 1782904921,
+        "narHash": "sha256-R3647vSUU5umtr1UpHjGX9UnW2iCq8+1dt4qLpnH1ME=",
         "ref": "main",
-        "rev": "cb50afdb8991d9d6364ed5be672feb23b6af2c09",
+        "rev": "9ab1fd8173cde1328f4a078d7ccf81ec08abd8f5",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/wallpaper"
