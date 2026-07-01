@@ -8,24 +8,34 @@
   xeonitte.enable = lib.mkIf config.xinux.iso.live.enable true;
 
   services.desktopManager.gnome = {
-    # Add Firefox and other tools useful for installation to the launcher
-    favoriteAppsOverride = ''
-      [org.gnome.shell]
-      favorite-apps=[ 'firefox.desktop', 'org.gnome.Console.desktop', 'org.gnome.Nautilus.desktop', 'org.xinux.NixSoftwareCenter.desktop'${lib.optionalString config.xinux.iso.live.enable ", 'gparted.desktop', 'org.xinux.Xeonitte.desktop'"} ]
-    '';
-
-    # Override GNOME defaults to disable GNOME tour and disable suspend
-    extraGSettingsOverrides = ''
-      [org.gnome.shell]
-      welcome-dialog-last-shown-version='9999999999'
-      [org.gnome.desktop.session]
-      idle-delay=0
-      [org.gnome.settings-daemon.plugins.power]
-      sleep-inactive-ac-type='nothing'
-      sleep-inactive-battery-type='nothing'
-    '';
-
     extraGSettingsOverridePackages = [ pkgs.gnome-settings-daemon ];
+  };
+  programs = {
+    dconf = {
+      enable = true;
+      profiles.user.databases = [
+        {
+          settings = {
+            "org/gnome/desktop/session" = {
+              idle-delay = lib.gvariant.mkInt32 0;
+            };
+            "org/gnome/settings-daemon/plugins/power" = {
+              sleep-inactive-ac-type = "nothing";
+              sleep-inactive-battery-type = "nothing";
+            };
+            "org/gnome/shell" = {
+              welcome-dialog-last-shown-version = "9999999999";
+              favorite-apps = [
+                "org.gnome.Nautilus.desktop"
+                "org.gnome.Console.desktop"
+                "firefox.desktop"
+                "org.xinux.Xeonitte.desktop'"
+              ];
+            };
+          };
+        }
+      ];
+    };
   };
 
   services.displayManager = {
