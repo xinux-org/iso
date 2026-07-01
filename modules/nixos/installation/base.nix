@@ -83,7 +83,6 @@ in
       with pkgs;
       [
         glibcLocales
-        gparted
       ]
     )
     ++ lib.optionals config.xinux.debug.enable (
