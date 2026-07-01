@@ -14,4 +14,5 @@
 
   # Don't install Xinux Module Manager by default
   modules.xinux.xinuxModuleManager.enable = false;
+  modules.xinux.relago.enable = false;
 }
