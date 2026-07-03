@@ -2959,10 +2959,10 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1782993404,
-        "narHash": "sha256-ePaA7gYhFpfcGfG3zCXwQiHD1E3wbAKiAICwtvMQiLE=",
+        "lastModified": 1783062720,
+        "narHash": "sha256-mUV9wcnfMfqoUQej2/tCxhl6EoTyAl2bFtdaz1DQ6Ec=",
         "ref": "rc-26-05",
-        "rev": "a96b12a6100a12b0e9c6a70dc25517583fd01158",
+        "rev": "6a02d4292afd84f3b56ebee973c6fdc1d73e4ae6",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/xeonitte"
