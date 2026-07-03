@@ -29,7 +29,8 @@
                 "org.gnome.Nautilus.desktop"
                 "org.gnome.Console.desktop"
                 "firefox.desktop"
-                "org.xinux.Xeonitte.desktop'"
+                "org.xinux.Xeonitte.desktop"
+                "org.gnome.DiskUtility"
               ];
             };
           };
@@ -59,14 +60,17 @@
   };
 
   # VM guest additions to improve host-guest interaction (live-installer only)
-  services.spice-vdagentd.enable = lib.mkIf config.xinux.iso.live.enable true;
-  services.qemuGuest.enable = lib.mkIf config.xinux.iso.live.enable true;
-  virtualisation.vmware.guest.enable = lib.mkIf config.xinux.iso.live.enable pkgs.stdenv.hostPlatform.isx86;
-  virtualisation.hypervGuest.enable = lib.mkIf config.xinux.iso.live.enable true;
-  services.xe-guest-utilities.enable = lib.mkIf config.xinux.iso.live.enable pkgs.stdenv.hostPlatform.isx86;
-  # The VirtualBox guest additions rely on an out-of-tree kernel module
-  # which lags behind kernel releases, potentially causing broken builds.
-  virtualisation.virtualbox.guest.enable = lib.mkForce false;
+  services = {
+    spice-vdagentd.enable = lib.mkIf config.xinux.iso.live.enable true;
+    qemuGuest.enable = lib.mkIf config.xinux.iso.live.enable true;
+    xe-guest-utilities.enable = lib.mkIf config.xinux.iso.live.enable pkgs.stdenv.hostPlatform.isx86;
+  };
+  virtualisation = {
+    hypervGuest.enable = lib.mkIf config.xinux.iso.live.enable true;
+    vmware.guest.enable = lib.mkIf config.xinux.iso.live.enable pkgs.stdenv.hostPlatform.isx86;
+    # The VirtualBox guest additions rely on an out-of-tree kernel module
+    virtualbox.guest.enable = lib.mkForce false;
+  };
 
   # Enable plymouth
   boot.plymouth.enable = true;
