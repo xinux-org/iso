@@ -753,10 +753,10 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1782767157,
-        "narHash": "sha256-db/8NgfehQlPNt8rMY0J1gvwzTaURU/foM7y/AQimIM=",
+        "lastModified": 1782847189,
+        "narHash": "sha256-twXPFqFsrrY5r28Zh7Homgcp2gUMBgQ6WDS98Q/3xFI=",
         "ref": "nixos-25.11",
-        "rev": "1d4e0f865d68258aada31e68e6d79c8c463f3b34",
+        "rev": "b6018f87da91d19d0ab4cf979885689b469cdd41",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/nixpkgs"
@@ -1278,10 +1278,10 @@
         "xinux-tour": "xinux-tour"
       },
       "locked": {
-        "lastModified": 1782893045,
-        "narHash": "sha256-En9gfQOVbEc4zAvc2bAjORE58D/gQ8oIlgoowF+A0oU=",
+        "lastModified": 1782979315,
+        "narHash": "sha256-TK1R5WaYJUUMgX+hcYu5Sq1ooPH+D7v35W/m8qu5lyA=",
         "ref": "release-25.11",
-        "rev": "fe81e1017e18ae0ffa1fa406323e7841c2a2ebb9",
+        "rev": "06c147cf7ec753b8d31f5e6847996e9931386e96",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
