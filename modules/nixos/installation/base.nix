@@ -71,6 +71,7 @@ in
 
   environment.systemPackages =
     (with pkgs; [
+      gnome-shell
       firefox
       git
       nano
