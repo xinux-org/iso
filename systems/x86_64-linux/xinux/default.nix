@@ -15,5 +15,5 @@
   # Don't install some Xinux modules by default
   modules.xinux.xinuxModuleManager.enable = false;
   modules.xinux.relago.enable = false;
-  modules.xinux.libreofficePack.enable = false;
+  modules.xinux.libreofficePack.enable = true;
 }
