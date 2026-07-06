@@ -1907,10 +1907,10 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1782723713,
-        "narHash": "sha256-oPXCU/SSUokcGaJREHibG1CBX3+s/W7orDWQOZDsEeQ=",
+        "lastModified": 1783224372,
+        "narHash": "sha256-8i/87eeoqiGE4yOTjwSA3Eh/ziJRQEmd/unYU+K27sk=",
         "ref": "nixos-unstable",
-        "rev": "b5aa0fbd538984f6e3d201be0005b4463d8b09f8",
+        "rev": "d407951447dcd00442e97087bf374aad70c04cea",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/nixpkgs"
@@ -2382,11 +2382,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1782884712,
-        "narHash": "sha256-xl/TejvKINGT7TroaER8xVGQQiXyBwSNlD52INQus4M=",
+        "lastModified": 1783347895,
+        "narHash": "sha256-zpqB6Csg+Oa8njbEpEANLxFHw1mVBkhJFknm3HpuWLE=",
         "ref": "rc-26-05",
-        "rev": "0fb9396134d3421301f86444518fe3781cdeee26",
-        "revCount": 58,
+        "rev": "cc842dae84ecf01be683192c457f609dffb4ce05",
+        "revCount": 62,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/relago"
       },
@@ -2959,10 +2959,10 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1783062720,
-        "narHash": "sha256-mUV9wcnfMfqoUQej2/tCxhl6EoTyAl2bFtdaz1DQ6Ec=",
+        "lastModified": 1783366203,
+        "narHash": "sha256-t0mnU+f4k2a3fsFLZwx7lchLeFPPxFy4vxTEiOmaB9g=",
         "ref": "rc-26-05",
-        "rev": "6a02d4292afd84f3b56ebee973c6fdc1d73e4ae6",
+        "rev": "56dd04ebe6f1f2bc1830df0a21c4d3156b3337f4",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/xeonitte"
@@ -3320,10 +3320,10 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1782910047,
-        "narHash": "sha256-xPSTNUknrz0XgDVyBoYhlCwPwkIsd7nf+Gt2cte2cCI=",
+        "lastModified": 1783365699,
+        "narHash": "sha256-a8bmmKe4zTbh7q3GBHuLCwKCQUzRjjMYt0QLm/9CoLc=",
         "ref": "rc-26.05",
-        "rev": "8d845c078502e44172ea51af68bbdcb8b40d0b43",
+        "rev": "84e33c4c14f2c254d3a670ecb82779d74072eb3b",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
