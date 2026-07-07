@@ -1,7 +1,7 @@
 {
   inputs = {
     # nixpkgs.url = "github:xinux-org/nixpkgs/nixos-unstable";
-    nixpkgs.url = "git+https://git.oss.uzinfocom.uz/xinux/nixpkgs?ref=nixos-unstable&shallow=1";
+    nixpkgs.url = "git+https://git.oss.uzinfocom.uz/xinux/nixpkgs?ref=nixos-26.05&shallow=1";
 
     xinux-lib = {
       url = "git+https://git.oss.uzinfocom.uz/xinux/lib?ref=release-26.05";
