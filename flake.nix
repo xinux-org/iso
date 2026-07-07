@@ -24,7 +24,7 @@
       flake = false;
     };
     # Bug reporter for Xinux
-    relago.url = "git+https://git.oss.uzinfocom.uz/xinux/relago?ref=rc-26-05";
+    relago.url = "git+https://git.oss.uzinfocom.uz/xinux/relago?ref=release-26.05";
   };
 
   outputs =
