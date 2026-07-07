@@ -8,24 +8,35 @@
   xeonitte.enable = lib.mkIf config.xinux.iso.live.enable true;
 
   services.desktopManager.gnome = {
-    # Add Firefox and other tools useful for installation to the launcher
-    favoriteAppsOverride = ''
-      [org.gnome.shell]
-      favorite-apps=[ 'firefox.desktop', 'org.gnome.Console.desktop', 'org.gnome.Nautilus.desktop', 'org.xinux.NixSoftwareCenter.desktop'${lib.optionalString config.xinux.iso.live.enable ", 'gparted.desktop', 'org.xinux.Xeonitte.desktop'"} ]
-    '';
-
-    # Override GNOME defaults to disable GNOME tour and disable suspend
-    extraGSettingsOverrides = ''
-      [org.gnome.shell]
-      welcome-dialog-last-shown-version='9999999999'
-      [org.gnome.desktop.session]
-      idle-delay=0
-      [org.gnome.settings-daemon.plugins.power]
-      sleep-inactive-ac-type='nothing'
-      sleep-inactive-battery-type='nothing'
-    '';
-
     extraGSettingsOverridePackages = [ pkgs.gnome-settings-daemon ];
+  };
+  programs = {
+    dconf = {
+      enable = true;
+      profiles.user.databases = [
+        {
+          settings = {
+            "org/gnome/desktop/session" = {
+              idle-delay = lib.gvariant.mkInt32 0;
+            };
+            "org/gnome/settings-daemon/plugins/power" = {
+              sleep-inactive-ac-type = "nothing";
+              sleep-inactive-battery-type = "nothing";
+            };
+            "org/gnome/shell" = {
+              welcome-dialog-last-shown-version = "9999999999";
+              favorite-apps = [
+                "org.gnome.Nautilus.desktop"
+                "org.gnome.Console.desktop"
+                "firefox.desktop"
+                "org.xinux.Xeonitte.desktop"
+                "org.gnome.DiskUtility"
+              ];
+            };
+          };
+        }
+      ];
+    };
   };
 
   services.displayManager = {
@@ -49,14 +60,17 @@
   };
 
   # VM guest additions to improve host-guest interaction (live-installer only)
-  services.spice-vdagentd.enable = lib.mkIf config.xinux.iso.live.enable true;
-  services.qemuGuest.enable = lib.mkIf config.xinux.iso.live.enable true;
-  virtualisation.vmware.guest.enable = lib.mkIf config.xinux.iso.live.enable pkgs.stdenv.hostPlatform.isx86;
-  virtualisation.hypervGuest.enable = lib.mkIf config.xinux.iso.live.enable true;
-  services.xe-guest-utilities.enable = lib.mkIf config.xinux.iso.live.enable pkgs.stdenv.hostPlatform.isx86;
-  # The VirtualBox guest additions rely on an out-of-tree kernel module
-  # which lags behind kernel releases, potentially causing broken builds.
-  virtualisation.virtualbox.guest.enable = lib.mkForce false;
+  services = {
+    spice-vdagentd.enable = lib.mkIf config.xinux.iso.live.enable true;
+    qemuGuest.enable = lib.mkIf config.xinux.iso.live.enable true;
+    xe-guest-utilities.enable = lib.mkIf config.xinux.iso.live.enable pkgs.stdenv.hostPlatform.isx86;
+  };
+  virtualisation = {
+    hypervGuest.enable = lib.mkIf config.xinux.iso.live.enable true;
+    vmware.guest.enable = lib.mkIf config.xinux.iso.live.enable pkgs.stdenv.hostPlatform.isx86;
+    # The VirtualBox guest additions rely on an out-of-tree kernel module
+    virtualbox.guest.enable = lib.mkForce false;
+  };
 
   # Enable plymouth
   boot.plymouth.enable = true;

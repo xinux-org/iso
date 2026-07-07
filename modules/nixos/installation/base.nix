@@ -40,11 +40,9 @@ in
       ];
       substituters = [
         "https://cache.xinux.uz/?priority=100"
-        "https://cache.nixos.org/"
       ];
-      trusted-public-keys = [
-        "cache.xinux.uz:BXCrtqejFjWzWEB9YuGB7X2MV4ttBur1N8BkwQRdH+0=" # xinux
-        "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY=" # nixos
+      trusted-public-keys = lib.mkBefore [
+        "cache.xinux.uz:BXCrtqejFjWzWEB9YuGB7X2MV4ttBur1N8BkwQRdH+0="
       ];
     };
   };
@@ -73,6 +71,7 @@ in
 
   environment.systemPackages =
     (with pkgs; [
+      gnome-shell
       firefox
       git
       nano
@@ -83,7 +82,6 @@ in
       with pkgs;
       [
         glibcLocales
-        gparted
       ]
     )
     ++ lib.optionals config.xinux.debug.enable (
