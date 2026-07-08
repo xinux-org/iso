@@ -2405,14 +2405,14 @@
       "locked": {
         "lastModified": 1783434018,
         "narHash": "sha256-8VKbiPJkW/BH7KryLOGWk8n4L35bu3MLFC2uERaV57A=",
-        "ref": "release-26.05",
+        "ref": "main",
         "rev": "37787e03e51f2a4ad1ccb92e91301e60138ee095",
         "revCount": 54,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/relago"
       },
       "original": {
-        "ref": "release-26.05",
+        "ref": "main",
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/relago"
       }
@@ -3316,11 +3316,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1783494038,
-        "narHash": "sha256-oaQgFvTzknibxHe/YQmnZMliswT4f0JGHRa6yK2fj7o=",
+        "lastModified": 1783509536,
+        "narHash": "sha256-WlWAyE6TK9I+z/Hk1nxZyQ7QEkDG83uvBfVBCjw6BOk=",
         "ref": "main",
-        "rev": "528629df7edd77fbe84a4c50e431111897d6abfe",
-        "revCount": 668,
+        "rev": "cdacbe7bfd310889c64bfcaf09a4158a0612b77b",
+        "revCount": 673,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
@@ -3399,10 +3399,10 @@
         "nixpkgs": "nixpkgs_15"
       },
       "locked": {
-        "lastModified": 1783463911,
-        "narHash": "sha256-Lz6NtqHnqRcsDajeaKE4/CX4fQ61HlwKy3E+SHujbRQ=",
+        "lastModified": 1783489920,
+        "narHash": "sha256-sZediA0pfMCXm6nA6fvO1vEsWvybEvP5GCnaAPDcTq0=",
         "ref": "refs/heads/main",
-        "rev": "7ac921ce5425c377f7cabe193b0b1f973eab7ba8",
+        "rev": "3671c6eceee35fd06fd1f60b71eed968cc9d7449",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/zen-browser-flake"
