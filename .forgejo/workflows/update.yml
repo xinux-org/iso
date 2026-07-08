@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        branches: [main, release-25.11]
+        branches: [main, release-26.05, release-25.11]
 
     steps:
       - name: Check out the repository
