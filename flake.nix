@@ -37,7 +37,6 @@
         nix-data.nixosModules.nix-data
         xeonitte.nixosModules.xeonitte
         xinux-modules.nixosModules.meta
-        relago.nixosModules.relago
       ];
 
       src = ./.;

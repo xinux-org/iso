@@ -1906,10 +1906,10 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1783148766,
-        "narHash": "sha256-uslt2pqShTIXDdAHRHv2QkYLsVdY8Oqwz0EA48/RSM8=",
+        "lastModified": 1783389287,
+        "narHash": "sha256-0xIy4dVLqq47rA+mRy0hXDfjhQd4E5PoIns/RmB7nR4=",
         "ref": "nixos-26.05",
-        "rev": "a50de1b7d8a586adc18d2395c19de7d6058e6030",
+        "rev": "0ad6f47ea4fe188f4bc8f0380f93ae8523337c6c",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/nixpkgs"
@@ -3317,11 +3317,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1783444439,
-        "narHash": "sha256-oshzQM9Xh6iEzZoC4xk801p4a5mQBfpO0BkSrT1u2OE=",
+        "lastModified": 1783509683,
+        "narHash": "sha256-uoDGKYLJgBinRbXtXKLfPqSPTOHRSiEHA12tiUu3TZ8=",
         "ref": "release-26.05",
-        "rev": "1cc76bd00228a97333516108eba042429e6a39cc",
-        "revCount": 666,
+        "rev": "57ee1f6de313057a41c921c3cb7e8da8f233cff0",
+        "revCount": 667,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
