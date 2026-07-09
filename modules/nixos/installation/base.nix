@@ -3,32 +3,20 @@
   config,
   lib,
   inputs,
+  modulesPath,
   ...
 }:
 let
   # xinux-$EDITION-$RELEASE-$ARCH
   xinuxBaseName = "${config.networking.hostName}-${config.system.nixos.label}-${pkgs.stdenv.hostPlatform.system}";
+  # xinuxVirtualboxName = "xinux-ova-${config.system.nixos.label}-${pkgs.stdenv.hostPlatform.system}";
 in
 {
+  # imports = [
+  #   (modulesPath + "/virtualisation/virtualbox-image.nix")
+  # ];
+
   image.modules.iso-installer = {
-    image.baseName = lib.mkForce xinuxBaseName;
-    isoImage.volumeID = lib.mkForce (
-      lib.toUpper (
-        builtins.replaceStrings [ "-" "." ] [ "_" "_" ]
-          "${config.networking.hostName}_${config.system.nixos.release}_${pkgs.stdenv.hostPlatform.uname.processor}"
-      )
-    );
-  };
-  image.modules.vmware = {
-    image.baseName = lib.mkForce xinuxBaseName;
-    isoImage.volumeID = lib.mkForce (
-      lib.toUpper (
-        builtins.replaceStrings [ "-" "." ] [ "_" "_" ]
-          "${config.networking.hostName}_${config.system.nixos.release}_${pkgs.stdenv.hostPlatform.uname.processor}"
-      )
-    );
-  };
-  image.modules.virtualbox = {
     image.baseName = lib.mkForce xinuxBaseName;
     isoImage.volumeID = lib.mkForce (
       lib.toUpper (
@@ -43,6 +31,15 @@ in
     sdImage.rootVolumeLabel = lib.mkForce (
       lib.toUpper (builtins.replaceStrings [ "-" ] [ "_" ] config.networking.hostName)
     );
+  };
+
+  image.modules.virtualbox = {
+    image.baseName = lib.mkForce xinuxBaseName;
+    # vmDerivationName = xinuxVirtualboxName;
+  };
+
+  image.modules.vmware = {
+    image.baseName = lib.mkForce xinuxBaseName;
   };
 
   # Allow unfree packages
