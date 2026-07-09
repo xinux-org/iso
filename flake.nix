@@ -46,7 +46,6 @@
       hydraJobs = {
         iso = self.nixosConfigurations.xinux.config.system.build.images.iso-installer;
         iso-virtualbox = self.nixosConfigurations.xinux.config.system.build.images.virtualbox;
-        iso-vm = self.nixosConfigurations.xinux.config.system.build.images.vm;
         iso-vmware = self.nixosConfigurations.xinux.config.system.build.images.vmware;
       };
     };
