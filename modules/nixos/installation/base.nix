@@ -19,6 +19,24 @@ in
       )
     );
   };
+  image.modules.vmware = {
+    image.baseName = lib.mkForce xinuxBaseName;
+    isoImage.volumeID = lib.mkForce (
+      lib.toUpper (
+        builtins.replaceStrings [ "-" "." ] [ "_" "_" ]
+          "${config.networking.hostName}_${config.system.nixos.release}_${pkgs.stdenv.hostPlatform.uname.processor}"
+      )
+    );
+  };
+  image.modules.virtualbox = {
+    image.baseName = lib.mkForce xinuxBaseName;
+    isoImage.volumeID = lib.mkForce (
+      lib.toUpper (
+        builtins.replaceStrings [ "-" "." ] [ "_" "_" ]
+          "${config.networking.hostName}_${config.system.nixos.release}_${pkgs.stdenv.hostPlatform.uname.processor}"
+      )
+    );
+  };
 
   image.modules.sd-card = {
     image.baseName = lib.mkForce xinuxBaseName;
