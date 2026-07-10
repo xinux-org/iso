@@ -45,8 +45,10 @@
 
       hydraJobs = {
         iso = self.nixosConfigurations.xinux.config.system.build.images.iso-installer;
-        iso-virtualbox = self.nixosConfigurations.xinux.config.system.build.images.virtualbox;
-        iso-vmware = self.nixosConfigurations.xinux.config.system.build.images.vmware;
+        # xinux.uz site sometimes can show other build example vmrare as a download link.
+        # There should be a way to set iso download link as static
+        # iso-virtualbox = self.nixosConfigurations.xinux.config.system.build.images.virtualbox;
+        # iso-vmware = self.nixosConfigurations.xinux.config.system.build.images.vmware;
       };
     };
 }
