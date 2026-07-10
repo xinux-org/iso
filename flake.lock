@@ -51,10 +51,10 @@
         "nixpkgs": "nixpkgs_5"
       },
       "locked": {
-        "lastModified": 1783452204,
-        "narHash": "sha256-jHmRpM4XcMs+Gak60o4rEoFhpmw3ehVIRT8JE6vWcFQ=",
+        "lastModified": 1783536990,
+        "narHash": "sha256-nuSeDDqj2Lw85b6i//n81+zKvCLOrRZVLR944jeGO48=",
         "ref": "master",
-        "rev": "1e68192a91132933d6951f8a374e3fd498bc97fa",
+        "rev": "d6ab32fee3b5cd39160594f57cecba2943154920",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/nix-cachyos-kernel"
@@ -2294,11 +2294,11 @@
     },
     "nixpkgs_5": {
       "locked": {
-        "lastModified": 1783394305,
-        "narHash": "sha256-uOKjaaVPYY6sn+lvcSq+hv1WKR1AYcXeebHFZLMgvz4=",
+        "lastModified": 1783522079,
+        "narHash": "sha256-XlBnTlStrtaOcHyvMRrbRLEkTeMAcxrtor3gTDVJDHo=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "50a1dd57142b57851ddf1aac58c2225166439547",
+        "rev": "1e94a0307f544377e2f2332daa7fca2833a1adc3",
         "type": "github"
       },
       "original": {
@@ -3317,11 +3317,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1783522851,
-        "narHash": "sha256-G1Pq9LmwIx1ycOi8LE4L8dmB3w7tueRsFfZ3Pda9D6Y=",
+        "lastModified": 1783616451,
+        "narHash": "sha256-QEJGT5JRcRGuh1gMy/SgssoYB6LUE53ON7XRN2hTEqg=",
         "ref": "release-26.05",
-        "rev": "213b19eda5efb48c8f88e8b1df12bdf1eddcdf1f",
-        "revCount": 668,
+        "rev": "a2fc9239f54254223603c644d8d948a92cc05565",
+        "revCount": 670,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
@@ -3400,10 +3400,10 @@
         "nixpkgs": "nixpkgs_15"
       },
       "locked": {
-        "lastModified": 1783489920,
-        "narHash": "sha256-sZediA0pfMCXm6nA6fvO1vEsWvybEvP5GCnaAPDcTq0=",
+        "lastModified": 1783598313,
+        "narHash": "sha256-LAz4EAdT56VSCSF0oFJNjpIYFVmWW81nM5+3Ieocx5I=",
         "ref": "refs/heads/main",
-        "rev": "3671c6eceee35fd06fd1f60b71eed968cc9d7449",
+        "rev": "175926c1007114b9d0f8465f23a7d7ce9b26fe33",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/zen-browser-flake"
