@@ -51,10 +51,10 @@
         "nixpkgs": "nixpkgs_5"
       },
       "locked": {
-        "lastModified": 1783881149,
-        "narHash": "sha256-pudiGTPiIHdg9CQ3q9IjyWpIhfzV5iDCleutEquoCxM=",
+        "lastModified": 1783969197,
+        "narHash": "sha256-SeKtEAKy3I71i2n3WlPKCX2L3Z/0zJseCObPHxehRjc=",
         "ref": "master",
-        "rev": "adbef91e99d02c8090f3045d4f05d31b25113e89",
+        "rev": "d0942a88183f40b4d8f7c79d115a51f9ce12da08",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/nix-cachyos-kernel"
@@ -85,11 +85,11 @@
     "cachyos-kernel_2": {
       "flake": false,
       "locked": {
-        "lastModified": 1783566754,
-        "narHash": "sha256-EyVTx67qTNB2utnXRUgOWnaZxV6c07XE2rVCq/qgWxI=",
+        "lastModified": 1783958065,
+        "narHash": "sha256-92rCHDSIcfjS6dy6Vje4Js6lbXC5RQrVUyw1y0PEXFc=",
         "owner": "CachyOS",
         "repo": "linux-cachyos",
-        "rev": "4065d7e175fb182a2e30b982b0d8121c97c8d46b",
+        "rev": "43bb73574ba4108df8b453486752e2b070c946be",
         "type": "github"
       },
       "original": {
@@ -135,10 +135,10 @@
         "xinux-lib": "xinux-lib_4"
       },
       "locked": {
-        "lastModified": 1783946656,
-        "narHash": "sha256-neehKXxRmy3LaqRQDDCCCryAcnUrA5jXpitOEQ2Of7k=",
+        "lastModified": 1784019851,
+        "narHash": "sha256-hOystvQsFVZBMZimirpYW/pRN+w+sNL6XrbZ2trtOf0=",
         "ref": "main",
-        "rev": "b8b3e2467e609a777d74b47936de7178e13d9a27",
+        "rev": "87fd6439416f5aff6627cf506d559310b85d462b",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/e-imzo-manager"
@@ -2294,11 +2294,11 @@
     },
     "nixpkgs_5": {
       "locked": {
-        "lastModified": 1783847910,
-        "narHash": "sha256-eo8sxyBYLPsG92eXzhrOqLk4z6rrHFHHx6wM+b6mnh4=",
+        "lastModified": 1783935015,
+        "narHash": "sha256-wCWfznifGmMeHxx1zBWYnjBXOdARSgSjWh9PWoph2/0=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "4ebb8d6c14644779d1ba80cc1a9b50861a2214d0",
+        "rev": "fa0063eb13bd6adb9ce0dc849b997dd77a6c5ee6",
         "type": "github"
       },
       "original": {
@@ -2957,11 +2957,11 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1783677981,
-        "narHash": "sha256-XGAekDoi/5MWuEnnmUXip8kbajD3DhSu4LG8GHZ4fG0=",
+        "lastModified": 1784041643,
+        "narHash": "sha256-3AZf1o8Azk1SRakiwfAA5vsYN8OqLsse/WIjyHVNwtA=",
         "ref": "main",
-        "rev": "5fcdede0d0138abe64d3212130eee3fd43b981ce",
-        "revCount": 284,
+        "rev": "dcc772bc058b54acb6ceb33293cced0bcc302f6d",
+        "revCount": 287,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/xeonitte"
       },
@@ -3316,11 +3316,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1783969215,
-        "narHash": "sha256-UjeT3cbgDBefxSKfZR9HP8b8iPQ07sc34cFYUF1s+7I=",
+        "lastModified": 1784055614,
+        "narHash": "sha256-bPrP3z9PwcI3vfiKWBT7dpPV+C0UuQ2H1MgvavOf8u0=",
         "ref": "main",
-        "rev": "c5d922726a822b1e3bd5ce928f8ef8b6ebca507e",
-        "revCount": 693,
+        "rev": "07a97c91dde6c6ed73874587345c7edbdcc35470",
+        "revCount": 704,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
@@ -3399,10 +3399,10 @@
         "nixpkgs": "nixpkgs_15"
       },
       "locked": {
-        "lastModified": 1783947494,
-        "narHash": "sha256-EFEMX489JMEMFAMZSvOzSPEd5RhoFGtuXsBko4+042o=",
+        "lastModified": 1784043413,
+        "narHash": "sha256-ivzs0uV2D7hYY6FcG+j5EpDfkWGof/6q3pCzdMBJOSA=",
         "ref": "refs/heads/main",
-        "rev": "f7cad3bbd7a036433ce25a71cb49d18aaa198102",
+        "rev": "0191c6fb7e607574a6725c9681e511fccc96cb8b",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/zen-browser-flake"
