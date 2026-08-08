@@ -962,11 +962,11 @@
     "uz-xkb": {
       "flake": false,
       "locked": {
-        "lastModified": 1769262454,
-        "narHash": "sha256-lHUuWiwt4CjBWm9y56fRGtdGVDzNz2370bUBYSl+Y8g=",
+        "lastModified": 1785762462,
+        "narHash": "sha256-IOHsJ1Rcm9xQASi+q4xtlPzS+6zybC4S2KDZKA5VVwk=",
         "owner": "itsbilolbek",
         "repo": "uzbek-linux-keyboard",
-        "rev": "7acf9b4f605ccc9a9148f73f997f49f351407f3b",
+        "rev": "bc49f375dfbf1307acf975d21297c6e8b2ad4185",
         "type": "github"
       },
       "original": {
