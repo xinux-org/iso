@@ -7,10 +7,10 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1785936455,
-        "narHash": "sha256-pXD5pfIwI6j17cpvHh9vjzY+635cCiAldN9bDjXKJ8Y=",
+        "lastModified": 1787517695,
+        "narHash": "sha256-Z119G3qLJx22frNHO3/seMs7fCCvxe9NJJRfN4Jadew=",
         "ref": "refs/heads/main",
-        "rev": "ce55463be1feee6a9a6a6d35d313b8b728c1d8c9",
+        "rev": "4bb57072d963aa47f14894383a5560cf290e296a",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/aagl-gtk-on-nix"
@@ -49,10 +49,10 @@
         "nixpkgs": "nixpkgs_5"
       },
       "locked": {
-        "lastModified": 1787248950,
-        "narHash": "sha256-eq5FwprGyjytM68pitTTFT3fi0cSsF1M6v7h3rdcqj0=",
+        "lastModified": 1787421204,
+        "narHash": "sha256-8Tlb8D07EvNJ37S7wPYn/+lZ/eBRIvfLvrne3pvjd2A=",
         "ref": "master",
-        "rev": "c69c33c24148defbcc34ab25456cc460bc33fdbb",
+        "rev": "8b175fd266e94395ee7b1edc4578f7c8ecc74626",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/nix-cachyos-kernel"
@@ -1872,10 +1872,10 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1787204541,
-        "narHash": "sha256-OURZPknrTjQrlNyxPdqzyqmU/81Wes1CUP/Ft1Rv/YI=",
+        "lastModified": 1787414105,
+        "narHash": "sha256-WncT27+3BOkgTaJZLnCsf3LcYf9RXMuR9ONSN4rzQ7s=",
         "ref": "nixos-26.05",
-        "rev": "5880666fd9eb563038431edb35c2d0aa595884e6",
+        "rev": "a9e6d84f9c2f9012f5fe7d964a7851352300e61a",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/nixpkgs"
@@ -2260,11 +2260,11 @@
     },
     "nixpkgs_5": {
       "locked": {
-        "lastModified": 1787234702,
-        "narHash": "sha256-kvsnFCG4T5dmUj7BMcmpuPZjZNSjOZfhXUdjiBQG2xk=",
+        "lastModified": 1787374233,
+        "narHash": "sha256-VZY8AkhbcDhxBSXsdUlHK7oS8ez5nJ2vzYzkkNI35ok=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "5cca3a89405eb65d2adb43754c2af8dac7b6f2e1",
+        "rev": "731960f9bf65e7df135092590b2aa2f1407dcf0f",
         "type": "github"
       },
       "original": {
@@ -3283,11 +3283,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1787439642,
-        "narHash": "sha256-ujbl1TDwVrqar7cbGd5i2ISfTJbK1vPOFv2rMc/+jdE=",
+        "lastModified": 1787526035,
+        "narHash": "sha256-tamZ4dk65qza9et/6UwpizMseCZfLWVN6IgeYwmG05w=",
         "ref": "release-26.05",
-        "rev": "e6eaead3528684355d4fc5df9d3ceb20769a147c",
-        "revCount": 749,
+        "rev": "c00cd4bfbf5167f75dfd12a7d950202bc1ee5de3",
+        "revCount": 752,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
