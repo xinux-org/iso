@@ -92,6 +92,7 @@ in
       nano
       rsync
       vim
+      disko # for xeonitte installer
     ])
     ++ lib.optionals config.xinux.iso.live.enable (
       with pkgs;
