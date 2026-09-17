@@ -72,10 +72,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1789419871,
-        "narHash": "sha256-tllL1QQcfvAJKXeDtysiJewoa1xY7bla1+0DbcU1ODM=",
+        "lastModified": 1789503995,
+        "narHash": "sha256-Fc3OfersptIn1/byDKRyeof24peI34GlwinljkFKFTA=",
         "ref": "master",
-        "rev": "dd6eabb3ada55958c443e39b659d5fa1a68e0d95",
+        "rev": "0509692ae65c19e1053aa65f43864a4fac811705",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/nix-cachyos-kernel"
@@ -335,7 +335,10 @@
     },
     "flake-parts_2": {
       "inputs": {
-        "nixpkgs-lib": "nixpkgs-lib_2"
+        "nixpkgs-lib": [
+          "relago",
+          "nixpkgs"
+        ]
       },
       "locked": {
         "lastModified": 1778716662,
@@ -353,7 +356,7 @@
     },
     "flake-parts_3": {
       "inputs": {
-        "nixpkgs-lib": "nixpkgs-lib_3"
+        "nixpkgs-lib": "nixpkgs-lib_2"
       },
       "locked": {
         "lastModified": 1772408722,
@@ -371,7 +374,7 @@
     },
     "flake-parts_4": {
       "inputs": {
-        "nixpkgs-lib": "nixpkgs-lib_4"
+        "nixpkgs-lib": "nixpkgs-lib_3"
       },
       "locked": {
         "lastModified": 1772408722,
@@ -449,7 +452,7 @@
     },
     "flake-utils-plus_2": {
       "inputs": {
-        "flake-utils": "flake-utils_3"
+        "flake-utils": "flake-utils_2"
       },
       "locked": {
         "lastModified": 1715533576,
@@ -468,7 +471,7 @@
     },
     "flake-utils-plus_3": {
       "inputs": {
-        "flake-utils": "flake-utils_4"
+        "flake-utils": "flake-utils_3"
       },
       "locked": {
         "lastModified": 1779563444,
@@ -512,16 +515,17 @@
         "systems": "systems_2"
       },
       "locked": {
-        "lastModified": 1731533236,
-        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "lastModified": 1694529238,
+        "narHash": "sha256-zsNZZGTGnMOf9YpHKJqMSsa0dXbfmxeoJ7xHlrt+xmY=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "rev": "ff7b65b44d01cf9ba6a71320833626af21126384",
         "type": "github"
       },
       "original": {
-        "id": "flake-utils",
-        "type": "indirect"
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
       }
     },
     "flake-utils_3": {
@@ -543,24 +547,6 @@
       }
     },
     "flake-utils_4": {
-      "inputs": {
-        "systems": "systems_4"
-      },
-      "locked": {
-        "lastModified": 1694529238,
-        "narHash": "sha256-zsNZZGTGnMOf9YpHKJqMSsa0dXbfmxeoJ7xHlrt+xmY=",
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "rev": "ff7b65b44d01cf9ba6a71320833626af21126384",
-        "type": "github"
-      },
-      "original": {
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "type": "github"
-      }
-    },
-    "flake-utils_5": {
       "inputs": {
         "systems": [
           "xinux-modules",
@@ -649,7 +635,7 @@
     "git-hooks_3": {
       "inputs": {
         "flake-compat": "flake-compat_5",
-        "nixpkgs": "nixpkgs_6"
+        "nixpkgs": "nixpkgs_5"
       },
       "locked": {
         "lastModified": 1787424939,
@@ -864,11 +850,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1788229478,
-        "narHash": "sha256-G0F2rFORVcFkEvVdE/qWQTnYekIc77YP5/vRF9nZlxU=",
+        "lastModified": 1789430117,
+        "narHash": "sha256-t+U1mijItLJ64xZOifpfQ17kpAL73nU7pDI48ScacVc=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "1dc2d1f720ab17fc7981e087346bf54b26d284b1",
+        "rev": "cda90fd8838825c689fde9d3f3b4e937937790df",
         "type": "github"
       },
       "original": {
@@ -1100,21 +1086,6 @@
     },
     "nixpkgs-lib_2": {
       "locked": {
-        "lastModified": 1777168982,
-        "narHash": "sha256-GOkGPcboWE9BmGCRMLX3worL4EMnsnG8MyKmXNeYuhQ=",
-        "owner": "nix-community",
-        "repo": "nixpkgs.lib",
-        "rev": "f5901329dade4a6ea039af1433fb087bd9c1fe14",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nix-community",
-        "repo": "nixpkgs.lib",
-        "type": "github"
-      }
-    },
-    "nixpkgs-lib_3": {
-      "locked": {
         "lastModified": 1772328832,
         "narHash": "sha256-e+/T/pmEkLP6BHhYjx6GmwP5ivonQQn0bJdH9YrRB+Q=",
         "owner": "nix-community",
@@ -1128,7 +1099,7 @@
         "type": "github"
       }
     },
-    "nixpkgs-lib_4": {
+    "nixpkgs-lib_3": {
       "locked": {
         "lastModified": 1772328832,
         "narHash": "sha256-e+/T/pmEkLP6BHhYjx6GmwP5ivonQQn0bJdH9YrRB+Q=",
@@ -1161,10 +1132,10 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1789286504,
-        "narHash": "sha256-eiEK7cKZORNEvX0GeF3RtNEF/JXhgf2RqSp3230q13E=",
+        "lastModified": 1789546076,
+        "narHash": "sha256-zVxLZiSnmaaPLwnhj7pwmqe3axBg/C6nG5JZsJMh2g4=",
         "ref": "nixos-unstable",
-        "rev": "ef34387ddd751e1ab8857adf4676492d32eb24ec",
+        "rev": "b1b875982b17dabde9b4a37f3e229e74913e6db3",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/nixpkgs"
@@ -1194,22 +1165,6 @@
     },
     "nixpkgs_5": {
       "locked": {
-        "lastModified": 1770107345,
-        "narHash": "sha256-tbS0Ebx2PiA1FRW8mt8oejR0qMXmziJmPaU1d4kYY9g=",
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "rev": "4533d9293756b63904b7238acb84ac8fe4c8c2c4",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nixos",
-        "ref": "nixpkgs-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    "nixpkgs_6": {
-      "locked": {
         "lastModified": 1782918843,
         "narHash": "sha256-ETYnV9U7Sr+A45dohzZdfCZKOss4qrTkO+wgNZNvEc0=",
         "owner": "NixOS",
@@ -1224,7 +1179,7 @@
         "type": "github"
       }
     },
-    "nixpkgs_7": {
+    "nixpkgs_6": {
       "locked": {
         "lastModified": 1770107345,
         "narHash": "sha256-tbS0Ebx2PiA1FRW8mt8oejR0qMXmziJmPaU1d4kYY9g=",
@@ -1244,17 +1199,16 @@
       "inputs": {
         "crane": "crane",
         "flake-parts": "flake-parts_2",
-        "flake-utils": "flake-utils_2",
         "git-hooks-nix": "git-hooks-nix",
         "nixpkgs": "nixpkgs_4",
         "treefmt-nix": "treefmt-nix_3"
       },
       "locked": {
-        "lastModified": 1789131641,
-        "narHash": "sha256-khxnqWgv8WMFupn45GKRw/Z405QeHMYfB2LyBK51xwg=",
+        "lastModified": 1789561983,
+        "narHash": "sha256-RpOw1NGkLsIjJ9/7tDEGG3X4+9+3oZBhQFQXKdgI3wo=",
         "ref": "main",
-        "rev": "17f2da5261188854f69388f6caa2ba3a3ea93cf1",
-        "revCount": 58,
+        "rev": "70c9400d50f7181adc747a7a8452ea501526d7c8",
+        "revCount": 59,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/relago"
       },
@@ -1270,10 +1224,6 @@
         "flake-parts": [
           "xinux-modules",
           "flake-parts"
-        ],
-        "flake-utils": [
-          "xinux-modules",
-          "flake-utils"
         ],
         "git-hooks-nix": [
           "xinux-modules",
@@ -1291,11 +1241,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1789131641,
-        "narHash": "sha256-khxnqWgv8WMFupn45GKRw/Z405QeHMYfB2LyBK51xwg=",
+        "lastModified": 1789561983,
+        "narHash": "sha256-RpOw1NGkLsIjJ9/7tDEGG3X4+9+3oZBhQFQXKdgI3wo=",
         "ref": "main",
-        "rev": "17f2da5261188854f69388f6caa2ba3a3ea93cf1",
-        "revCount": 58,
+        "rev": "70c9400d50f7181adc747a7a8452ea501526d7c8",
+        "revCount": 59,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/relago"
       },
@@ -1385,21 +1335,6 @@
     },
     "systems_4": {
       "locked": {
-        "lastModified": 1681028828,
-        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
-        "owner": "nix-systems",
-        "repo": "default",
-        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nix-systems",
-        "repo": "default",
-        "type": "github"
-      }
-    },
-    "systems_5": {
-      "locked": {
         "lastModified": 1689347949,
         "narHash": "sha256-12tWmuL2zgBgZkdoB6qXZsgJEH9LR3oUgpaQq2RbI80=",
         "owner": "nix-systems",
@@ -1455,7 +1390,10 @@
     },
     "treefmt-nix_3": {
       "inputs": {
-        "nixpkgs": "nixpkgs_5"
+        "nixpkgs": [
+          "relago",
+          "nixpkgs"
+        ]
       },
       "locked": {
         "lastModified": 1786901030,
@@ -1473,7 +1411,7 @@
     },
     "treefmt-nix_4": {
       "inputs": {
-        "nixpkgs": "nixpkgs_7"
+        "nixpkgs": "nixpkgs_6"
       },
       "locked": {
         "lastModified": 1786901030,
@@ -1819,7 +1757,7 @@
         "cachyos-kernel": "cachyos-kernel",
         "e-imzo-manager": "e-imzo-manager",
         "flake-parts": "flake-parts_5",
-        "flake-utils": "flake-utils_5",
+        "flake-utils": "flake-utils_4",
         "helium": "helium",
         "libxinux": "libxinux",
         "mac-style-plymouth": "mac-style-plymouth",
@@ -1828,7 +1766,7 @@
           "nixpkgs"
         ],
         "relago": "relago_2",
-        "systems": "systems_5",
+        "systems": "systems_4",
         "uz-xkb": "uz-xkb_2",
         "xin": "xin",
         "xinux-lib": "xinux-lib_4",
@@ -1839,11 +1777,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1789477244,
-        "narHash": "sha256-5+53E7eKkcrMz1nDWmuRtJs4QHXGSoASChT2WBmvp54=",
+        "lastModified": 1789588864,
+        "narHash": "sha256-pSFqZV7bJ0aSG0gA/ENPGnX8jI/HJLA0gMr+f6CJWy0=",
         "ref": "main",
-        "rev": "cc8b553a05d6b8cc27216bc70f5c8c7110483ae6",
-        "revCount": 871,
+        "rev": "7d810202f15925546bbe4913b3e519817e86002d",
+        "revCount": 876,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
@@ -1943,10 +1881,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1789387191,
-        "narHash": "sha256-UWMvwIlLV3zF2Mkwus17NfLyBzwBsR/5pHFxrWWGyaA=",
+        "lastModified": 1789533592,
+        "narHash": "sha256-8oEUwQ3QKYIMPDPDS8b/IiQg4jR6Fbp/7l/IFopRYc0=",
         "ref": "refs/heads/main",
-        "rev": "6a281d7c09c0ed6450c5c948ee9a387390285317",
+        "rev": "5bc359ec4e967a852cb3723dd2f56eb2f4414bc2",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/zen-browser-flake"
