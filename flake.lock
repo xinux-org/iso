@@ -72,10 +72,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1790804125,
-        "narHash": "sha256-DOVjIKJDjAiJB1dbuA54ZmGdShGjw/GUHByqJk+lClg=",
+        "lastModified": 1790892178,
+        "narHash": "sha256-ucR92yvxnf+wrzovd0Xp8VXD4q2ow3fD4QJAVHMA1X4=",
         "ref": "master",
-        "rev": "0a5e9ea1838dbc979f88444ca69a1f47f629ae98",
+        "rev": "53e670823581df6af23ee8981425d87c0dd43dd8",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/nix-cachyos-kernel"
@@ -140,10 +140,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1790616539,
-        "narHash": "sha256-Ya0qibfAZkJoNSMfJsUTkCvaBYrOFsyjMsx9+AbJjBs=",
+        "lastModified": 1790920889,
+        "narHash": "sha256-C45sCx1DSAVY0npFi1WcVLnwhdLXgoc3iYgfGKwh2Ok=",
         "ref": "main",
-        "rev": "274f4eca9a68df515ef0ee62d00848e794f5973d",
+        "rev": "93fc1fd4025438af42f2b13a8117a445d511f9b0",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/e-imzo-manager"
@@ -398,10 +398,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1788450739,
-        "narHash": "sha256-glZLQlzIn1fXH6PazR2iUmTo7kzzyYSshrWhLS9TqCU=",
+        "lastModified": 1790898470,
+        "narHash": "sha256-zTwuwezD0w3hpga6a6P8emidzAZFyWqlNeRBlpWOOl8=",
         "ref": "main",
-        "rev": "31729ca8cbdb4fa927b34e5f4353e6a83f39e993",
+        "rev": "024633cd702b10285db5cb19b40ad48d2399ba60",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/flake-parts"
@@ -850,11 +850,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1789430117,
-        "narHash": "sha256-t+U1mijItLJ64xZOifpfQ17kpAL73nU7pDI48ScacVc=",
+        "lastModified": 1790819692,
+        "narHash": "sha256-rvubAPbh3QCliic3sAK+CXTrPCGgJstY52OTs/5H1J4=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "cda90fd8838825c689fde9d3f3b4e937937790df",
+        "rev": "c8ecc29e5175452bee4a2aa1ba2383856d795338",
         "type": "github"
       },
       "original": {
@@ -1777,11 +1777,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1790895682,
-        "narHash": "sha256-yVKnvfpk+EStsF4n+XFYGjElMd7rQayFiqcljjGrEB4=",
+        "lastModified": 1790964060,
+        "narHash": "sha256-sI5Ct1CjzC1cKyQKJWO6u5H55KCIgQhUStjcG4Lmjo8=",
         "ref": "main",
-        "rev": "cf7485c1de521edaadaa80165238fde105d1a58c",
-        "revCount": 932,
+        "rev": "896ff515bd4c7b155f8779711163b09b0ea2e52f",
+        "revCount": 937,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
@@ -1881,10 +1881,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1790843055,
-        "narHash": "sha256-rTDYMyiKgVNiL7sAc2LMr7zw3n3eC5YR+IGblzDdQQk=",
+        "lastModified": 1790940304,
+        "narHash": "sha256-i1W4IdG9PVdSRN1rvTHaqiVqvnRS3+OXgaQa7z5iRDc=",
         "ref": "refs/heads/main",
-        "rev": "a2cb59515204ebe895f73cce387b811a78b3c032",
+        "rev": "b12abb753335dd3b9ba5ea90d3be799bd9b2dc29",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/zen-browser-flake"
