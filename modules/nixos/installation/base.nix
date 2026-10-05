@@ -62,6 +62,8 @@ in
     };
   };
 
+  programs.direnv.enable = config.xinux.iso.live.enable;
+
   # Whitelist wheel users to do anything
   # This is useful for things like pkexec
   #
