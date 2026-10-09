@@ -29,7 +29,7 @@
                 "org.gnome.Nautilus.desktop"
                 "org.gnome.Console.desktop"
                 "firefox.desktop"
-                "org.xinux.Xeonitte.desktop"
+                "uz.xinux.Xeonitte.desktop"
                 "org.gnome.DiskUtility"
               ];
             };
