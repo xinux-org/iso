@@ -72,10 +72,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1791582802,
-        "narHash": "sha256-Dsl1/jMiTTnskc04egVuv4hcSc7M+bAqvzhro4vA1iw=",
+        "lastModified": 1791664982,
+        "narHash": "sha256-XE92pEMitPxks8fzEU9XdiEQQLCy9bgMcGMIX4Zc/2M=",
         "ref": "master",
-        "rev": "58b733b1238b6e609b8de5ad899ef02b0210829c",
+        "rev": "3212a94c92a9c70ed8d3307a7905625ccbac74b4",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/nix-cachyos-kernel"
@@ -1777,11 +1777,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1791676857,
-        "narHash": "sha256-vSClcG+z5DIDZw8kh8ocjl9f8icyaGg8dAtDvMM7lcQ=",
+        "lastModified": 1791741631,
+        "narHash": "sha256-Uzm9GHQeQiqwPTk6x6F2Kcw+KwlWd6CvS8PIuP0V2RA=",
         "ref": "main",
-        "rev": "9ee18404102fffe0e61bf9771ba818d23266a263",
-        "revCount": 969,
+        "rev": "2f1750b224a8b9f4279ef152fe353db55bd52f5d",
+        "revCount": 970,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
