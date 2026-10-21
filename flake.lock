@@ -72,10 +72,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1792352305,
-        "narHash": "sha256-zuX1x4dhijG9pr74yySgkMwDeKY63jgLIsKlqHj78O4=",
+        "lastModified": 1792446362,
+        "narHash": "sha256-cjpS9fG+1j5d+w2q2Pjqp8awL4KoMUlPdUeNNxOjOIQ=",
         "ref": "master",
-        "rev": "b70cedc6abfe9a01b9ec2451a5c737e59cf19e3e",
+        "rev": "be0be288549209421ab4f67c392a23109cb809a3",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/nix-cachyos-kernel"
@@ -1132,10 +1132,10 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1792094642,
-        "narHash": "sha256-zp8ToDMnqZcu4o4IH9pdwXFXGp7yLm/M0dEnNWnyd7I=",
+        "lastModified": 1792210252,
+        "narHash": "sha256-Mh0PUaIv4nFY+8wAGonaEh8iBzwsmdNlwjVHmFg1Biw=",
         "ref": "nixos-unstable",
-        "rev": "fe13242281a67641c0102cdb1087f0ebe586c7df",
+        "rev": "09063bd1f2b36fd9fd793c36dfade7bd40a93dfc",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/nixpkgs"
@@ -1777,11 +1777,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1792436453,
-        "narHash": "sha256-5sHPYM+lo9fpMb+ZNcLVHS6IWiYUeP50C0ebFMSQqhY=",
+        "lastModified": 1792522854,
+        "narHash": "sha256-G4p7z94SzbHZjr64MMBHZ9PHwq4PpkhF2755qhAEmvw=",
         "ref": "main",
-        "rev": "43efe15a1231ac89f42aa1a62f5017352176d1ab",
-        "revCount": 993,
+        "rev": "2eac4730077fbbdf6eab06ef365ebc6866d924d1",
+        "revCount": 995,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
