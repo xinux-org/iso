@@ -49,10 +49,10 @@
         "nixpkgs": "nixpkgs_5"
       },
       "locked": {
-        "lastModified": 1792616075,
-        "narHash": "sha256-Lu/mirx0OQndYSEPqh7DlhFWUiq9LNzZb/1ephyBqa0=",
+        "lastModified": 1792702169,
+        "narHash": "sha256-7SmndCoLigN20I9i7tAK0JDQb1XZR/3i7HIhGVcr/ag=",
         "ref": "master",
-        "rev": "1d8d2f0c10641bf5d424d4b09996cd9e84538833",
+        "rev": "02ba4db52e62e1fbece80402d369127ae77cbbeb",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/nix-cachyos-kernel"
@@ -1872,10 +1872,10 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1792503283,
-        "narHash": "sha256-vhe2jyvRCgufWPqDuDq1S3t3ypE+ka46IFutV02xKso=",
+        "lastModified": 1792615934,
+        "narHash": "sha256-MlvRfa1O5Cqc2/a+gG+l9TSuowEoCKCmrJ1d9oAVm0I=",
         "ref": "nixos-26.05",
-        "rev": "cd4ea8d57de16f4810bc5f14207bac45fbf19f67",
+        "rev": "da6dc0e7b26060f2f71ce3ef7088fb56ee44fa36",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/nixpkgs"
@@ -2260,11 +2260,11 @@
     },
     "nixpkgs_5": {
       "locked": {
-        "lastModified": 1792594136,
-        "narHash": "sha256-UVMKNe7NK7C9ESawQ1GkVo+ibK7VKwxURKgVyWr9Yxo=",
+        "lastModified": 1792617723,
+        "narHash": "sha256-IyFA94SfEEqeru/RZyRRbmk8gtBejDTiojSReKzUOc8=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "c53532a938651ed45ebef072c8da6e74256e7072",
+        "rev": "dce1caf58d1a943af38b376e824a0d036ec3eea7",
         "type": "github"
       },
       "original": {
@@ -3283,11 +3283,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1792695680,
-        "narHash": "sha256-I4wKwvpUWWU8BsqIKHUQiODAhC3SMXEg6NoBBxV1KAA=",
+        "lastModified": 1792782052,
+        "narHash": "sha256-hbluZ9zDfusWKiOLN9VYsgEiZCh0C+Mfmals/FFMK2k=",
         "ref": "release-26.05",
-        "rev": "e145c0439a75f99a755e5b5607ca6206ca94d774",
-        "revCount": 909,
+        "rev": "617b9be9046304f132448c8792e84701861d633b",
+        "revCount": 911,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
