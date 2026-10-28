@@ -1777,11 +1777,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1793044857,
-        "narHash": "sha256-5GAcOh9bQ1SU7bxV6CSZqCJB/E99p8VYJmxF5gIVxH0=",
+        "lastModified": 1793080854,
+        "narHash": "sha256-wUBwmDSR5O1z58lSsDQrbDrSqp4PFj8obUWKhMAh67I=",
         "ref": "main",
-        "rev": "24c9f112707caa04d17deab324aa8553c17f0b4e",
-        "revCount": 1011,
+        "rev": "83df8c6c588722221415193a5cda6a66a057ccc7",
+        "revCount": 1012,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
@@ -1881,10 +1881,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1792963762,
-        "narHash": "sha256-ThRNX0+T2Gb3ZD0Xf+/R3wJdL93/mW80ubMnLjZelTY=",
+        "lastModified": 1793063583,
+        "narHash": "sha256-avFKNlbqAAdwJtmB5gbB5W/1fQz0ftIH4ET6FQcpXu0=",
         "ref": "refs/heads/main",
-        "rev": "ed68d814d6cf2e221ba43d84f1e32429f5e2786f",
+        "rev": "cfb35e5835c4ca6faa811ba38a94f755ecfcb393",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/zen-browser-flake"
