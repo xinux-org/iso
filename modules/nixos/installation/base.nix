@@ -80,7 +80,10 @@ in
     });
   '';
 
-  security.sudo-rs.enable = true;
+  security.sudo-rs = {
+    enable = true;
+    wheelNeedsPassword = false;
+  };
   security.sudo.enable = false;
 
   #> configure: error:
