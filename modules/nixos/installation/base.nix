@@ -16,6 +16,8 @@ in
   #   (modulesPath + "/virtualisation/virtualbox-image.nix")
   # ];
 
+  hardware.enableAllHardware = true;
+
   image.modules.iso-installer = {
     image.baseName = lib.mkForce xinuxBaseName;
     isoImage.volumeID = lib.mkForce (
