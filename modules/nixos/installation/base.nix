@@ -56,7 +56,7 @@ in
         "pipe-operators"
       ];
       substituters = [
-        "https://cache.xinux.uz/?priority=100"
+        "https://cache.xinux.uz/?priority=0"
       ];
       trusted-public-keys = lib.mkBefore [
         "cache.xinux.uz:BXCrtqejFjWzWEB9YuGB7X2MV4ttBur1N8BkwQRdH+0="
