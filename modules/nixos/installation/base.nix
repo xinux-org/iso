@@ -86,10 +86,9 @@ in
   };
   security.sudo.enable = false;
 
-  #> configure: error:
-  #     >   *** Cannot build against kernel version 7.0.0.
-  #     >  *** The maximum supported kernel version is 6.19.
-  boot.kernelPackages = lib.mkForce pkgs.linuxPackages;
+  boot = {
+    supportedFilesystems.zfs = lib.mkForce false;
+  };
 
   environment.systemPackages =
     (with pkgs; [
