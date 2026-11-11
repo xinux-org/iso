@@ -45,10 +45,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1794085552,
-        "narHash": "sha256-UaxCj1wEZ3vGM+tLGuCFk7uhIikl8FVj1uz7c6nP5XU=",
+        "lastModified": 1794350001,
+        "narHash": "sha256-7bDprndrkGZDk5kvBv6ips/IAO4eyLFC7es+o4D7DJk=",
         "ref": "master",
-        "rev": "7afffb536a8c5472adf080c4fcb770681ce8444d",
+        "rev": "f60c040cc2dd33153b2e7ab01e40ccd277dcc32e",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/nix-cachyos-kernel"
@@ -800,10 +800,10 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1793895218,
-        "narHash": "sha256-Ca0He88cg3qSX7MVTcwbgw74RuwmcA+ZwzVjqX72JAs=",
+        "lastModified": 1794375497,
+        "narHash": "sha256-RZ0Kn5rfbJ/oV/82RpNlT0lUTNNsBV9VGHldaMRuUqk=",
         "ref": "refs/heads/main",
-        "rev": "ef91010a4fcc551b5cb24f52608dc8d45c527d9d",
+        "rev": "14825c00855df2de049af02aea38a3de92671836",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/helium-browser-nix-flake"
@@ -968,10 +968,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1792587968,
-        "narHash": "sha256-F1XBwqjUKWaMsAgpG7x3/VufHX2r8UO2vCX6+2+yCPY=",
+        "lastModified": 1794394649,
+        "narHash": "sha256-yqQttSgki4BTIHTjepvCsGC5UkCQYYBIExaPcKPoLMg=",
         "ref": "main",
-        "rev": "6179d618f74303a9ca35171352e3feb314c1824a",
+        "rev": "261199f050a02a02e952df7aff910bd760365550",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/software-center"
@@ -1028,11 +1028,11 @@
     },
     "nixpkgs-darwin": {
       "locked": {
-        "lastModified": 1793671242,
-        "narHash": "sha256-FXXhGUZDRvPAdKFx/eF4E/WG3BnzvkCW2V/Qzs4KBoA=",
+        "lastModified": 1793976852,
+        "narHash": "sha256-bWDN3JZcE9ovYoaD0/6WYbMtXYpUu0vd5onpK0pc/SE=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "4ad2eda5f89410d94c57449a70d08935d9bbb4f6",
+        "rev": "57f1c8965649ce5bcac5118a0d2e41f1fbdc56e5",
         "type": "github"
       },
       "original": {
@@ -1529,11 +1529,11 @@
         "xinux-lib": "xinux-lib_2"
       },
       "locked": {
-        "lastModified": 1793354743,
-        "narHash": "sha256-Heph/tIrfbizDkUltnCHq/HYBYDkh7xwGd8+5q0hxcU=",
+        "lastModified": 1794397436,
+        "narHash": "sha256-M0r+6ljyKiDkCjaUm/iahrUuXkpAnB8NdvZ+xQGV5iU=",
         "ref": "main",
-        "rev": "c0acc3e8f783b1f0a0e780a59b21597841803a7a",
-        "revCount": 413,
+        "rev": "deb12a0eb8e7663d19a869bda47417088e0cff4b",
+        "revCount": 414,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/xeonitte"
       },
@@ -1731,10 +1731,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1791547952,
-        "narHash": "sha256-DGW3lqAN+kWFgICKFC37Btv5dDKGBhXks8tqHoywr5k=",
+        "lastModified": 1794397970,
+        "narHash": "sha256-DaTXuPbIdysLtdTXKSoVYtE2rzc6j6lavLoomNGpCJI=",
         "ref": "main",
-        "rev": "4d57d6f10094457c5e7e39e605e2362eae30cbd3",
+        "rev": "0aeb6635a92d9632ddb3d75c51450328524c535f",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/module-manager"
@@ -1773,11 +1773,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1794389071,
-        "narHash": "sha256-lLjKrFWLRFmASy2lOQdqpucgx0qTYRTc2qQlA9mocEY=",
+        "lastModified": 1794399120,
+        "narHash": "sha256-vCl3pm+V5GXdu+JGSvD9XSP+u9E17snSf9q9weuWt9Q=",
         "ref": "main",
-        "rev": "ccdc1f1f4c564752c96e4179bfdbbb6777dd0c89",
-        "revCount": 1036,
+        "rev": "caf8dbd262b964e9efeb8e073b30949225765aed",
+        "revCount": 1039,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
@@ -1799,10 +1799,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1791364451,
-        "narHash": "sha256-lQj64b0VK7tt0vTeDm3gkrQGqvOLIGhebfrJa9ePfG4=",
+        "lastModified": 1794397360,
+        "narHash": "sha256-GtxFrxT3qrIZUWI24MxdJtsLyI/5EtCHKoZ7k4my8sM=",
         "ref": "main",
-        "rev": "a9319faacc8b8fdef3fda65ffd78fbac3152aa3b",
+        "rev": "e441de7348eb99302b8ad0352d939dfd952f09f4",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/settings"
