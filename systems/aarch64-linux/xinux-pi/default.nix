@@ -15,7 +15,6 @@
   # Don't install some Xinux modules by default
   modules.xinux.xinuxModuleManager.enable = false;
   modules.xinux.relago.enable = false;
-  modules.xinux.libreofficePack.enable = false;
 
   # Boot-and-use system (no live installer)
   xinux.iso.live.enable = false;
