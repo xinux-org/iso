@@ -799,10 +799,10 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1794562696,
-        "narHash": "sha256-V2OrmWrPdoBBIw6UCtMJm5Ev+PPrdbbbdkPRoVPefbU=",
+        "lastModified": 1795035810,
+        "narHash": "sha256-Dk0aWxK5ypX2MdaV2NB1Kdm33XT9dUsv8VwKjueqa4g=",
         "ref": "refs/heads/main",
-        "rev": "eb16551510c02303821b83f67b5692094aabe3c4",
+        "rev": "eda99c0c406b8045a4a3e441f2e9608f1d64ab66",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/helium-browser-nix-flake"
@@ -1088,10 +1088,10 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1794537146,
-        "narHash": "sha256-Wpz/7x/YWnDIBu7yj6ixe8j6fIMsidd9Y+o1PqPF3iM=",
+        "lastModified": 1794750194,
+        "narHash": "sha256-c6ZxSsG1c2luSrbESFfp9Jq2pSVhGst2to4aIzt2Nes=",
         "ref": "nixos-unstable",
-        "rev": "d5cc6833999746cffdfe0598f7bc801a57b887a9",
+        "rev": "1a08097fc1ed85575db39763b2c4a5d8970a37ba",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/nixpkgs"
@@ -1160,11 +1160,11 @@
         "treefmt-nix": "treefmt-nix_3"
       },
       "locked": {
-        "lastModified": 1791346838,
-        "narHash": "sha256-cDsYpbh3NgyHk12voE2rzYA/SVgY4nBbQkTaqTKVafI=",
+        "lastModified": 1795010708,
+        "narHash": "sha256-1kFrBPulSFdh5rpREHYRSCBCaIfjwawYWPavkgH1hhU=",
         "ref": "main",
-        "rev": "c3f875803b247d353636767d8d6f2e91b518eac6",
-        "revCount": 62,
+        "rev": "b38d4a03a32c2d2c7184a006ee44038285b51aa3",
+        "revCount": 68,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/relago"
       },
@@ -1197,11 +1197,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1791346838,
-        "narHash": "sha256-cDsYpbh3NgyHk12voE2rzYA/SVgY4nBbQkTaqTKVafI=",
+        "lastModified": 1795010708,
+        "narHash": "sha256-1kFrBPulSFdh5rpREHYRSCBCaIfjwawYWPavkgH1hhU=",
         "ref": "main",
-        "rev": "c3f875803b247d353636767d8d6f2e91b518eac6",
-        "revCount": 62,
+        "rev": "b38d4a03a32c2d2c7184a006ee44038285b51aa3",
+        "revCount": 68,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/relago"
       },
@@ -1756,11 +1756,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1794917236,
-        "narHash": "sha256-n1aQbhYE3iLLqNgAjjVfR2sJGm0dPt/Jv/nIMV2697M=",
+        "lastModified": 1795039261,
+        "narHash": "sha256-SxtBDuXt7XDTxj0cipG0tptLOLmpttqUyDRqdiF9vgM=",
         "ref": "main",
-        "rev": "5dbf932ff77e0456723a262cef44a8873f210273",
-        "revCount": 1043,
+        "rev": "51f545e43eae32bdef0193378e4f62879ef45efe",
+        "revCount": 1047,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
@@ -1860,10 +1860,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1794898407,
-        "narHash": "sha256-u3qknsQ63fQ0GDO65fLsZHFt7G5c2SWZcjajkV+BwjM=",
+        "lastModified": 1794982370,
+        "narHash": "sha256-ophGTkzf7oFD5Fa7Bjf2lVTf9XjKkMtv2fShaRkODPw=",
         "ref": "refs/heads/main",
-        "rev": "54310da1c2e1d4bcd413c6914a0d274afbd4f30b",
+        "rev": "2cc6b81e90ea910e6ddbbc0f4c665b4545060a75",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/zen-browser-flake"
