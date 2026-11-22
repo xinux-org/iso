@@ -799,10 +799,10 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1795035810,
-        "narHash": "sha256-Dk0aWxK5ypX2MdaV2NB1Kdm33XT9dUsv8VwKjueqa4g=",
+        "lastModified": 1795297737,
+        "narHash": "sha256-YyTpCLnrCZI6CNiB7XxMXk+8A8GPLmIc4qCH2T7O0uU=",
         "ref": "refs/heads/main",
-        "rev": "eda99c0c406b8045a4a3e441f2e9608f1d64ab66",
+        "rev": "e955e6105a81b44f51d9bc2fcc8e3dc50438fa0b",
         "shallow": true,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/mirrors/helium-browser-nix-flake"
@@ -1756,11 +1756,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1795204351,
-        "narHash": "sha256-WQBAbehW7AEIT1rE76QSKkEROG84MYEohEd3+TNcvQ8=",
+        "lastModified": 1795302454,
+        "narHash": "sha256-13ENUk/JS5+Efxh42q1rZ8sK25QQDjOLb0l6NVFhROs=",
         "ref": "main",
-        "rev": "2f3418fb38a583f2f6882dc822333317c32b7b2e",
-        "revCount": 1055,
+        "rev": "66612f3bcf3191023e7418a88bf9c07ff1eabe19",
+        "revCount": 1056,
         "type": "git",
         "url": "https://git.oss.uzinfocom.uz/xinux/modules"
       },
